@@ -447,7 +447,12 @@ async function nextNineWords() {
         // currentGroupIndex 업데이트
         if (data.current_group_index !== undefined) {
             currentGroupIndex = data.current_group_index;
+            console.log(`nextNineWords: currentGroupIndex updated to ${currentGroupIndex}`);
+        } else {
+            console.warn('nextNineWords: current_group_index not in response!');
         }
+        
+        console.log(`Before display - currentGroupIndex: ${currentGroupIndex}, currentIndex: ${currentIndex}`);
         
         displayWord();
         updateStats();
