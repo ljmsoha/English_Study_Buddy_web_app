@@ -1,0 +1,6224 @@
+[
+  {
+    "word": "Ability",
+    "meaning": "능력, 재능",
+    "example": "He has the ability to swim fast.",
+    "category": "기초"
+  },
+  {
+    "word": "Able",
+    "meaning": "유능한, 할 수 있는",
+    "example": "It is very able.",
+    "category": "기초"
+  },
+  {
+    "word": "Absent",
+    "meaning": "결석한",
+    "example": "This is absent.",
+    "category": "기초"
+  },
+  {
+    "word": "Abuse",
+    "meaning": "남용하다, 학대하다.",
+    "example": "She wants to abuse.",
+    "category": "기초"
+  },
+  {
+    "word": "Accept",
+    "meaning": "받아들이다, 수락하다",
+    "example": "Please accept my small gift.",
+    "category": "기초"
+  },
+  {
+    "word": "Accident",
+    "meaning": "사고, 우연",
+    "example": "She saw a car accident yesterday.",
+    "category": "기초"
+  },
+  {
+    "word": "Ache",
+    "meaning": "아프다",
+    "example": "This is a good ache.",
+    "category": "기초"
+  },
+  {
+    "word": "Achieve",
+    "meaning": "성취하다, 이루다",
+    "example": "You can achieve your goals.",
+    "category": "기초"
+  },
+  {
+    "word": "Active",
+    "meaning": "활동적인, 적극적인",
+    "example": "He is an active member of the club.",
+    "category": "기초"
+  },
+  {
+    "word": "Activity",
+    "meaning": "활동",
+    "example": "I need a activity.",
+    "category": "기초"
+  },
+  {
+    "word": "Actually",
+    "meaning": "실제로",
+    "example": "She walked actually.",
+    "category": "기초"
+  },
+  {
+    "word": "Add",
+    "meaning": "더하다, 보태다",
+    "example": "She wants to add.",
+    "category": "기초"
+  },
+  {
+    "word": "Address",
+    "meaning": "주소",
+    "example": "We found a address.",
+    "category": "기초"
+  },
+  {
+    "word": "Admiral",
+    "meaning": "해군대장",
+    "example": "This is a good admiral.",
+    "category": "기초"
+  },
+  {
+    "word": "Admire",
+    "meaning": "감탄하다, 존경하다",
+    "example": "I admire your courage.",
+    "category": "기초"
+  },
+  {
+    "word": "Adult",
+    "meaning": "성인, 성인의",
+    "example": "This is adult.",
+    "category": "기초"
+  },
+  {
+    "word": "Adventure",
+    "meaning": "모험",
+    "example": "I need a adventure.",
+    "category": "기초"
+  },
+  {
+    "word": "Advice",
+    "meaning": "조언, 충고",
+    "example": "Let me give you some advice.",
+    "category": "기초"
+  },
+  {
+    "word": "Affair",
+    "meaning": "사건, 일",
+    "example": "She has a affair.",
+    "category": "기초"
+  },
+  {
+    "word": "Afraid",
+    "meaning": "무서워하여",
+    "example": "The afraid is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Afterward",
+    "meaning": "후에, 나중에",
+    "example": "I need a afterward.",
+    "category": "기초"
+  },
+  {
+    "word": "Agree",
+    "meaning": "동의하다",
+    "example": "I agree every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Ahead",
+    "meaning": "앞으로, 앞에",
+    "example": "This is a good ahead.",
+    "category": "기초"
+  },
+  {
+    "word": "Airport",
+    "meaning": "공항",
+    "example": "She has a airport.",
+    "category": "기초"
+  },
+  {
+    "word": "Alarm",
+    "meaning": "놀라게 하다, 경보하다",
+    "example": "We need to alarm now.",
+    "category": "기초"
+  },
+  {
+    "word": "Alive",
+    "meaning": "살아있는",
+    "example": "This is a good alive.",
+    "category": "기초"
+  },
+  {
+    "word": "Allow",
+    "meaning": "허락하다",
+    "example": "They often allow together.",
+    "category": "기초"
+  },
+  {
+    "word": "Almost",
+    "meaning": "거의",
+    "example": "The almost is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Alone",
+    "meaning": "홀로, 다만 ~ 뿐",
+    "example": "I need a alone.",
+    "category": "기초"
+  },
+  {
+    "word": "Along",
+    "meaning": "~을 따라서",
+    "example": "We found a along.",
+    "category": "기초"
+  },
+  {
+    "word": "Alphabet",
+    "meaning": "알파벳 문자",
+    "example": "We found a alphabet.",
+    "category": "기초"
+  },
+  {
+    "word": "Altogether",
+    "meaning": "전혀, 대체로",
+    "example": "We found a altogether.",
+    "category": "기초"
+  },
+  {
+    "word": "Amateur",
+    "meaning": "아마추어",
+    "example": "The amateur is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Amazing",
+    "meaning": "놀라운",
+    "example": "I need a amazing.",
+    "category": "기초"
+  },
+  {
+    "word": "Amount",
+    "meaning": "양, 액수, 총계",
+    "example": "She has a amount.",
+    "category": "기초"
+  },
+  {
+    "word": "Amuse",
+    "meaning": "재미있게 하다",
+    "example": "We need to amuse now.",
+    "category": "기초"
+  },
+  {
+    "word": "Ancestor",
+    "meaning": "조상, 선조",
+    "example": "The ancestor is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Ancient",
+    "meaning": "고대의, 아주 오래된",
+    "example": "They visited an ancient temple.",
+    "category": "기초"
+  },
+  {
+    "word": "Angle",
+    "meaning": "각도",
+    "example": "She has a angle.",
+    "category": "기초"
+  },
+  {
+    "word": "Angry",
+    "meaning": "성난",
+    "example": "She has a angry.",
+    "category": "기초"
+  },
+  {
+    "word": "Anxious",
+    "meaning": "걱정되는",
+    "example": "I need a anxious.",
+    "category": "기초"
+  },
+  {
+    "word": "Anyway",
+    "meaning": "어쨌든, 아무튼",
+    "example": "I need a anyway.",
+    "category": "기초"
+  },
+  {
+    "word": "Apart",
+    "meaning": "떨어져서, 따로",
+    "example": "This is a good apart.",
+    "category": "기초"
+  },
+  {
+    "word": "Appear",
+    "meaning": "나타나다, ~처럼 보이다",
+    "example": "A rainbow appeared in the sky.",
+    "category": "기초"
+  },
+  {
+    "word": "Appetite",
+    "meaning": "식욕",
+    "example": "The appetite is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Appointment",
+    "meaning": "임명, 약속",
+    "example": "We found a appointment.",
+    "category": "기초"
+  },
+  {
+    "word": "Area",
+    "meaning": "면적, 지역",
+    "example": "She has a area.",
+    "category": "기초"
+  },
+  {
+    "word": "Army",
+    "meaning": "육군, 군대",
+    "example": "The army is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Arrest",
+    "meaning": "체포하다, 체포",
+    "example": "I arrest every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Arrive",
+    "meaning": "도착하다",
+    "example": "She wants to arrive.",
+    "category": "기초"
+  },
+  {
+    "word": "Art",
+    "meaning": "예술, 미술",
+    "example": "She has a art.",
+    "category": "기초"
+  },
+  {
+    "word": "Article",
+    "meaning": "기사, 물건",
+    "example": "I read an interesting article.",
+    "category": "기초"
+  },
+  {
+    "word": "Astonish",
+    "meaning": "놀라게 하다",
+    "example": "We need to astonish now.",
+    "category": "기초"
+  },
+  {
+    "word": "Athlete",
+    "meaning": "운동선수",
+    "example": "We found a athlete.",
+    "category": "기초"
+  },
+  {
+    "word": "Atom",
+    "meaning": "원자",
+    "example": "The atom is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Attend",
+    "meaning": "참석하다",
+    "example": "I attend every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Attitude",
+    "meaning": "태도, 자세",
+    "example": "Positive attitude is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Attract",
+    "meaning": "끌다",
+    "example": "The attract is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Average",
+    "meaning": "평균의, 보통의",
+    "example": "The average score was 80.",
+    "category": "기초"
+  },
+  {
+    "word": "Background",
+    "meaning": "배경",
+    "example": "I need a background.",
+    "category": "기초"
+  },
+  {
+    "word": "Badly",
+    "meaning": "나쁘게, 몹시",
+    "example": "They work badly.",
+    "category": "기초"
+  },
+  {
+    "word": "Balance",
+    "meaning": "균형, 잔고",
+    "example": "Keep your balance on the ice.",
+    "category": "기초"
+  },
+  {
+    "word": "Bar",
+    "meaning": "막대기, 빗장",
+    "example": "I need a bar.",
+    "category": "기초"
+  },
+  {
+    "word": "Base",
+    "meaning": "기초, 기초를 두다",
+    "example": "I need a base.",
+    "category": "기초"
+  },
+  {
+    "word": "Basement",
+    "meaning": "지하실",
+    "example": "She has a basement.",
+    "category": "기초"
+  },
+  {
+    "word": "Bathroom",
+    "meaning": "욕실",
+    "example": "We found a bathroom.",
+    "category": "기초"
+  },
+  {
+    "word": "Battle",
+    "meaning": "전투, 싸움",
+    "example": "We found a battle.",
+    "category": "기초"
+  },
+  {
+    "word": "Bay",
+    "meaning": "만",
+    "example": "She has a bay.",
+    "category": "기초"
+  },
+  {
+    "word": "Beach",
+    "meaning": "해안",
+    "example": "We found a beach.",
+    "category": "기초"
+  },
+  {
+    "word": "Bean",
+    "meaning": "콩",
+    "example": "The bean is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Bear",
+    "meaning": "낳다",
+    "example": "We found a bear.",
+    "category": "기초"
+  },
+  {
+    "word": "Beast",
+    "meaning": "짐승(=animal)",
+    "example": "I need a beast.",
+    "category": "기초"
+  },
+  {
+    "word": "Beat",
+    "meaning": "때리다",
+    "example": "The beat is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Beauty",
+    "meaning": "아름다움",
+    "example": "I need a beauty.",
+    "category": "기초"
+  },
+  {
+    "word": "Become",
+    "meaning": "~이 되다, 어울리다",
+    "example": "She wants to become.",
+    "category": "기초"
+  },
+  {
+    "word": "Bedside",
+    "meaning": "침대 곁",
+    "example": "This is a good bedside.",
+    "category": "기초"
+  },
+  {
+    "word": "Beef",
+    "meaning": "쇠고기",
+    "example": "I need a beef.",
+    "category": "기초"
+  },
+  {
+    "word": "Beer",
+    "meaning": "맥주",
+    "example": "I need a beer.",
+    "category": "기초"
+  },
+  {
+    "word": "Beg",
+    "meaning": "구걸하다, 청하다",
+    "example": "They often beg together.",
+    "category": "기초"
+  },
+  {
+    "word": "Beggar",
+    "meaning": "거지",
+    "example": "I need a beggar.",
+    "category": "기초"
+  },
+  {
+    "word": "Behave",
+    "meaning": "행동하다",
+    "example": "I behave every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Behind",
+    "meaning": "~의 뒤에",
+    "example": "This is a good behind.",
+    "category": "기초"
+  },
+  {
+    "word": "Believe",
+    "meaning": "믿다, 생각하다",
+    "example": "I believe in you.",
+    "category": "기초"
+  },
+  {
+    "word": "Belong",
+    "meaning": "누구누구에게 속하다",
+    "example": "He can belong well.",
+    "category": "기초"
+  },
+  {
+    "word": "Below",
+    "meaning": "~의 아래에",
+    "example": "We found a below.",
+    "category": "기초"
+  },
+  {
+    "word": "Belt",
+    "meaning": "띠, 허리띠",
+    "example": "The belt is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Bend",
+    "meaning": "구부리다",
+    "example": "The bend is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Benefit",
+    "meaning": "이익, 혜택",
+    "example": "Fresh air is a benefit to health.",
+    "category": "기초"
+  },
+  {
+    "word": "Besides",
+    "meaning": "게다가, 그밖에",
+    "example": "This is a good besides.",
+    "category": "기초"
+  },
+  {
+    "word": "Bet",
+    "meaning": "돈을 걸다",
+    "example": "She has a bet.",
+    "category": "기초"
+  },
+  {
+    "word": "Beyond",
+    "meaning": "~의 저쪽에, ~이상으로",
+    "example": "The beyond is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Bike",
+    "meaning": "자전거",
+    "example": "We found a bike.",
+    "category": "기초"
+  },
+  {
+    "word": "Bill",
+    "meaning": "계산서, 지폐",
+    "example": "I need a bill.",
+    "category": "기초"
+  },
+  {
+    "word": "Biology",
+    "meaning": "생물학",
+    "example": "We found a biology.",
+    "category": "기초"
+  },
+  {
+    "word": "Birth",
+    "meaning": "출생",
+    "example": "The birth is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Bit",
+    "meaning": "작은 조각, 조금",
+    "example": "I need a bit.",
+    "category": "기초"
+  },
+  {
+    "word": "Bite",
+    "meaning": "물다, 물어뜯다",
+    "example": "She has a bite.",
+    "category": "기초"
+  },
+  {
+    "word": "Blanket",
+    "meaning": "담요",
+    "example": "I need a blanket.",
+    "category": "기초"
+  },
+  {
+    "word": "Bless",
+    "meaning": "축복하다",
+    "example": "We need to bless now.",
+    "category": "기초"
+  },
+  {
+    "word": "Blind",
+    "meaning": "눈먼",
+    "example": "The blind is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Blood",
+    "meaning": "피",
+    "example": "I need a blood.",
+    "category": "기초"
+  },
+  {
+    "word": "Blow",
+    "meaning": "불다",
+    "example": "We found a blow.",
+    "category": "기초"
+  },
+  {
+    "word": "Board",
+    "meaning": "판자",
+    "example": "She has a board.",
+    "category": "기초"
+  },
+  {
+    "word": "Body",
+    "meaning": "몸, 신체",
+    "example": "The body is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Bone",
+    "meaning": "뼈",
+    "example": "This is a good bone.",
+    "category": "기초"
+  },
+  {
+    "word": "Bookstore",
+    "meaning": "서점",
+    "example": "We found a bookstore.",
+    "category": "기초"
+  },
+  {
+    "word": "Booth",
+    "meaning": "오두막집, 작은 방",
+    "example": "The booth is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Boring",
+    "meaning": "지겨운",
+    "example": "I need a boring.",
+    "category": "기초"
+  },
+  {
+    "word": "Borrow",
+    "meaning": "빌리다",
+    "example": "The borrow is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Bother",
+    "meaning": "괴롭히다",
+    "example": "This is a good bother.",
+    "category": "기초"
+  },
+  {
+    "word": "Bottle",
+    "meaning": "병",
+    "example": "This is a good bottle.",
+    "category": "기초"
+  },
+  {
+    "word": "Bottom",
+    "meaning": "밑, 밑바닥",
+    "example": "We found a bottom.",
+    "category": "기초"
+  },
+  {
+    "word": "Bound",
+    "meaning": "~로 출발하려고 하는",
+    "example": "The bound is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Bow",
+    "meaning": "절하다, 절",
+    "example": "We need to bow now.",
+    "category": "기초"
+  },
+  {
+    "word": "Bowl",
+    "meaning": "사발, 그릇",
+    "example": "The bowl is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Brain",
+    "meaning": "뇌, 머리",
+    "example": "I need a brain.",
+    "category": "기초"
+  },
+  {
+    "word": "Branch",
+    "meaning": "가지",
+    "example": "I need a branch.",
+    "category": "기초"
+  },
+  {
+    "word": "Brave",
+    "meaning": "용감한",
+    "example": "The brave soldier saved the boy.",
+    "category": "기초"
+  },
+  {
+    "word": "Break",
+    "meaning": "부수다, 깨뜨리다",
+    "example": "The break is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Breathe",
+    "meaning": "숨 쉬다, 호흡하다",
+    "example": "She wants to breathe.",
+    "category": "기초"
+  },
+  {
+    "word": "Bridge",
+    "meaning": "다리",
+    "example": "This is a good bridge.",
+    "category": "기초"
+  },
+  {
+    "word": "Brief",
+    "meaning": "잠시의, 짧은",
+    "example": "We had a brief meeting.",
+    "category": "기초"
+  },
+  {
+    "word": "Bright",
+    "meaning": "밝은, 영리한",
+    "example": "The sun is very bright today.",
+    "category": "기초"
+  },
+  {
+    "word": "Bring",
+    "meaning": "가져오다, 데려오다",
+    "example": "She has a bring.",
+    "category": "기초"
+  },
+  {
+    "word": "British",
+    "meaning": "영국인, 영국의",
+    "example": "This is british.",
+    "category": "기초"
+  },
+  {
+    "word": "Brown",
+    "meaning": "갈색의, 갈색",
+    "example": "She has a brown.",
+    "category": "기초"
+  },
+  {
+    "word": "Bubble",
+    "meaning": "거품",
+    "example": "We found a bubble.",
+    "category": "기초"
+  },
+  {
+    "word": "Build",
+    "meaning": "짓다, 건축하다",
+    "example": "I build every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Burden",
+    "meaning": "무거운 짐, 짐을 지우다",
+    "example": "I need a burden.",
+    "category": "기초"
+  },
+  {
+    "word": "Burn",
+    "meaning": "타다, 태우다",
+    "example": "I need a burn.",
+    "category": "기초"
+  },
+  {
+    "word": "Bury",
+    "meaning": "묻다",
+    "example": "I need a bury.",
+    "category": "기초"
+  },
+  {
+    "word": "Bush",
+    "meaning": "수풀, 덤불",
+    "example": "We found a bush.",
+    "category": "기초"
+  },
+  {
+    "word": "Business",
+    "meaning": "사업, 일",
+    "example": "I need a business.",
+    "category": "기초"
+  },
+  {
+    "word": "Busy",
+    "meaning": "바쁜",
+    "example": "She has a busy.",
+    "category": "기초"
+  },
+  {
+    "word": "Butterfly",
+    "meaning": "나비",
+    "example": "They work butterfly.",
+    "category": "기초"
+  },
+  {
+    "word": "Cage",
+    "meaning": "새장, 우리",
+    "example": "I need a cage.",
+    "category": "기초"
+  },
+  {
+    "word": "Calm",
+    "meaning": "평온한",
+    "example": "It is very calm.",
+    "category": "기초"
+  },
+  {
+    "word": "Canal",
+    "meaning": "운하",
+    "example": "This is a good canal.",
+    "category": "기초"
+  },
+  {
+    "word": "Candle",
+    "meaning": "양초, 촛불",
+    "example": "I need a candle.",
+    "category": "기초"
+  },
+  {
+    "word": "Capital",
+    "meaning": "수도, 자본",
+    "example": "She has a capital.",
+    "category": "기초"
+  },
+  {
+    "word": "Captain",
+    "meaning": "우두머리, 선장",
+    "example": "The captain is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Care",
+    "meaning": "걱정, 조심",
+    "example": "This is a good care.",
+    "category": "기초"
+  },
+  {
+    "word": "Carry",
+    "meaning": "나르다, 운반하다[]",
+    "example": "We need to carry now.",
+    "category": "기초"
+  },
+  {
+    "word": "Carve",
+    "meaning": "새기다, 조각하다.",
+    "example": "We need to carve now.",
+    "category": "기초"
+  },
+  {
+    "word": "Cash",
+    "meaning": "현금, 현금으로 바꾸다",
+    "example": "The cash is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Castle",
+    "meaning": "성",
+    "example": "I need a castle.",
+    "category": "기초"
+  },
+  {
+    "word": "Cause",
+    "meaning": "원인, 이유",
+    "example": "It is very cause.",
+    "category": "기초"
+  },
+  {
+    "word": "Ceiling",
+    "meaning": "천장",
+    "example": "This is a good ceiling.",
+    "category": "기초"
+  },
+  {
+    "word": "Celebrate",
+    "meaning": "축하하다",
+    "example": "We need to celebrate now.",
+    "category": "기초"
+  },
+  {
+    "word": "Cemetery",
+    "meaning": "묘지",
+    "example": "The cemetery is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Center",
+    "meaning": "중심, 중심지",
+    "example": "She has a center.",
+    "category": "기초"
+  },
+  {
+    "word": "Century",
+    "meaning": "세기, 100년",
+    "example": "The tower was built a century ago.",
+    "category": "기초"
+  },
+  {
+    "word": "Ceremony",
+    "meaning": "의식",
+    "example": "We found a ceremony.",
+    "category": "기초"
+  },
+  {
+    "word": "Certain",
+    "meaning": "확실한, 어떤",
+    "example": "This is certain.",
+    "category": "기초"
+  },
+  {
+    "word": "Chain",
+    "meaning": "사슬",
+    "example": "She has a chain.",
+    "category": "기초"
+  },
+  {
+    "word": "Challenge",
+    "meaning": "도전",
+    "example": "It was a difficult challenge.",
+    "category": "기초"
+  },
+  {
+    "word": "Chance",
+    "meaning": "기회, 가능성",
+    "example": "This is a good chance.",
+    "category": "기초"
+  },
+  {
+    "word": "Change",
+    "meaning": "변화, 잔돈",
+    "example": "This is a good change.",
+    "category": "기초"
+  },
+  {
+    "word": "Character",
+    "meaning": "성격, 특징, 등장인물",
+    "example": "He has a strong character.",
+    "category": "기초"
+  },
+  {
+    "word": "Charge",
+    "meaning": "청구하다",
+    "example": "She wants to charge.",
+    "category": "기초"
+  },
+  {
+    "word": "Charming",
+    "meaning": "매력적인",
+    "example": "This is charming.",
+    "category": "기초"
+  },
+  {
+    "word": "Chase",
+    "meaning": "쫓다, 추적",
+    "example": "She has a chase.",
+    "category": "기초"
+  },
+  {
+    "word": "Cheap",
+    "meaning": "값싼",
+    "example": "The cheap is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Check",
+    "meaning": "저지하다, 대조하다",
+    "example": "He can check well.",
+    "category": "기초"
+  },
+  {
+    "word": "Cheek",
+    "meaning": "볼",
+    "example": "We found a cheek.",
+    "category": "기초"
+  },
+  {
+    "word": "Chest",
+    "meaning": "가슴",
+    "example": "The chest is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Chief",
+    "meaning": "우두머리, 주요한",
+    "example": "She is chief.",
+    "category": "기초"
+  },
+  {
+    "word": "Choose",
+    "meaning": "고르다, 선택하다",
+    "example": "We need to choose now.",
+    "category": "기초"
+  },
+  {
+    "word": "Chopstick",
+    "meaning": "젓가락",
+    "example": "We found a chopstick.",
+    "category": "기초"
+  },
+  {
+    "word": "Circle",
+    "meaning": "원, 집단",
+    "example": "This is a good circle.",
+    "category": "기초"
+  },
+  {
+    "word": "Clap",
+    "meaning": "탁 치다",
+    "example": "The clap is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Clean",
+    "meaning": "깨끗한",
+    "example": "It is very clean.",
+    "category": "기초"
+  },
+  {
+    "word": "Clear",
+    "meaning": "맑은, 명백한",
+    "example": "This is clear.",
+    "category": "기초"
+  },
+  {
+    "word": "Cleave",
+    "meaning": "쪼개다, 찢다.",
+    "example": "The cleave is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Clerk",
+    "meaning": "사무원, 점원",
+    "example": "The clerk is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Clever",
+    "meaning": "영리한",
+    "example": "She is clever.",
+    "category": "기초"
+  },
+  {
+    "word": "Climate",
+    "meaning": "기후, 풍토",
+    "example": "I need a climate.",
+    "category": "기초"
+  },
+  {
+    "word": "Climb",
+    "meaning": "기어오르다, 오르다",
+    "example": "The climb is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Closet",
+    "meaning": "벽장",
+    "example": "This is a good closet.",
+    "category": "기초"
+  },
+  {
+    "word": "Cloth",
+    "meaning": "천, 직물",
+    "example": "I need a cloth.",
+    "category": "기초"
+  },
+  {
+    "word": "Cloudy",
+    "meaning": "구름이 낀",
+    "example": "This is a good cloudy.",
+    "category": "기초"
+  },
+  {
+    "word": "Clue",
+    "meaning": "실마리, 단서",
+    "example": "We found a clue.",
+    "category": "기초"
+  },
+  {
+    "word": "Coal",
+    "meaning": "석탄",
+    "example": "This is a good coal.",
+    "category": "기초"
+  },
+  {
+    "word": "Coast",
+    "meaning": "해안",
+    "example": "She has a coast.",
+    "category": "기초"
+  },
+  {
+    "word": "Coeducation",
+    "meaning": "남녀 공학",
+    "example": "I need a coeducation.",
+    "category": "기초"
+  },
+  {
+    "word": "Coil",
+    "meaning": "코일, 감긴 것",
+    "example": "I need a coil.",
+    "category": "기초"
+  },
+  {
+    "word": "Coin",
+    "meaning": "동전, 화폐",
+    "example": "We found a coin.",
+    "category": "기초"
+  },
+  {
+    "word": "Collect",
+    "meaning": "모으다, 수집하다",
+    "example": "I collect old coins.",
+    "category": "기초"
+  },
+  {
+    "word": "College",
+    "meaning": "단과대학, 전문학교",
+    "example": "I need a college.",
+    "category": "기초"
+  },
+  {
+    "word": "Colorful",
+    "meaning": "다채로운, 화려한",
+    "example": "She is colorful.",
+    "category": "기초"
+  },
+  {
+    "word": "Comb",
+    "meaning": "빗, 빗질하다",
+    "example": "We need to comb now.",
+    "category": "기초"
+  },
+  {
+    "word": "Comedy",
+    "meaning": "희극, 코미디",
+    "example": "This is a good comedy.",
+    "category": "기초"
+  },
+  {
+    "word": "Comfort",
+    "meaning": "편안함, 위로",
+    "example": "The sofa gives great comfort.",
+    "category": "기초"
+  },
+  {
+    "word": "Common",
+    "meaning": "공통의, 흔한",
+    "example": "We have a common interest.",
+    "category": "기초"
+  },
+  {
+    "word": "Communication",
+    "meaning": "전달, 교통",
+    "example": "The communication is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Company",
+    "meaning": "친구",
+    "example": "She has a company.",
+    "category": "기초"
+  },
+  {
+    "word": "Compare",
+    "meaning": "비교하다",
+    "example": "Don't compare me with others.",
+    "category": "기초"
+  },
+  {
+    "word": "Comparison",
+    "meaning": "비교",
+    "example": "She has a comparison.",
+    "category": "기초"
+  },
+  {
+    "word": "Competent",
+    "meaning": "유능한",
+    "example": "This is competent.",
+    "category": "기초"
+  },
+  {
+    "word": "Competition",
+    "meaning": "경쟁",
+    "example": "We found a competition.",
+    "category": "기초"
+  },
+  {
+    "word": "Complain",
+    "meaning": "불평하다",
+    "example": "She wants to complain.",
+    "category": "기초"
+  },
+  {
+    "word": "Complete",
+    "meaning": "완성하다",
+    "example": "We need to complete now.",
+    "category": "기초"
+  },
+  {
+    "word": "Composer",
+    "meaning": "작곡가",
+    "example": "She has a composer.",
+    "category": "기초"
+  },
+  {
+    "word": "Compulsory",
+    "meaning": "의무적인",
+    "example": "It is very compulsory.",
+    "category": "기초"
+  },
+  {
+    "word": "Concert",
+    "meaning": "음악회",
+    "example": "The concert is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Condition",
+    "meaning": "상태, 조건",
+    "example": "The car is in good condition.",
+    "category": "기초"
+  },
+  {
+    "word": "Connect",
+    "meaning": "연결하다",
+    "example": "The bridge connects the two cities.",
+    "category": "기초"
+  },
+  {
+    "word": "Consider",
+    "meaning": "고려하다, 생각하다",
+    "example": "Please consider my offer.",
+    "category": "기초"
+  },
+  {
+    "word": "Contain",
+    "meaning": "포함하다, 담고 있다",
+    "example": "This box contains books.",
+    "category": "기초"
+  },
+  {
+    "word": "Contest",
+    "meaning": "경쟁",
+    "example": "The contest is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Continent",
+    "meaning": "대륙",
+    "example": "I need a continent.",
+    "category": "기초"
+  },
+  {
+    "word": "Continue",
+    "meaning": "계속하다",
+    "example": "The rain continued all night.",
+    "category": "기초"
+  },
+  {
+    "word": "Contrary",
+    "meaning": "반대의",
+    "example": "We found a contrary.",
+    "category": "기초"
+  },
+  {
+    "word": "Control",
+    "meaning": "조절하다, 지배하다",
+    "example": "Control your emotions.",
+    "category": "기초"
+  },
+  {
+    "word": "Cookie",
+    "meaning": "쿠키, 맛있는 작은 과자",
+    "example": "I need a cookie.",
+    "category": "기초"
+  },
+  {
+    "word": "Cool",
+    "meaning": "서늘한, 냉정한",
+    "example": "The room looks cool.",
+    "category": "기초"
+  },
+  {
+    "word": "Corn",
+    "meaning": "곡물",
+    "example": "I need a corn.",
+    "category": "기초"
+  },
+  {
+    "word": "Correctly",
+    "meaning": "정확히",
+    "example": "They work correctly.",
+    "category": "기초"
+  },
+  {
+    "word": "Cost",
+    "meaning": "비용",
+    "example": "The cost is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Cotton",
+    "meaning": "솜, 면화",
+    "example": "She has a cotton.",
+    "category": "기초"
+  },
+  {
+    "word": "Cough",
+    "meaning": "기침, 기침을 하다",
+    "example": "I cough every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Count",
+    "meaning": "세다, 계산하다",
+    "example": "He can count well.",
+    "category": "기초"
+  },
+  {
+    "word": "Couple",
+    "meaning": "한 쌍, 커플",
+    "example": "She is couple.",
+    "category": "기초"
+  },
+  {
+    "word": "Course",
+    "meaning": "진로, 과정",
+    "example": "The course is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Cousin",
+    "meaning": "사촌",
+    "example": "I need a cousin.",
+    "category": "기초"
+  },
+  {
+    "word": "Cover",
+    "meaning": "덮개, 덮다",
+    "example": "We found a cover.",
+    "category": "기초"
+  },
+  {
+    "word": "Crack",
+    "meaning": "갈라진 틈",
+    "example": "This is a good crack.",
+    "category": "기초"
+  },
+  {
+    "word": "Crash",
+    "meaning": "충돌(추락)하다, 와르르 무너지다",
+    "example": "She wants to crash.",
+    "category": "기초"
+  },
+  {
+    "word": "Crazy",
+    "meaning": "미친",
+    "example": "This is a good crazy.",
+    "category": "기초"
+  },
+  {
+    "word": "Create",
+    "meaning": "창조하다, 만들다",
+    "example": "He created a new app.",
+    "category": "기초"
+  },
+  {
+    "word": "Creek",
+    "meaning": "시냇물",
+    "example": "This is a good creek.",
+    "category": "기초"
+  },
+  {
+    "word": "Crew",
+    "meaning": "승무원",
+    "example": "I need a crew.",
+    "category": "기초"
+  },
+  {
+    "word": "Cricket",
+    "meaning": "크리켓 경기",
+    "example": "This is a good cricket.",
+    "category": "기초"
+  },
+  {
+    "word": "Crop",
+    "meaning": "농작물",
+    "example": "This is a good crop.",
+    "category": "기초"
+  },
+  {
+    "word": "Crowded",
+    "meaning": "붐비는, 혼잡한",
+    "example": "This is crowded.",
+    "category": "기초"
+  },
+  {
+    "word": "Crown",
+    "meaning": "왕관",
+    "example": "She has a crown.",
+    "category": "기초"
+  },
+  {
+    "word": "Culture",
+    "meaning": "문화",
+    "example": "I want to learn about Korean culture.",
+    "category": "기초"
+  },
+  {
+    "word": "Curious",
+    "meaning": "호기심이 강한",
+    "example": "She is curious.",
+    "category": "기초"
+  },
+  {
+    "word": "Custom",
+    "meaning": "습관, 풍습",
+    "example": "We found a custom.",
+    "category": "기초"
+  },
+  {
+    "word": "Damage",
+    "meaning": "손해, 피해",
+    "example": "The storm caused big damage.",
+    "category": "기초"
+  },
+  {
+    "word": "Danger",
+    "meaning": "위험",
+    "example": "We found a danger.",
+    "category": "기초"
+  },
+  {
+    "word": "Dark",
+    "meaning": "어두운",
+    "example": "This is a good dark.",
+    "category": "기초"
+  },
+  {
+    "word": "Data",
+    "meaning": "자료",
+    "example": "This is a good data.",
+    "category": "기초"
+  },
+  {
+    "word": "Date",
+    "meaning": "날짜, 데이트 약속",
+    "example": "I need a date.",
+    "category": "기초"
+  },
+  {
+    "word": "Daughter",
+    "meaning": "딸",
+    "example": "This is a good daughter.",
+    "category": "기초"
+  },
+  {
+    "word": "Dawn",
+    "meaning": "새벽",
+    "example": "The dawn is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Deal",
+    "meaning": "분배하다",
+    "example": "I deal every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Dear",
+    "meaning": "친애하는, 값비싼",
+    "example": "We found a dear.",
+    "category": "기초"
+  },
+  {
+    "word": "Death",
+    "meaning": "죽음, 사망",
+    "example": "We found a death.",
+    "category": "기초"
+  },
+  {
+    "word": "Debt",
+    "meaning": "은혜, 빚",
+    "example": "She has a debt.",
+    "category": "기초"
+  },
+  {
+    "word": "Decide",
+    "meaning": "결정하다, 결심하다",
+    "example": "I decide every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Decision",
+    "meaning": "결정, 결심",
+    "example": "It was a hard decision to make.",
+    "category": "기초"
+  },
+  {
+    "word": "Deck",
+    "meaning": "갑판",
+    "example": "I need a deck.",
+    "category": "기초"
+  },
+  {
+    "word": "Declare",
+    "meaning": "선언하다",
+    "example": "She wants to declare.",
+    "category": "기초"
+  },
+  {
+    "word": "Decrease",
+    "meaning": "감소, [동]감소하다",
+    "example": "He can decrease well.",
+    "category": "기초"
+  },
+  {
+    "word": "Deep",
+    "meaning": "깊은, 깊게",
+    "example": "We found a deep.",
+    "category": "기초"
+  },
+  {
+    "word": "Deer",
+    "meaning": "사슴",
+    "example": "I need a deer.",
+    "category": "기초"
+  },
+  {
+    "word": "Degree",
+    "meaning": "도(온도/각도), 학위",
+    "example": "The water is 100 degrees.",
+    "category": "기초"
+  },
+  {
+    "word": "Delicious",
+    "meaning": "맛있는",
+    "example": "The delicious is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Delight",
+    "meaning": "기쁨",
+    "example": "She has a delight.",
+    "category": "기초"
+  },
+  {
+    "word": "Democracy",
+    "meaning": "민주주의, 민주정치",
+    "example": "I need a democracy.",
+    "category": "기초"
+  },
+  {
+    "word": "Department",
+    "meaning": "부, 백화점의 매장",
+    "example": "This is a good department.",
+    "category": "기초"
+  },
+  {
+    "word": "Depend",
+    "meaning": "의지하다, ~에 달려있다",
+    "example": "I depend on my parents.",
+    "category": "기초"
+  },
+  {
+    "word": "Describe",
+    "meaning": "묘사하다, 설명하다",
+    "example": "Describe your room to me.",
+    "category": "기초"
+  },
+  {
+    "word": "Desert",
+    "meaning": "사막",
+    "example": "I need a desert.",
+    "category": "기초"
+  },
+  {
+    "word": "Deserve",
+    "meaning": "받을 가치가있다,~할 만하다",
+    "example": "He can deserve well.",
+    "category": "기초"
+  },
+  {
+    "word": "Design",
+    "meaning": "디자인, 설계",
+    "example": "Who designed this building?",
+    "category": "기초"
+  },
+  {
+    "word": "Destroy",
+    "meaning": "파괴하다",
+    "example": "We need to destroy now.",
+    "category": "기초"
+  },
+  {
+    "word": "Detail",
+    "meaning": "세부사항",
+    "example": "Tell me every detail.",
+    "category": "기초"
+  },
+  {
+    "word": "Detective",
+    "meaning": "탐정",
+    "example": "We found a detective.",
+    "category": "기초"
+  },
+  {
+    "word": "Devil",
+    "meaning": "악마",
+    "example": "I need a devil.",
+    "category": "기초"
+  },
+  {
+    "word": "Diary",
+    "meaning": "일기",
+    "example": "We found a diary.",
+    "category": "기초"
+  },
+  {
+    "word": "Dictionary",
+    "meaning": "사전",
+    "example": "We found a dictionary.",
+    "category": "기초"
+  },
+  {
+    "word": "Different",
+    "meaning": "다른",
+    "example": "She has a different.",
+    "category": "기초"
+  },
+  {
+    "word": "Difficult",
+    "meaning": "어려운",
+    "example": "She has a difficult.",
+    "category": "기초"
+  },
+  {
+    "word": "Dig",
+    "meaning": "파다",
+    "example": "This is a good dig.",
+    "category": "기초"
+  },
+  {
+    "word": "Diligent",
+    "meaning": "부지런한",
+    "example": "This is diligent.",
+    "category": "기초"
+  },
+  {
+    "word": "Dinning",
+    "meaning": "room 식당",
+    "example": "This is a good dinning.",
+    "category": "기초"
+  },
+  {
+    "word": "Direction",
+    "meaning": "방향, 지시",
+    "example": "Which direction should I go?",
+    "category": "기초"
+  },
+  {
+    "word": "Dirty",
+    "meaning": "더러운",
+    "example": "She has a dirty.",
+    "category": "기초"
+  },
+  {
+    "word": "Disappoint",
+    "meaning": "실망시키다",
+    "example": "We found a disappoint.",
+    "category": "기초"
+  },
+  {
+    "word": "Discover",
+    "meaning": "발견하다",
+    "example": "They discovered a new island.",
+    "category": "기초"
+  },
+  {
+    "word": "Discuss",
+    "meaning": "토론하다",
+    "example": "He can discuss well.",
+    "category": "기초"
+  },
+  {
+    "word": "Dish",
+    "meaning": "접시, 요리",
+    "example": "She has a dish.",
+    "category": "기초"
+  },
+  {
+    "word": "Distance",
+    "meaning": "거리",
+    "example": "The distance is 10 kilometers.",
+    "category": "기초"
+  },
+  {
+    "word": "Ditch",
+    "meaning": "도랑",
+    "example": "We found a ditch.",
+    "category": "기초"
+  },
+  {
+    "word": "Dive",
+    "meaning": "다이빙하다, 잠수하다",
+    "example": "They often dive together.",
+    "category": "기초"
+  },
+  {
+    "word": "Doll",
+    "meaning": "인형",
+    "example": "She is doll.",
+    "category": "기초"
+  },
+  {
+    "word": "Dollar",
+    "meaning": "달러",
+    "example": "She has a dollar.",
+    "category": "기초"
+  },
+  {
+    "word": "Downtown",
+    "meaning": "번화가",
+    "example": "She has a downtown.",
+    "category": "기초"
+  },
+  {
+    "word": "Drag",
+    "meaning": "질질 끌다",
+    "example": "This is a good drag.",
+    "category": "기초"
+  },
+  {
+    "word": "Draw",
+    "meaning": "끌다, 당기다",
+    "example": "I need a draw.",
+    "category": "기초"
+  },
+  {
+    "word": "Dream",
+    "meaning": "꿈, 꿈을 꾸다",
+    "example": "I need a dream.",
+    "category": "기초"
+  },
+  {
+    "word": "Drop",
+    "meaning": "떨어지다, 떨어뜨리다",
+    "example": "The drop is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Drown",
+    "meaning": "빠뜨리다 빠지다 빠져죽다",
+    "example": "She has a drown.",
+    "category": "기초"
+  },
+  {
+    "word": "Drugstore",
+    "meaning": "약국",
+    "example": "I need a drugstore.",
+    "category": "기초"
+  },
+  {
+    "word": "Drum",
+    "meaning": "북",
+    "example": "We found a drum.",
+    "category": "기초"
+  },
+  {
+    "word": "Dry",
+    "meaning": "마른",
+    "example": "I need a dry.",
+    "category": "기초"
+  },
+  {
+    "word": "Dull",
+    "meaning": "우둔한, 무딘",
+    "example": "It is very dull.",
+    "category": "기초"
+  },
+  {
+    "word": "Dumb",
+    "meaning": "벙어리의",
+    "example": "We found a dumb.",
+    "category": "기초"
+  },
+  {
+    "word": "Dye",
+    "meaning": "물감",
+    "example": "This is a good dye.",
+    "category": "기초"
+  },
+  {
+    "word": "Early",
+    "meaning": "일찍이",
+    "example": "They work early.",
+    "category": "기초"
+  },
+  {
+    "word": "Earnings",
+    "meaning": "벌이",
+    "example": "This is a good earnings.",
+    "category": "기초"
+  },
+  {
+    "word": "Earth",
+    "meaning": "지구, 땅",
+    "example": "The earth is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Edge",
+    "meaning": "날, 가장자리",
+    "example": "We found a edge.",
+    "category": "기초"
+  },
+  {
+    "word": "Education",
+    "meaning": "교육",
+    "example": "We found a education.",
+    "category": "기초"
+  },
+  {
+    "word": "Effect",
+    "meaning": "효과, 영향",
+    "example": "The medicine had a good effect.",
+    "category": "기초"
+  },
+  {
+    "word": "Effort",
+    "meaning": "노력",
+    "example": "He put a lot of effort into it.",
+    "category": "기초"
+  },
+  {
+    "word": "Either",
+    "meaning": "~도 또한 ~ 하지 않다",
+    "example": "She is either.",
+    "category": "기초"
+  },
+  {
+    "word": "Elder",
+    "meaning": "손위의, 연상의",
+    "example": "We found a elder.",
+    "category": "기초"
+  },
+  {
+    "word": "Election",
+    "meaning": "선거",
+    "example": "She has a election.",
+    "category": "기초"
+  },
+  {
+    "word": "Electricity",
+    "meaning": "전기",
+    "example": "The electricity is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Elementary",
+    "meaning": "초보의",
+    "example": "This is a good elementary.",
+    "category": "기초"
+  },
+  {
+    "word": "Else",
+    "meaning": "그밖에",
+    "example": "This is a good else.",
+    "category": "기초"
+  },
+  {
+    "word": "Empty",
+    "meaning": "빈",
+    "example": "I need a empty.",
+    "category": "기초"
+  },
+  {
+    "word": "Enemy",
+    "meaning": "적",
+    "example": "She has a enemy.",
+    "category": "기초"
+  },
+  {
+    "word": "Energy",
+    "meaning": "에너지, 활기",
+    "example": "Children have much energy.",
+    "category": "기초"
+  },
+  {
+    "word": "Engage",
+    "meaning": "고용하다, 약속하다",
+    "example": "He can engage well.",
+    "category": "기초"
+  },
+  {
+    "word": "Engineer",
+    "meaning": "기사, 공학자",
+    "example": "She has a engineer.",
+    "category": "기초"
+  },
+  {
+    "word": "Enjoy",
+    "meaning": "즐기다",
+    "example": "The enjoy is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Enough",
+    "meaning": "충분한, 충분히",
+    "example": "This is enough.",
+    "category": "기초"
+  },
+  {
+    "word": "Entire",
+    "meaning": "전체의",
+    "example": "She has a entire.",
+    "category": "기초"
+  },
+  {
+    "word": "Envelope",
+    "meaning": "봉",
+    "example": "I need a envelope.",
+    "category": "기초"
+  },
+  {
+    "word": "Environment",
+    "meaning": "환경",
+    "example": "We must protect the environment.",
+    "category": "기초"
+  },
+  {
+    "word": "Equal",
+    "meaning": "같은, 동등한",
+    "example": "She is equal.",
+    "category": "기초"
+  },
+  {
+    "word": "Eraser",
+    "meaning": "지우개",
+    "example": "We found a eraser.",
+    "category": "기초"
+  },
+  {
+    "word": "Error",
+    "meaning": "잘못",
+    "example": "She has a error.",
+    "category": "기초"
+  },
+  {
+    "word": "Escape",
+    "meaning": "탈출하다, 피하다",
+    "example": "The bird escaped from the cage.",
+    "category": "기초"
+  },
+  {
+    "word": "Especially",
+    "meaning": "특별히",
+    "example": "He spoke especially.",
+    "category": "기초"
+  },
+  {
+    "word": "Event",
+    "meaning": "사건, 행사",
+    "example": "It was a special event.",
+    "category": "기초"
+  },
+  {
+    "word": "Evil",
+    "meaning": "악, 나쁜[]",
+    "example": "This is a good evil.",
+    "category": "기초"
+  },
+  {
+    "word": "Exactly",
+    "meaning": "정확히",
+    "example": "They work exactly.",
+    "category": "기초"
+  },
+  {
+    "word": "Examination",
+    "meaning": "시험, 조사",
+    "example": "I need a examination.",
+    "category": "기초"
+  },
+  {
+    "word": "Example",
+    "meaning": "예, 보기",
+    "example": "I need a example.",
+    "category": "기초"
+  },
+  {
+    "word": "Excellent",
+    "meaning": "뛰어난",
+    "example": "She has a excellent.",
+    "category": "기초"
+  },
+  {
+    "word": "Except",
+    "meaning": "제외하다",
+    "example": "I except every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Exchange",
+    "meaning": "교환하다",
+    "example": "They often exchange together.",
+    "category": "기초"
+  },
+  {
+    "word": "Excited",
+    "meaning": "흥분한",
+    "example": "He feels excited.",
+    "category": "기초"
+  },
+  {
+    "word": "Excuse",
+    "meaning": "용서하다, 변명하다",
+    "example": "I excuse every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Exercise",
+    "meaning": "운동, 연습하다",
+    "example": "He can exercise well.",
+    "category": "기초"
+  },
+  {
+    "word": "Exit",
+    "meaning": "출구",
+    "example": "This is a good exit.",
+    "category": "기초"
+  },
+  {
+    "word": "Expect",
+    "meaning": "기대하다, ~라고 생각하다",
+    "example": "We need to expect now.",
+    "category": "기초"
+  },
+  {
+    "word": "Expensive",
+    "meaning": "값비싼",
+    "example": "She has a expensive.",
+    "category": "기초"
+  },
+  {
+    "word": "Experience",
+    "meaning": "경험",
+    "example": "I have experience in teaching.",
+    "category": "기초"
+  },
+  {
+    "word": "Explain",
+    "meaning": "설명하다",
+    "example": "Can you explain this rule?",
+    "category": "기초"
+  },
+  {
+    "word": "Explode",
+    "meaning": "폭발시키다",
+    "example": "I need a explode.",
+    "category": "기초"
+  },
+  {
+    "word": "Explore",
+    "meaning": "탐험하다",
+    "example": "I explore every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Express",
+    "meaning": "표현하다, 나타내다",
+    "example": "Express your feelings.",
+    "category": "기초"
+  },
+  {
+    "word": "Expressway",
+    "meaning": "고속도로",
+    "example": "She has a expressway.",
+    "category": "기초"
+  },
+  {
+    "word": "Fact",
+    "meaning": "사실",
+    "example": "This is a good fact.",
+    "category": "기초"
+  },
+  {
+    "word": "Factory",
+    "meaning": "공장",
+    "example": "This is a good factory.",
+    "category": "기초"
+  },
+  {
+    "word": "Fail",
+    "meaning": "실패하다",
+    "example": "They often fail together.",
+    "category": "기초"
+  },
+  {
+    "word": "Fair",
+    "meaning": "공명정대한",
+    "example": "She is fair.",
+    "category": "기초"
+  },
+  {
+    "word": "Famous",
+    "meaning": "유명한",
+    "example": "She is a famous singer.",
+    "category": "기초"
+  },
+  {
+    "word": "Fare",
+    "meaning": "요금",
+    "example": "She has a fare.",
+    "category": "기초"
+  },
+  {
+    "word": "Fat",
+    "meaning": "살찐, 지방",
+    "example": "We found a fat.",
+    "category": "기초"
+  },
+  {
+    "word": "Fault",
+    "meaning": "결점, 잘못.",
+    "example": "This is a good fault.",
+    "category": "기초"
+  },
+  {
+    "word": "Favorite",
+    "meaning": "가장 좋아하는",
+    "example": "Blue is my favorite color.",
+    "category": "기초"
+  },
+  {
+    "word": "Fear",
+    "meaning": "두려움, 공포",
+    "example": "He overcame his fear.",
+    "category": "기초"
+  },
+  {
+    "word": "Feast",
+    "meaning": "향연, 잔치",
+    "example": "The feast is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Feather",
+    "meaning": "깃털",
+    "example": "This is a good feather.",
+    "category": "기초"
+  },
+  {
+    "word": "Feed",
+    "meaning": "먹을 것을 주다",
+    "example": "I need a feed.",
+    "category": "기초"
+  },
+  {
+    "word": "Fence",
+    "meaning": "울타리",
+    "example": "She has a fence.",
+    "category": "기초"
+  },
+  {
+    "word": "Fever",
+    "meaning": "열",
+    "example": "This is a good fever.",
+    "category": "기초"
+  },
+  {
+    "word": "Fierce",
+    "meaning": "사나운",
+    "example": "The fierce is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Fight",
+    "meaning": "싸우다, 전투",
+    "example": "I need a fight.",
+    "category": "기초"
+  },
+  {
+    "word": "Figure",
+    "meaning": "숫자, 계산, 모습, 인물",
+    "example": "The room looks figure.",
+    "category": "기초"
+  },
+  {
+    "word": "Fill",
+    "meaning": "채우다, 가득하다",
+    "example": "They often fill together.",
+    "category": "기초"
+  },
+  {
+    "word": "Finally",
+    "meaning": "최후로, 마침내",
+    "example": "He spoke finally.",
+    "category": "기초"
+  },
+  {
+    "word": "Firm",
+    "meaning": "굳은",
+    "example": "We found a firm.",
+    "category": "기초"
+  },
+  {
+    "word": "Flame",
+    "meaning": "불꽃",
+    "example": "She has a flame.",
+    "category": "기초"
+  },
+  {
+    "word": "Flashlight",
+    "meaning": "카메라의 플래시, 회중전등",
+    "example": "She has a flashlight.",
+    "category": "기초"
+  },
+  {
+    "word": "Flat",
+    "meaning": "평평한",
+    "example": "The room looks flat.",
+    "category": "기초"
+  },
+  {
+    "word": "Flight",
+    "meaning": "비행, 항공편",
+    "example": "The flight was delayed.",
+    "category": "기초"
+  },
+  {
+    "word": "Float",
+    "meaning": "뜨다",
+    "example": "This is a good float.",
+    "category": "기초"
+  },
+  {
+    "word": "Flood",
+    "meaning": "홍수",
+    "example": "I need a flood.",
+    "category": "기초"
+  },
+  {
+    "word": "Flow",
+    "meaning": "흐르다, 넘쳐흐르다",
+    "example": "This is a good flow.",
+    "category": "기초"
+  },
+  {
+    "word": "Flute",
+    "meaning": "플루트, 피리",
+    "example": "I need a flute.",
+    "category": "기초"
+  },
+  {
+    "word": "Focus",
+    "meaning": "집중하다",
+    "example": "Focus on your work.",
+    "category": "기초"
+  },
+  {
+    "word": "Fog",
+    "meaning": "안개",
+    "example": "We found a fog.",
+    "category": "기초"
+  },
+  {
+    "word": "Folk",
+    "meaning": "사람들",
+    "example": "We found a folk.",
+    "category": "기초"
+  },
+  {
+    "word": "Follow",
+    "meaning": "따르다",
+    "example": "I need a follow.",
+    "category": "기초"
+  },
+  {
+    "word": "Foolish",
+    "meaning": "어리석은",
+    "example": "We found a foolish.",
+    "category": "기초"
+  },
+  {
+    "word": "Force",
+    "meaning": "힘, 강요하다",
+    "example": "I force every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Foreign",
+    "meaning": "외국의",
+    "example": "I like foreign movies.",
+    "category": "기초"
+  },
+  {
+    "word": "Forest",
+    "meaning": "숲",
+    "example": "The forest is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Fortunately",
+    "meaning": "운 좋게, 다행히",
+    "example": "She walked fortunately.",
+    "category": "기초"
+  },
+  {
+    "word": "Forward",
+    "meaning": "앞쪽에, 앞으로",
+    "example": "I need a forward.",
+    "category": "기초"
+  },
+  {
+    "word": "Foundation",
+    "meaning": "기초",
+    "example": "This is a good foundation.",
+    "category": "기초"
+  },
+  {
+    "word": "Frankly",
+    "meaning": "솔직히",
+    "example": "They work frankly.",
+    "category": "기초"
+  },
+  {
+    "word": "French",
+    "meaning": "프랑스 사람, 프랑스어",
+    "example": "She has a french.",
+    "category": "기초"
+  },
+  {
+    "word": "Fresh",
+    "meaning": "새로운",
+    "example": "This is fresh.",
+    "category": "기초"
+  },
+  {
+    "word": "Frighten",
+    "meaning": "깜짝 놀라게 하다",
+    "example": "She wants to frighten.",
+    "category": "기초"
+  },
+  {
+    "word": "Frog",
+    "meaning": "개구리",
+    "example": "We found a frog.",
+    "category": "기초"
+  },
+  {
+    "word": "Front",
+    "meaning": "정면, 앞부분",
+    "example": "She has a front.",
+    "category": "기초"
+  },
+  {
+    "word": "Fruit",
+    "meaning": "과일",
+    "example": "This is a good fruit.",
+    "category": "기초"
+  },
+  {
+    "word": "Fun",
+    "meaning": "놀이, 재미",
+    "example": "I need a fun.",
+    "category": "기초"
+  },
+  {
+    "word": "Funeral",
+    "meaning": "장례식",
+    "example": "This is a good funeral.",
+    "category": "기초"
+  },
+  {
+    "word": "Fur",
+    "meaning": "부드러운 털, 모피",
+    "example": "I need a fur.",
+    "category": "기초"
+  },
+  {
+    "word": "Furniture",
+    "meaning": "가구",
+    "example": "We found a furniture.",
+    "category": "기초"
+  },
+  {
+    "word": "Further",
+    "meaning": "더욱이, 터먼",
+    "example": "We found a further.",
+    "category": "기초"
+  },
+  {
+    "word": "Future",
+    "meaning": "미래",
+    "example": "Think about your future.",
+    "category": "기초"
+  },
+  {
+    "word": "Gain",
+    "meaning": "얻다, 이기다",
+    "example": "We found a gain.",
+    "category": "기초"
+  },
+  {
+    "word": "Gallery",
+    "meaning": "화랑",
+    "example": "I need a gallery.",
+    "category": "기초"
+  },
+  {
+    "word": "Garage",
+    "meaning": "차고",
+    "example": "The garage is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Gather",
+    "meaning": "모으다",
+    "example": "We found a gather.",
+    "category": "기초"
+  },
+  {
+    "word": "Gay",
+    "meaning": "명랑한, 화려한",
+    "example": "It is very gay.",
+    "category": "기초"
+  },
+  {
+    "word": "Gaze",
+    "meaning": "응시하다, 바라보다",
+    "example": "We need to gaze now.",
+    "category": "기초"
+  },
+  {
+    "word": "General",
+    "meaning": "일반적인, 전체적인",
+    "example": "This is a general rule.",
+    "category": "기초"
+  },
+  {
+    "word": "German",
+    "meaning": "독일사람, 독일어",
+    "example": "She has a german.",
+    "category": "기초"
+  },
+  {
+    "word": "Gesture",
+    "meaning": "몸짓",
+    "example": "We found a gesture.",
+    "category": "기초"
+  },
+  {
+    "word": "Giant",
+    "meaning": "거대한",
+    "example": "He feels giant.",
+    "category": "기초"
+  },
+  {
+    "word": "Gift",
+    "meaning": "선물, 타고난 재능",
+    "example": "We found a gift.",
+    "category": "기초"
+  },
+  {
+    "word": "Giraffe",
+    "meaning": "기린",
+    "example": "We found a giraffe.",
+    "category": "기초"
+  },
+  {
+    "word": "Glory",
+    "meaning": "영광",
+    "example": "The glory is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Goal",
+    "meaning": "목표, 골",
+    "example": "The goal is important.",
+    "category": "기초"
+  },
+  {
+    "word": "God",
+    "meaning": "신",
+    "example": "The god is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Government",
+    "meaning": "정부",
+    "example": "The government made a new law.",
+    "category": "기초"
+  },
+  {
+    "word": "Grab",
+    "meaning": "움켜잡다",
+    "example": "The grab is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Grade",
+    "meaning": "학년",
+    "example": "We found a grade.",
+    "category": "기초"
+  },
+  {
+    "word": "Graduate",
+    "meaning": "졸업하다",
+    "example": "He can graduate well.",
+    "category": "기초"
+  },
+  {
+    "word": "Grain",
+    "meaning": "곡식, 낱알",
+    "example": "She has a grain.",
+    "category": "기초"
+  },
+  {
+    "word": "Grammar",
+    "meaning": "문법",
+    "example": "She has a grammar.",
+    "category": "기초"
+  },
+  {
+    "word": "Grand",
+    "meaning": "웅장한, 화려한",
+    "example": "The room looks grand.",
+    "category": "기초"
+  },
+  {
+    "word": "Grass",
+    "meaning": "풀, 잔디",
+    "example": "We found a grass.",
+    "category": "기초"
+  },
+  {
+    "word": "Grave",
+    "meaning": "중대한",
+    "example": "This is grave.",
+    "category": "기초"
+  },
+  {
+    "word": "Gray",
+    "meaning": "회색, 회색의",
+    "example": "She has a gray.",
+    "category": "기초"
+  },
+  {
+    "word": "Greedy",
+    "meaning": "탐욕스러운",
+    "example": "He feels greedy.",
+    "category": "기초"
+  },
+  {
+    "word": "Greeting",
+    "meaning": "인사, 축하",
+    "example": "This is greeting.",
+    "category": "기초"
+  },
+  {
+    "word": "Ground",
+    "meaning": "땅, 운동장",
+    "example": "The ground is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Group",
+    "meaning": "집단",
+    "example": "She has a group.",
+    "category": "기초"
+  },
+  {
+    "word": "Guard",
+    "meaning": "지키다, 경계, 위병",
+    "example": "The guard is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Guess",
+    "meaning": "추측하다, 추측",
+    "example": "I guess every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Guest",
+    "meaning": "손님( visitor )",
+    "example": "I need a guest.",
+    "category": "기초"
+  },
+  {
+    "word": "Guide",
+    "meaning": "안내자, 안내하다",
+    "example": "They often guide together.",
+    "category": "기초"
+  },
+  {
+    "word": "Gun",
+    "meaning": "총",
+    "example": "This is a good gun.",
+    "category": "기초"
+  },
+  {
+    "word": "Habit",
+    "meaning": "습관",
+    "example": "Reading is a good habit.",
+    "category": "기초"
+  },
+  {
+    "word": "Halt",
+    "meaning": "정지하다",
+    "example": "They often halt together.",
+    "category": "기초"
+  },
+  {
+    "word": "Hand",
+    "meaning": "주다, 건네주다",
+    "example": "We found a hand.",
+    "category": "기초"
+  },
+  {
+    "word": "Handle",
+    "meaning": "손잡이",
+    "example": "The handle is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Handshake",
+    "meaning": "악수",
+    "example": "I need a handshake.",
+    "category": "기초"
+  },
+  {
+    "word": "Handsome",
+    "meaning": "잘생긴, 멋진",
+    "example": "She has a handsome.",
+    "category": "기초"
+  },
+  {
+    "word": "Hang",
+    "meaning": "걸다, 매달다",
+    "example": "I need a hang.",
+    "category": "기초"
+  },
+  {
+    "word": "Happen",
+    "meaning": "일어나다, 생기다",
+    "example": "The happen is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Hardly",
+    "meaning": "거의 ~ 아니다",
+    "example": "She walked hardly.",
+    "category": "기초"
+  },
+  {
+    "word": "Harmful",
+    "meaning": "해로운",
+    "example": "She is harmful.",
+    "category": "기초"
+  },
+  {
+    "word": "Harvest",
+    "meaning": "수확, 추수",
+    "example": "The harvest is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Haste",
+    "meaning": "급함, 신속, 서두르다",
+    "example": "I need a haste.",
+    "category": "기초"
+  },
+  {
+    "word": "Hate",
+    "meaning": "미워하다",
+    "example": "We need to hate now.",
+    "category": "기초"
+  },
+  {
+    "word": "Hawk",
+    "meaning": "매",
+    "example": "This is a good hawk.",
+    "category": "기초"
+  },
+  {
+    "word": "Hay",
+    "meaning": "건초",
+    "example": "This is a good hay.",
+    "category": "기초"
+  },
+  {
+    "word": "Health",
+    "meaning": "건강",
+    "example": "Health is better than wealth.",
+    "category": "기초"
+  },
+  {
+    "word": "Heart",
+    "meaning": "심장",
+    "example": "This is a good heart.",
+    "category": "기초"
+  },
+  {
+    "word": "Heat",
+    "meaning": "열, 더위",
+    "example": "I need a heat.",
+    "category": "기초"
+  },
+  {
+    "word": "Heaven",
+    "meaning": "하늘",
+    "example": "The heaven is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Heavy",
+    "meaning": "무거운",
+    "example": "The heavy is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Hero",
+    "meaning": "영웅 복수형:heroes",
+    "example": "The hero is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Hesitate",
+    "meaning": "주저하다, 망설이다",
+    "example": "They often hesitate together.",
+    "category": "기초"
+  },
+  {
+    "word": "Hide",
+    "meaning": "감추다, 숨다",
+    "example": "The hide is important.",
+    "category": "기초"
+  },
+  {
+    "word": "History",
+    "meaning": "역사",
+    "example": "I like studying history.",
+    "category": "기초"
+  },
+  {
+    "word": "Hit",
+    "meaning": "치다",
+    "example": "I need a hit.",
+    "category": "기초"
+  },
+  {
+    "word": "Hobby",
+    "meaning": "취미",
+    "example": "I need a hobby.",
+    "category": "기초"
+  },
+  {
+    "word": "Hold",
+    "meaning": "쥐다, 개최하다",
+    "example": "We need to hold now.",
+    "category": "기초"
+  },
+  {
+    "word": "Hole",
+    "meaning": "구멍",
+    "example": "We found a hole.",
+    "category": "기초"
+  },
+  {
+    "word": "Holiday",
+    "meaning": "휴일, 휴가",
+    "example": "The holiday is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Hollow",
+    "meaning": "구멍, 속이 빈",
+    "example": "I need a hollow.",
+    "category": "기초"
+  },
+  {
+    "word": "Homesick",
+    "meaning": "고향을 그리워하는, 향수병의",
+    "example": "We found a homesick.",
+    "category": "기초"
+  },
+  {
+    "word": "Hometown",
+    "meaning": "고향",
+    "example": "I need a hometown.",
+    "category": "기초"
+  },
+  {
+    "word": "Honest",
+    "meaning": "정직한",
+    "example": "It is very honest.",
+    "category": "기초"
+  },
+  {
+    "word": "Hop",
+    "meaning": "한발로 뛰다",
+    "example": "She is hop.",
+    "category": "기초"
+  },
+  {
+    "word": "Horizon",
+    "meaning": "수평선",
+    "example": "I need a horizon.",
+    "category": "기초"
+  },
+  {
+    "word": "Horn",
+    "meaning": "뿔, 경적",
+    "example": "I need a horn.",
+    "category": "기초"
+  },
+  {
+    "word": "Hospital",
+    "meaning": "병원",
+    "example": "I need a hospital.",
+    "category": "기초"
+  },
+  {
+    "word": "However",
+    "meaning": "아무리 ~해도, 그러나",
+    "example": "We found a however.",
+    "category": "기초"
+  },
+  {
+    "word": "Howl",
+    "meaning": "짖다, 울부짖다",
+    "example": "The howl is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Huge",
+    "meaning": "거대한",
+    "example": "He feels huge.",
+    "category": "기초"
+  },
+  {
+    "word": "Hunger",
+    "meaning": "굶주림",
+    "example": "We found a hunger.",
+    "category": "기초"
+  },
+  {
+    "word": "Hunter",
+    "meaning": "사냥꾼",
+    "example": "She has a hunter.",
+    "category": "기초"
+  },
+  {
+    "word": "Hurray",
+    "meaning": "만세",
+    "example": "I need a hurray.",
+    "category": "기초"
+  },
+  {
+    "word": "Hurry",
+    "meaning": "서두르다, 서두름",
+    "example": "We found a hurry.",
+    "category": "기초"
+  },
+  {
+    "word": "Hurt",
+    "meaning": "상처를 입히다",
+    "example": "We found a hurt.",
+    "category": "기초"
+  },
+  {
+    "word": "Husband",
+    "meaning": "남편",
+    "example": "She has a husband.",
+    "category": "기초"
+  },
+  {
+    "word": "Hut",
+    "meaning": "오두막집",
+    "example": "This is a good hut.",
+    "category": "기초"
+  },
+  {
+    "word": "Hydrogen",
+    "meaning": "수소",
+    "example": "This is a good hydrogen.",
+    "category": "기초"
+  },
+  {
+    "word": "Iceberg",
+    "meaning": "빙산",
+    "example": "She has a iceberg.",
+    "category": "기초"
+  },
+  {
+    "word": "Idea",
+    "meaning": "생각, 이념",
+    "example": "I need a idea.",
+    "category": "기초"
+  },
+  {
+    "word": "Imagine",
+    "meaning": "상상하다",
+    "example": "Imagine you are on a beach.",
+    "category": "기초"
+  },
+  {
+    "word": "Immediately",
+    "meaning": "곧, 즉시",
+    "example": "She walked immediately.",
+    "category": "기초"
+  },
+  {
+    "word": "Import",
+    "meaning": "수입(품)",
+    "example": "This is a good import.",
+    "category": "기초"
+  },
+  {
+    "word": "Important",
+    "meaning": "중요한",
+    "example": "It is very important.",
+    "category": "기초"
+  },
+  {
+    "word": "Improve",
+    "meaning": "향상시키다, 개선하다",
+    "example": "My English is improving.",
+    "category": "기초"
+  },
+  {
+    "word": "Include",
+    "meaning": "포함하다",
+    "example": "The price includes tax.",
+    "category": "기초"
+  },
+  {
+    "word": "Increase",
+    "meaning": "증가, [동]증가하다",
+    "example": "He can increase well.",
+    "category": "기초"
+  },
+  {
+    "word": "Indeed",
+    "meaning": "참으로",
+    "example": "We found a indeed.",
+    "category": "기초"
+  },
+  {
+    "word": "Independent",
+    "meaning": "독립의",
+    "example": "I need a independent.",
+    "category": "기초"
+  },
+  {
+    "word": "Industrial",
+    "meaning": "산업의, 공업의",
+    "example": "She has a industrial.",
+    "category": "기초"
+  },
+  {
+    "word": "Information",
+    "meaning": "정보",
+    "example": "Where can I get information?",
+    "category": "기초"
+  },
+  {
+    "word": "Inner",
+    "meaning": "안쪽의",
+    "example": "The inner is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Inning",
+    "meaning": "회",
+    "example": "The inning is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Insect",
+    "meaning": "곤충",
+    "example": "This is a good insect.",
+    "category": "기초"
+  },
+  {
+    "word": "Instead",
+    "meaning": "대신에",
+    "example": "I need a instead.",
+    "category": "기초"
+  },
+  {
+    "word": "Instrument",
+    "meaning": "기계, 기구, 도구",
+    "example": "This is a good instrument.",
+    "category": "기초"
+  },
+  {
+    "word": "Interest",
+    "meaning": "관심, 흥미, 이자",
+    "example": "I have an interest in music.",
+    "category": "기초"
+  },
+  {
+    "word": "Interesting",
+    "meaning": "재미있는",
+    "example": "The interesting is important.",
+    "category": "기초"
+  },
+  {
+    "word": "International",
+    "meaning": "국제적인",
+    "example": "He feels international.",
+    "category": "기초"
+  },
+  {
+    "word": "Intimate",
+    "meaning": "친밀한",
+    "example": "The room looks intimate.",
+    "category": "기초"
+  },
+  {
+    "word": "Introduce",
+    "meaning": "소개하다, 도입하다",
+    "example": "He can introduce well.",
+    "category": "기초"
+  },
+  {
+    "word": "Invader",
+    "meaning": "침입자",
+    "example": "The invader is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Invent",
+    "meaning": "발명하다",
+    "example": "We need to invent now.",
+    "category": "기초"
+  },
+  {
+    "word": "Invite",
+    "meaning": "초대하다",
+    "example": "I invite every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Ivy",
+    "meaning": "담쟁이덩굴",
+    "example": "I need a ivy.",
+    "category": "기초"
+  },
+  {
+    "word": "Jar",
+    "meaning": "항아리",
+    "example": "I need a jar.",
+    "category": "기초"
+  },
+  {
+    "word": "Jean",
+    "meaning": "진 바지, 진으로 만든 옷",
+    "example": "The jean is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Jewel",
+    "meaning": "보석",
+    "example": "She has a jewel.",
+    "category": "기초"
+  },
+  {
+    "word": "Job",
+    "meaning": "직업, 일",
+    "example": "I need a job.",
+    "category": "기초"
+  },
+  {
+    "word": "Join",
+    "meaning": "결합하다, 참가하다",
+    "example": "We need to join now.",
+    "category": "기초"
+  },
+  {
+    "word": "Joke",
+    "meaning": "농담, 농담을 하다",
+    "example": "I joke every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Journey",
+    "meaning": "여행, 여정",
+    "example": "Life is a long journey.",
+    "category": "기초"
+  },
+  {
+    "word": "Joy",
+    "meaning": "기쁨",
+    "example": "We found a joy.",
+    "category": "기초"
+  },
+  {
+    "word": "Judge",
+    "meaning": "재판관",
+    "example": "We found a judge.",
+    "category": "기초"
+  },
+  {
+    "word": "Junior",
+    "meaning": "후배, 손아래에",
+    "example": "The junior is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Kind",
+    "meaning": "친절한, 종류",
+    "example": "She is kind.",
+    "category": "기초"
+  },
+  {
+    "word": "Kindergarten",
+    "meaning": "유치원",
+    "example": "She has a kindergarten.",
+    "category": "기초"
+  },
+  {
+    "word": "Knee",
+    "meaning": "무릎",
+    "example": "She has a knee.",
+    "category": "기초"
+  },
+  {
+    "word": "Knowledge",
+    "meaning": "지식",
+    "example": "Knowledge is power.",
+    "category": "기초"
+  },
+  {
+    "word": "Label",
+    "meaning": "꼬리표, 딱지",
+    "example": "This is a good label.",
+    "category": "기초"
+  },
+  {
+    "word": "Lamb",
+    "meaning": "새끼냔",
+    "example": "We found a lamb.",
+    "category": "기초"
+  },
+  {
+    "word": "Language",
+    "meaning": "언어",
+    "example": "English is a global language.",
+    "category": "기초"
+  },
+  {
+    "word": "Lantern",
+    "meaning": "랜턴",
+    "example": "We found a lantern.",
+    "category": "기초"
+  },
+  {
+    "word": "Later",
+    "meaning": "후에, 나중에",
+    "example": "We found a later.",
+    "category": "기초"
+  },
+  {
+    "word": "Laundry",
+    "meaning": "세탁소",
+    "example": "The laundry is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Lay",
+    "meaning": "눕히다, 놓다",
+    "example": "We found a lay.",
+    "category": "기초"
+  },
+  {
+    "word": "Lead",
+    "meaning": "인도하다, 지내다",
+    "example": "I lead every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Leak",
+    "meaning": "새다",
+    "example": "We found a leak.",
+    "category": "기초"
+  },
+  {
+    "word": "Leap",
+    "meaning": "뛰다",
+    "example": "She has a leap.",
+    "category": "기초"
+  },
+  {
+    "word": "Least",
+    "meaning": "가장 적은, 최소한의",
+    "example": "He feels least.",
+    "category": "기초"
+  },
+  {
+    "word": "Lend",
+    "meaning": "빌려주다",
+    "example": "The lend is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Lesson",
+    "meaning": "학과, 교훈",
+    "example": "We found a lesson.",
+    "category": "기초"
+  },
+  {
+    "word": "Letter",
+    "meaning": "편지, 문자",
+    "example": "She has a letter.",
+    "category": "기초"
+  },
+  {
+    "word": "Liberty",
+    "meaning": "자유",
+    "example": "This is a good liberty.",
+    "category": "기초"
+  },
+  {
+    "word": "Library",
+    "meaning": "도서관",
+    "example": "The library is important.",
+    "category": "기초"
+  },
+  {
+    "word": "License",
+    "meaning": "면허",
+    "example": "She has a license.",
+    "category": "기초"
+  },
+  {
+    "word": "Life",
+    "meaning": "생명, 생활",
+    "example": "I need a life.",
+    "category": "기초"
+  },
+  {
+    "word": "Lift",
+    "meaning": "들어 올리다",
+    "example": "This is a good lift.",
+    "category": "기초"
+  },
+  {
+    "word": "Limit",
+    "meaning": "제한하다, 한계, 제한",
+    "example": "She wants to limit.",
+    "category": "기초"
+  },
+  {
+    "word": "List",
+    "meaning": "명부",
+    "example": "She has a list.",
+    "category": "기초"
+  },
+  {
+    "word": "Living",
+    "meaning": "room 거실",
+    "example": "The living is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Load",
+    "meaning": "짐, 부담",
+    "example": "I need a load.",
+    "category": "기초"
+  },
+  {
+    "word": "Loaf",
+    "meaning": "빵 한 덩어리",
+    "example": "The room looks loaf.",
+    "category": "기초"
+  },
+  {
+    "word": "Locate",
+    "meaning": "위치하다",
+    "example": "He can locate well.",
+    "category": "기초"
+  },
+  {
+    "word": "Lock",
+    "meaning": "자물쇠, 자물쇠를 채우다",
+    "example": "The lock is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Log",
+    "meaning": "통나무",
+    "example": "The log is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Lonely",
+    "meaning": "고독한",
+    "example": "He spoke lonely.",
+    "category": "기초"
+  },
+  {
+    "word": "Lose",
+    "meaning": "잃다, 지다",
+    "example": "The lose is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Loud",
+    "meaning": "목소리가 큰, 시끄러운",
+    "example": "She has a loud.",
+    "category": "기초"
+  },
+  {
+    "word": "Low",
+    "meaning": "낮은, 낮게",
+    "example": "This is a good low.",
+    "category": "기초"
+  },
+  {
+    "word": "Luck",
+    "meaning": "행운",
+    "example": "We found a luck.",
+    "category": "기초"
+  },
+  {
+    "word": "Machine",
+    "meaning": "기계",
+    "example": "This is a good machine.",
+    "category": "기초"
+  },
+  {
+    "word": "Magazine",
+    "meaning": "잡지",
+    "example": "I need a magazine.",
+    "category": "기초"
+  },
+  {
+    "word": "Mail",
+    "meaning": "우편물",
+    "example": "She has a mail.",
+    "category": "기초"
+  },
+  {
+    "word": "Main",
+    "meaning": "주요한",
+    "example": "This is main.",
+    "category": "기초"
+  },
+  {
+    "word": "Mammal",
+    "meaning": "포유동물",
+    "example": "The mammal is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Manage",
+    "meaning": "관리하다, 경영하다",
+    "example": "He manages a small shop.",
+    "category": "기초"
+  },
+  {
+    "word": "Mankind",
+    "meaning": "인간",
+    "example": "This is mankind.",
+    "category": "기초"
+  },
+  {
+    "word": "Marble",
+    "meaning": "대리석",
+    "example": "We found a marble.",
+    "category": "기초"
+  },
+  {
+    "word": "March",
+    "meaning": "행진, 행진하다",
+    "example": "They often march together.",
+    "category": "기초"
+  },
+  {
+    "word": "Marry",
+    "meaning": "결혼하다",
+    "example": "I marry every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Mars",
+    "meaning": "화성",
+    "example": "I need a mars.",
+    "category": "기초"
+  },
+  {
+    "word": "Master",
+    "meaning": "주인, 정복하다",
+    "example": "We need to master now.",
+    "category": "기초"
+  },
+  {
+    "word": "Match",
+    "meaning": "시합",
+    "example": "The match is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Math",
+    "meaning": "수학",
+    "example": "This is a good math.",
+    "category": "기초"
+  },
+  {
+    "word": "Matter",
+    "meaning": "일, 문제",
+    "example": "I need a matter.",
+    "category": "기초"
+  },
+  {
+    "word": "Maybe",
+    "meaning": "아마",
+    "example": "I need a maybe.",
+    "category": "기초"
+  },
+  {
+    "word": "Mayor",
+    "meaning": "시장",
+    "example": "This is a good mayor.",
+    "category": "기초"
+  },
+  {
+    "word": "Measure",
+    "meaning": "측정하다, 재다",
+    "example": "Measure the length of the desk.",
+    "category": "기초"
+  },
+  {
+    "word": "Meat",
+    "meaning": "고기",
+    "example": "We found a meat.",
+    "category": "기초"
+  },
+  {
+    "word": "Memory",
+    "meaning": "기억",
+    "example": "I have a good memory.",
+    "category": "기초"
+  },
+  {
+    "word": "Mention",
+    "meaning": "말하다",
+    "example": "They often mention together.",
+    "category": "기초"
+  },
+  {
+    "word": "Merchant",
+    "meaning": "상인",
+    "example": "She is merchant.",
+    "category": "기초"
+  },
+  {
+    "word": "Merry",
+    "meaning": "즐거운",
+    "example": "The merry is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Message",
+    "meaning": "메시지, 전갈",
+    "example": "Leave a message for him.",
+    "category": "기초"
+  },
+  {
+    "word": "Metal",
+    "meaning": "금속",
+    "example": "The metal is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Method",
+    "meaning": "방법",
+    "example": "The method is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Might",
+    "meaning": "힘",
+    "example": "She has a might.",
+    "category": "기초"
+  },
+  {
+    "word": "Mild",
+    "meaning": "온화한",
+    "example": "It is very mild.",
+    "category": "기초"
+  },
+  {
+    "word": "Mile",
+    "meaning": "마일",
+    "example": "The mile is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Million",
+    "meaning": "백만",
+    "example": "I need a million.",
+    "category": "기초"
+  },
+  {
+    "word": "Mind",
+    "meaning": "마음",
+    "example": "She has a mind.",
+    "category": "기초"
+  },
+  {
+    "word": "Miss",
+    "meaning": "놓치다, 그리워하다",
+    "example": "I miss every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Mistake",
+    "meaning": "실수",
+    "example": "Don't be afraid of making mistakes.",
+    "category": "기초"
+  },
+  {
+    "word": "Modern",
+    "meaning": "현대적인",
+    "example": "They live in a modern house.",
+    "category": "기초"
+  },
+  {
+    "word": "Moment",
+    "meaning": "순간",
+    "example": "This is a good moment.",
+    "category": "기초"
+  },
+  {
+    "word": "Monk",
+    "meaning": "승려",
+    "example": "This is a good monk.",
+    "category": "기초"
+  },
+  {
+    "word": "Monument",
+    "meaning": "기념비, 기념물",
+    "example": "The monument is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Mostly",
+    "meaning": "대개는",
+    "example": "She walked mostly.",
+    "category": "기초"
+  },
+  {
+    "word": "Mouse",
+    "meaning": "생쥐",
+    "example": "We found a mouse.",
+    "category": "기초"
+  },
+  {
+    "word": "Museum",
+    "meaning": "박물관",
+    "example": "The museum is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Musician",
+    "meaning": "음악가",
+    "example": "We found a musician.",
+    "category": "기초"
+  },
+  {
+    "word": "Mystery",
+    "meaning": "신비, 불가사의",
+    "example": "This is a good mystery.",
+    "category": "기초"
+  },
+  {
+    "word": "Nail",
+    "meaning": "손톱, 발톱",
+    "example": "She has a nail.",
+    "category": "기초"
+  },
+  {
+    "word": "Nation",
+    "meaning": "국가",
+    "example": "This is a good nation.",
+    "category": "기초"
+  },
+  {
+    "word": "Nature",
+    "meaning": "자연, 본성",
+    "example": "I love the beauty of nature.",
+    "category": "기초"
+  },
+  {
+    "word": "Navy",
+    "meaning": "해군",
+    "example": "The navy is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Nearly",
+    "meaning": "거의",
+    "example": "She walked nearly.",
+    "category": "기초"
+  },
+  {
+    "word": "Necessary",
+    "meaning": "필요한",
+    "example": "The room looks necessary.",
+    "category": "기초"
+  },
+  {
+    "word": "Need",
+    "meaning": "필요로 하다, 필요",
+    "example": "He can need well.",
+    "category": "기초"
+  },
+  {
+    "word": "Neighbor",
+    "meaning": "이웃사람",
+    "example": "She has a neighbor.",
+    "category": "기초"
+  },
+  {
+    "word": "Neigher",
+    "meaning": "~도 아니고 ~도 아니다",
+    "example": "I need a neigher.",
+    "category": "기초"
+  },
+  {
+    "word": "Nephew",
+    "meaning": "조카",
+    "example": "I need a nephew.",
+    "category": "기초"
+  },
+  {
+    "word": "Nickname",
+    "meaning": "별명, 애칭",
+    "example": "This is a good nickname.",
+    "category": "기초"
+  },
+  {
+    "word": "Niece",
+    "meaning": "조카딸",
+    "example": "She has a niece.",
+    "category": "기초"
+  },
+  {
+    "word": "Noble",
+    "meaning": "고귀한",
+    "example": "It is very noble.",
+    "category": "기초"
+  },
+  {
+    "word": "Nod",
+    "meaning": "끄덕이다",
+    "example": "The nod is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Noise",
+    "meaning": "소리, 소음",
+    "example": "We found a noise.",
+    "category": "기초"
+  },
+  {
+    "word": "None",
+    "meaning": "아무도 ~않다",
+    "example": "This is a good none.",
+    "category": "기초"
+  },
+  {
+    "word": "Normal",
+    "meaning": "보통의",
+    "example": "I need a normal.",
+    "category": "기초"
+  },
+  {
+    "word": "Notice",
+    "meaning": "알아차리다, 통지",
+    "example": "Did you notice his new hair?",
+    "category": "기초"
+  },
+  {
+    "word": "Nuclear",
+    "meaning": "핵의",
+    "example": "I need a nuclear.",
+    "category": "기초"
+  },
+  {
+    "word": "Nurse",
+    "meaning": "간호사",
+    "example": "The nurse is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Oath",
+    "meaning": "맹세, 선서",
+    "example": "We found a oath.",
+    "category": "기초"
+  },
+  {
+    "word": "Obey",
+    "meaning": "복종하다",
+    "example": "They often obey together.",
+    "category": "기초"
+  },
+  {
+    "word": "Object",
+    "meaning": "물체, 목적",
+    "example": "There is an object on the table.",
+    "category": "기초"
+  },
+  {
+    "word": "Obtain",
+    "meaning": "얻다",
+    "example": "This is a good obtain.",
+    "category": "기초"
+  },
+  {
+    "word": "Occur",
+    "meaning": "일어나다",
+    "example": "This is a good occur.",
+    "category": "기초"
+  },
+  {
+    "word": "Ocean",
+    "meaning": "대양",
+    "example": "We found a ocean.",
+    "category": "기초"
+  },
+  {
+    "word": "Offer",
+    "meaning": "제공하다",
+    "example": "They often offer together.",
+    "category": "기초"
+  },
+  {
+    "word": "Office",
+    "meaning": "사무실, 회사",
+    "example": "She has a office.",
+    "category": "기초"
+  },
+  {
+    "word": "Officer",
+    "meaning": "공무원, 장교",
+    "example": "The officer is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Once",
+    "meaning": "한번, 한때",
+    "example": "He feels once.",
+    "category": "기초"
+  },
+  {
+    "word": "Operator",
+    "meaning": "교환수",
+    "example": "The operator is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Opinion",
+    "meaning": "의견",
+    "example": "What is your opinion?",
+    "category": "기초"
+  },
+  {
+    "word": "Opportunity",
+    "meaning": "기회",
+    "example": "Don't miss this opportunity.",
+    "category": "기초"
+  },
+  {
+    "word": "Order",
+    "meaning": "순서, 명령",
+    "example": "This is a good order.",
+    "category": "기초"
+  },
+  {
+    "word": "Ostrich",
+    "meaning": "타조, 방관자",
+    "example": "This is a good ostrich.",
+    "category": "기초"
+  },
+  {
+    "word": "Otherwise",
+    "meaning": "다른 방법으로, 그렇지 않으면",
+    "example": "We found a otherwise.",
+    "category": "기초"
+  },
+  {
+    "word": "Overhear",
+    "meaning": "엿듣다",
+    "example": "I need a overhear.",
+    "category": "기초"
+  },
+  {
+    "word": "Owe",
+    "meaning": "힘입다, 빛(의무)이 있다.",
+    "example": "This is a good owe.",
+    "category": "기초"
+  },
+  {
+    "word": "Owl",
+    "meaning": "올빼미",
+    "example": "She has a owl.",
+    "category": "기초"
+  },
+  {
+    "word": "Own",
+    "meaning": "자기 자신의, 소유하다",
+    "example": "We need to own now.",
+    "category": "기초"
+  },
+  {
+    "word": "Paint",
+    "meaning": "그리다, 페인트를 칠하다",
+    "example": "I paint every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Pair",
+    "meaning": "한 쌍",
+    "example": "It is very pair.",
+    "category": "기초"
+  },
+  {
+    "word": "Pal",
+    "meaning": "친구",
+    "example": "She has a pal.",
+    "category": "기초"
+  },
+  {
+    "word": "Palace",
+    "meaning": "궁전",
+    "example": "The palace is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Parade",
+    "meaning": "행렬",
+    "example": "She has a parade.",
+    "category": "기초"
+  },
+  {
+    "word": "Pardon",
+    "meaning": "용서",
+    "example": "This is a good pardon.",
+    "category": "기초"
+  },
+  {
+    "word": "Pass",
+    "meaning": "지나가다, 합격하다",
+    "example": "We need to pass now.",
+    "category": "기초"
+  },
+  {
+    "word": "Passenger",
+    "meaning": "승객",
+    "example": "We found a passenger.",
+    "category": "기초"
+  },
+  {
+    "word": "Passport",
+    "meaning": "여권",
+    "example": "She has a passport.",
+    "category": "기초"
+  },
+  {
+    "word": "Past",
+    "meaning": "과거의, ~을 지나서",
+    "example": "She has a past.",
+    "category": "기초"
+  },
+  {
+    "word": "Patient",
+    "meaning": "참을성 있는, 환자",
+    "example": "Be patient with children.",
+    "category": "기초"
+  },
+  {
+    "word": "Pause",
+    "meaning": "중지, 멈추다",
+    "example": "We found a pause.",
+    "category": "기초"
+  },
+  {
+    "word": "Peaceful",
+    "meaning": "평화로운",
+    "example": "The room looks peaceful.",
+    "category": "기초"
+  },
+  {
+    "word": "Pepper",
+    "meaning": "후추",
+    "example": "I need a pepper.",
+    "category": "기초"
+  },
+  {
+    "word": "Perfect",
+    "meaning": "완벽한",
+    "example": "The weather is perfect today.",
+    "category": "기초"
+  },
+  {
+    "word": "Perform",
+    "meaning": "공연하다, 수행하다",
+    "example": "The actors performed well.",
+    "category": "기초"
+  },
+  {
+    "word": "Perhaps",
+    "meaning": "아마",
+    "example": "We found a perhaps.",
+    "category": "기초"
+  },
+  {
+    "word": "Pet",
+    "meaning": "애완동물, 귀여워하는",
+    "example": "She has a pet.",
+    "category": "기초"
+  },
+  {
+    "word": "Petal",
+    "meaning": "꽃잎",
+    "example": "We found a petal.",
+    "category": "기초"
+  },
+  {
+    "word": "Photographer",
+    "meaning": "사진사",
+    "example": "We found a photographer.",
+    "category": "기초"
+  },
+  {
+    "word": "Pick",
+    "meaning": "고르다, 줍다",
+    "example": "I need a pick.",
+    "category": "기초"
+  },
+  {
+    "word": "Piece",
+    "meaning": "한 조각",
+    "example": "This is piece.",
+    "category": "기초"
+  },
+  {
+    "word": "Pigeon",
+    "meaning": "비둘기",
+    "example": "We found a pigeon.",
+    "category": "기초"
+  },
+  {
+    "word": "Pilgrim",
+    "meaning": "순례자",
+    "example": "The pilgrim is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Pill",
+    "meaning": "알약",
+    "example": "This is a good pill.",
+    "category": "기초"
+  },
+  {
+    "word": "Pilot",
+    "meaning": "조종사, 안내인",
+    "example": "It is very pilot.",
+    "category": "기초"
+  },
+  {
+    "word": "Pitch",
+    "meaning": "던지다",
+    "example": "She has a pitch.",
+    "category": "기초"
+  },
+  {
+    "word": "Plane",
+    "meaning": "비행기",
+    "example": "She has a plane.",
+    "category": "기초"
+  },
+  {
+    "word": "Planet",
+    "meaning": "유성",
+    "example": "This is a good planet.",
+    "category": "기초"
+  },
+  {
+    "word": "Plant",
+    "meaning": "식물, 식물을 심다",
+    "example": "She has a plant.",
+    "category": "기초"
+  },
+  {
+    "word": "Plate",
+    "meaning": "접시",
+    "example": "I need a plate.",
+    "category": "기초"
+  },
+  {
+    "word": "Pleasant",
+    "meaning": "기분 좋은, 유쾌한",
+    "example": "She is pleasant.",
+    "category": "기초"
+  },
+  {
+    "word": "Plenty",
+    "meaning": "풍부, 많은",
+    "example": "We found a plenty.",
+    "category": "기초"
+  },
+  {
+    "word": "Poet",
+    "meaning": "시인",
+    "example": "He feels poet.",
+    "category": "기초"
+  },
+  {
+    "word": "Politely",
+    "meaning": "공손히, 정중하게",
+    "example": "They work politely.",
+    "category": "기초"
+  },
+  {
+    "word": "Pollution",
+    "meaning": "오염",
+    "example": "I need a pollution.",
+    "category": "기초"
+  },
+  {
+    "word": "Pop",
+    "meaning": "펑하고 소리 나다, 대중음악",
+    "example": "I need a pop.",
+    "category": "기초"
+  },
+  {
+    "word": "Popular",
+    "meaning": "인기 있는",
+    "example": "It is very popular.",
+    "category": "기초"
+  },
+  {
+    "word": "Population",
+    "meaning": "인구",
+    "example": "The room looks population.",
+    "category": "기초"
+  },
+  {
+    "word": "Port",
+    "meaning": "항구",
+    "example": "The port is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Possible",
+    "meaning": "가능한",
+    "example": "The room looks possible.",
+    "category": "기초"
+  },
+  {
+    "word": "Post",
+    "meaning": "우편, 우편물",
+    "example": "I need a post.",
+    "category": "기초"
+  },
+  {
+    "word": "Potato",
+    "meaning": "감자",
+    "example": "I need a potato.",
+    "category": "기초"
+  },
+  {
+    "word": "Powder",
+    "meaning": "가루, 화약",
+    "example": "I need a powder.",
+    "category": "기초"
+  },
+  {
+    "word": "Practice",
+    "meaning": "연습하다",
+    "example": "They often practice together.",
+    "category": "기초"
+  },
+  {
+    "word": "Prairie",
+    "meaning": "대초원",
+    "example": "I need a prairie.",
+    "category": "기초"
+  },
+  {
+    "word": "Pray",
+    "meaning": "빌다",
+    "example": "This is a good pray.",
+    "category": "기초"
+  },
+  {
+    "word": "Precious",
+    "meaning": "귀중한",
+    "example": "It is very precious.",
+    "category": "기초"
+  },
+  {
+    "word": "Prepare",
+    "meaning": "준비하다",
+    "example": "Prepare for the exam.",
+    "category": "기초"
+  },
+  {
+    "word": "Present",
+    "meaning": "현재, 선물",
+    "example": "The present is important.",
+    "category": "기초"
+  },
+  {
+    "word": "President",
+    "meaning": "대통령",
+    "example": "We found a president.",
+    "category": "기초"
+  },
+  {
+    "word": "Press",
+    "meaning": "누르다",
+    "example": "She has a press.",
+    "category": "기초"
+  },
+  {
+    "word": "Pretend",
+    "meaning": "~인 체하다",
+    "example": "We need to pretend now.",
+    "category": "기초"
+  },
+  {
+    "word": "Pretty",
+    "meaning": "예쁜, 상당히",
+    "example": "We found a pretty.",
+    "category": "기초"
+  },
+  {
+    "word": "Price",
+    "meaning": "값, 가격",
+    "example": "This is a good price.",
+    "category": "기초"
+  },
+  {
+    "word": "Primary",
+    "meaning": "본래의",
+    "example": "I need a primary.",
+    "category": "기초"
+  },
+  {
+    "word": "Prince",
+    "meaning": "왕자",
+    "example": "This is a good prince.",
+    "category": "기초"
+  },
+  {
+    "word": "Principal",
+    "meaning": "교장, 주요한, 長",
+    "example": "The room looks principal.",
+    "category": "기초"
+  },
+  {
+    "word": "Prison",
+    "meaning": "형무소",
+    "example": "She has a prison.",
+    "category": "기초"
+  },
+  {
+    "word": "Private",
+    "meaning": "개인의",
+    "example": "He feels private.",
+    "category": "기초"
+  },
+  {
+    "word": "Prize",
+    "meaning": "상, 상품",
+    "example": "This is a good prize.",
+    "category": "기초"
+  },
+  {
+    "word": "Probably",
+    "meaning": "아마",
+    "example": "He spoke probably.",
+    "category": "기초"
+  },
+  {
+    "word": "Problem",
+    "meaning": "문제",
+    "example": "She has a problem.",
+    "category": "기초"
+  },
+  {
+    "word": "Produce",
+    "meaning": "생산하다",
+    "example": "They often produce together.",
+    "category": "기초"
+  },
+  {
+    "word": "Product",
+    "meaning": "제품, 결과물",
+    "example": "This is a high-quality product.",
+    "category": "기초"
+  },
+  {
+    "word": "Project",
+    "meaning": "계획, 계획하다",
+    "example": "They often project together.",
+    "category": "기초"
+  },
+  {
+    "word": "Promise",
+    "meaning": "가망, 전망, 약속",
+    "example": "This is a good promise.",
+    "category": "기초"
+  },
+  {
+    "word": "Pronunciation",
+    "meaning": "발음",
+    "example": "I need a pronunciation.",
+    "category": "기초"
+  },
+  {
+    "word": "Properly",
+    "meaning": "적당히, 올바르게",
+    "example": "She walked properly.",
+    "category": "기초"
+  },
+  {
+    "word": "Protect",
+    "meaning": "보호하다",
+    "example": "We need to protect now.",
+    "category": "기초"
+  },
+  {
+    "word": "Proud",
+    "meaning": "자랑스러운, 오만한",
+    "example": "She is proud.",
+    "category": "기초"
+  },
+  {
+    "word": "Prove",
+    "meaning": "증명하다",
+    "example": "They often prove together.",
+    "category": "기초"
+  },
+  {
+    "word": "Proverb",
+    "meaning": "속담",
+    "example": "We found a proverb.",
+    "category": "기초"
+  },
+  {
+    "word": "Public",
+    "meaning": "공중(사회), 공공의, 공중의",
+    "example": "The public is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Pull",
+    "meaning": "잡아당기다, 끌다",
+    "example": "She has a pull.",
+    "category": "기초"
+  },
+  {
+    "word": "Pulse",
+    "meaning": "맥박",
+    "example": "She has a pulse.",
+    "category": "기초"
+  },
+  {
+    "word": "Pumpkin",
+    "meaning": "호박",
+    "example": "She has a pumpkin.",
+    "category": "기초"
+  },
+  {
+    "word": "Puritan",
+    "meaning": "청교도",
+    "example": "The puritan is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Purpose",
+    "meaning": "목적",
+    "example": "What is the purpose of your visit?",
+    "category": "기초"
+  },
+  {
+    "word": "Push",
+    "meaning": "밀다",
+    "example": "I need a push.",
+    "category": "기초"
+  },
+  {
+    "word": "Puzzle",
+    "meaning": "수수께끼",
+    "example": "We found a puzzle.",
+    "category": "기초"
+  },
+  {
+    "word": "Quality",
+    "meaning": "품질, 질",
+    "example": "Quality is more important than quantity.",
+    "category": "기초"
+  },
+  {
+    "word": "Quarter",
+    "meaning": "분의, 분",
+    "example": "This is a good quarter.",
+    "category": "기초"
+  },
+  {
+    "word": "Quiet",
+    "meaning": "조용한",
+    "example": "It is very quiet.",
+    "category": "기초"
+  },
+  {
+    "word": "Quite",
+    "meaning": "아주, 매우",
+    "example": "I need a quite.",
+    "category": "기초"
+  },
+  {
+    "word": "Race",
+    "meaning": "경주, 민족",
+    "example": "I need a race.",
+    "category": "기초"
+  },
+  {
+    "word": "Raise",
+    "meaning": "올리다, 일으키다",
+    "example": "This is a good raise.",
+    "category": "기초"
+  },
+  {
+    "word": "Rapidly",
+    "meaning": "빨리, 신속히",
+    "example": "They work rapidly.",
+    "category": "기초"
+  },
+  {
+    "word": "Rat",
+    "meaning": "쥐, 들쥐",
+    "example": "She has a rat.",
+    "category": "기초"
+  },
+  {
+    "word": "Rate",
+    "meaning": "비율, 속도",
+    "example": "We found a rate.",
+    "category": "기초"
+  },
+  {
+    "word": "Rather",
+    "meaning": "오히려, 얼마간",
+    "example": "This is a good rather.",
+    "category": "기초"
+  },
+  {
+    "word": "Reach",
+    "meaning": "도착하다",
+    "example": "We need to reach now.",
+    "category": "기초"
+  },
+  {
+    "word": "Rear",
+    "meaning": "뒤쪽",
+    "example": "This is a good rear.",
+    "category": "기초"
+  },
+  {
+    "word": "Reason",
+    "meaning": "이유",
+    "example": "Give me a reason for that.",
+    "category": "기초"
+  },
+  {
+    "word": "Receive",
+    "meaning": "받다",
+    "example": "I need a receive.",
+    "category": "기초"
+  },
+  {
+    "word": "Recently",
+    "meaning": "최근에",
+    "example": "He spoke recently.",
+    "category": "기초"
+  },
+  {
+    "word": "Record",
+    "meaning": "기록",
+    "example": "The record is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Reduce",
+    "meaning": "줄이다, 감소시키다",
+    "example": "Reduce the use of plastic.",
+    "category": "기초"
+  },
+  {
+    "word": "Refrigerator",
+    "meaning": "냉장고",
+    "example": "The refrigerator is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Refuse",
+    "meaning": "거절하다",
+    "example": "They often refuse together.",
+    "category": "기초"
+  },
+  {
+    "word": "Regular",
+    "meaning": "규칙적인",
+    "example": "He feels regular.",
+    "category": "기초"
+  },
+  {
+    "word": "Rein",
+    "meaning": "고삐",
+    "example": "The rein is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Relative",
+    "meaning": "친척, 관계가 있는",
+    "example": "She has a relative.",
+    "category": "기초"
+  },
+  {
+    "word": "Relay",
+    "meaning": "교되자, 교대하다",
+    "example": "They often relay together.",
+    "category": "기초"
+  },
+  {
+    "word": "Religious",
+    "meaning": "종교적인",
+    "example": "She is religious.",
+    "category": "기초"
+  },
+  {
+    "word": "Remain",
+    "meaning": "남다",
+    "example": "I need a remain.",
+    "category": "기초"
+  },
+  {
+    "word": "Remember",
+    "meaning": "기억하다",
+    "example": "I remember your face.",
+    "category": "기초"
+  },
+  {
+    "word": "Remind",
+    "meaning": "생각나게 하다",
+    "example": "She wants to remind.",
+    "category": "기초"
+  },
+  {
+    "word": "Remove",
+    "meaning": "옮기다",
+    "example": "She has a remove.",
+    "category": "기초"
+  },
+  {
+    "word": "Repeat",
+    "meaning": "되풀이하다",
+    "example": "She wants to repeat.",
+    "category": "기초"
+  },
+  {
+    "word": "Replace",
+    "meaning": "~을 대신하다, 제 자리에 놓다.",
+    "example": "They often replace together.",
+    "category": "기초"
+  },
+  {
+    "word": "Reply",
+    "meaning": "대답(하다)",
+    "example": "She wants to reply.",
+    "category": "기초"
+  },
+  {
+    "word": "Report",
+    "meaning": "보고, 보고하다",
+    "example": "She wants to report.",
+    "category": "기초"
+  },
+  {
+    "word": "Republic",
+    "meaning": "공화국",
+    "example": "We found a republic.",
+    "category": "기초"
+  },
+  {
+    "word": "Resources",
+    "meaning": "자원, 수단",
+    "example": "This is a good resources.",
+    "category": "기초"
+  },
+  {
+    "word": "Respect",
+    "meaning": "존경 동 존경하다",
+    "example": "They often respect together.",
+    "category": "기초"
+  },
+  {
+    "word": "Rest",
+    "meaning": "휴식, 나머지",
+    "example": "We found a rest.",
+    "category": "기초"
+  },
+  {
+    "word": "Restaurant",
+    "meaning": "식당",
+    "example": "We found a restaurant.",
+    "category": "기초"
+  },
+  {
+    "word": "Result",
+    "meaning": "결과",
+    "example": "The result was surprising.",
+    "category": "기초"
+  },
+  {
+    "word": "Return",
+    "meaning": "돌아가다, 돌아오다",
+    "example": "The return is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Review",
+    "meaning": "검토하다, 복습하다",
+    "example": "Review your notes.",
+    "category": "기초"
+  },
+  {
+    "word": "Revival",
+    "meaning": "부활",
+    "example": "This is a good revival.",
+    "category": "기초"
+  },
+  {
+    "word": "Revolution",
+    "meaning": "혁명",
+    "example": "We found a revolution.",
+    "category": "기초"
+  },
+  {
+    "word": "Rid",
+    "meaning": "제거 하다",
+    "example": "I rid every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Riddle",
+    "meaning": "수수께끼",
+    "example": "This is a good riddle.",
+    "category": "기초"
+  },
+  {
+    "word": "Ride",
+    "meaning": "타다, 타고 가다",
+    "example": "We found a ride.",
+    "category": "기초"
+  },
+  {
+    "word": "Roar",
+    "meaning": "으르렁거리다",
+    "example": "She has a roar.",
+    "category": "기초"
+  },
+  {
+    "word": "Robber",
+    "meaning": "강도",
+    "example": "The robber is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Roll",
+    "meaning": "구르다, 굴리다",
+    "example": "The roll is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Rope",
+    "meaning": "밧줄",
+    "example": "I need a rope.",
+    "category": "기초"
+  },
+  {
+    "word": "Route",
+    "meaning": "길",
+    "example": "I need a route.",
+    "category": "기초"
+  },
+  {
+    "word": "Row",
+    "meaning": "줄, 열",
+    "example": "I need a row.",
+    "category": "기초"
+  },
+  {
+    "word": "Rub",
+    "meaning": "비비다, 문지르다",
+    "example": "I need a rub.",
+    "category": "기초"
+  },
+  {
+    "word": "Rudely",
+    "meaning": "무례하게",
+    "example": "He spoke rudely.",
+    "category": "기초"
+  },
+  {
+    "word": "Ruin",
+    "meaning": "파멸",
+    "example": "The ruin is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Rule",
+    "meaning": "규정하다",
+    "example": "He can rule well.",
+    "category": "기초"
+  },
+  {
+    "word": "Sad",
+    "meaning": "슬픈",
+    "example": "I need a sad.",
+    "category": "기초"
+  },
+  {
+    "word": "Safely",
+    "meaning": "안전하게",
+    "example": "He spoke safely.",
+    "category": "기초"
+  },
+  {
+    "word": "Sail",
+    "meaning": "항해하다, 돛",
+    "example": "We need to sail now.",
+    "category": "기초"
+  },
+  {
+    "word": "Sale",
+    "meaning": "판매, 염가판매",
+    "example": "I need a sale.",
+    "category": "기초"
+  },
+  {
+    "word": "Salt",
+    "meaning": "소금",
+    "example": "The salt is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Sample",
+    "meaning": "견본",
+    "example": "The sample is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Sand",
+    "meaning": "모래, 모래밭",
+    "example": "I need a sand.",
+    "category": "기초"
+  },
+  {
+    "word": "Save",
+    "meaning": "구하다, 저축하다",
+    "example": "She wants to save.",
+    "category": "기초"
+  },
+  {
+    "word": "Saw",
+    "meaning": "톱, 톱으로 켜다",
+    "example": "We found a saw.",
+    "category": "기초"
+  },
+  {
+    "word": "Saying",
+    "meaning": "격언",
+    "example": "She has a saying.",
+    "category": "기초"
+  },
+  {
+    "word": "Scar",
+    "meaning": "상처",
+    "example": "I need a scar.",
+    "category": "기초"
+  },
+  {
+    "word": "Scare",
+    "meaning": "놀라게 하다, 놀라다",
+    "example": "He can scare well.",
+    "category": "기초"
+  },
+  {
+    "word": "Scene",
+    "meaning": "장면, 현장",
+    "example": "We found a scene.",
+    "category": "기초"
+  },
+  {
+    "word": "Schedule",
+    "meaning": "예정표",
+    "example": "This is a good schedule.",
+    "category": "기초"
+  },
+  {
+    "word": "Scholar",
+    "meaning": "학자",
+    "example": "I need a scholar.",
+    "category": "기초"
+  },
+  {
+    "word": "Science",
+    "meaning": "과학",
+    "example": "This is a good science.",
+    "category": "기초"
+  },
+  {
+    "word": "Score",
+    "meaning": "점수",
+    "example": "The score is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Scratch",
+    "meaning": "할퀴다, 긁다",
+    "example": "The scratch is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Scream",
+    "meaning": "날카롭게 소리치다",
+    "example": "The scream is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Sculpture",
+    "meaning": "조각(품)",
+    "example": "I need a sculpture.",
+    "category": "기초"
+  },
+  {
+    "word": "Search",
+    "meaning": "찾다",
+    "example": "I need a search.",
+    "category": "기초"
+  },
+  {
+    "word": "Seat",
+    "meaning": "좌석, 앉히다",
+    "example": "The seat is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Secretary",
+    "meaning": "비서",
+    "example": "I need a secretary.",
+    "category": "기초"
+  },
+  {
+    "word": "Section",
+    "meaning": "부분, 구역",
+    "example": "I need a section.",
+    "category": "기초"
+  },
+  {
+    "word": "Seed",
+    "meaning": "씨, 씨를 뿌리다",
+    "example": "This is a good seed.",
+    "category": "기초"
+  },
+  {
+    "word": "Seldom",
+    "meaning": "좀처럼 ~하지 않다",
+    "example": "This is a good seldom.",
+    "category": "기초"
+  },
+  {
+    "word": "Select",
+    "meaning": "고르다, 선발한",
+    "example": "This is select.",
+    "category": "기초"
+  },
+  {
+    "word": "Semester",
+    "meaning": "학기",
+    "example": "I need a semester.",
+    "category": "기초"
+  },
+  {
+    "word": "Senior",
+    "meaning": "선배, 손위에",
+    "example": "The senior is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Sentence",
+    "meaning": "문장",
+    "example": "We found a sentence.",
+    "category": "기초"
+  },
+  {
+    "word": "Series",
+    "meaning": "연속, 시리즈",
+    "example": "She has a series.",
+    "category": "기초"
+  },
+  {
+    "word": "Serious",
+    "meaning": "진지한",
+    "example": "He feels serious.",
+    "category": "기초"
+  },
+  {
+    "word": "Servant",
+    "meaning": "하인",
+    "example": "She is servant.",
+    "category": "기초"
+  },
+  {
+    "word": "Service",
+    "meaning": "서비스, 봉사",
+    "example": "The service here is excellent.",
+    "category": "기초"
+  },
+  {
+    "word": "Settler",
+    "meaning": "이주민",
+    "example": "She has a settler.",
+    "category": "기초"
+  },
+  {
+    "word": "Several",
+    "meaning": "여럿의, 몇몇의",
+    "example": "This is a good several.",
+    "category": "기초"
+  },
+  {
+    "word": "Shade",
+    "meaning": "그늘",
+    "example": "I need a shade.",
+    "category": "기초"
+  },
+  {
+    "word": "Shadow",
+    "meaning": "그림자",
+    "example": "The shadow is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Shake",
+    "meaning": "떨다, 흔들다",
+    "example": "She has a shake.",
+    "category": "기초"
+  },
+  {
+    "word": "Shape",
+    "meaning": "모양",
+    "example": "We found a shape.",
+    "category": "기초"
+  },
+  {
+    "word": "Sharp",
+    "meaning": "날카로운",
+    "example": "The room looks sharp.",
+    "category": "기초"
+  },
+  {
+    "word": "Sheep",
+    "meaning": "양",
+    "example": "This is a good sheep.",
+    "category": "기초"
+  },
+  {
+    "word": "Sheet",
+    "meaning": "침대의 시트, 종이 한 장",
+    "example": "This is sheet.",
+    "category": "기초"
+  },
+  {
+    "word": "Shell",
+    "meaning": "조개",
+    "example": "This is a good shell.",
+    "category": "기초"
+  },
+  {
+    "word": "Shine",
+    "meaning": "빛나다",
+    "example": "The shine is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Shock",
+    "meaning": "충격, 충격을 주다",
+    "example": "We found a shock.",
+    "category": "기초"
+  },
+  {
+    "word": "Shoot",
+    "meaning": "쏘다, 사격하다",
+    "example": "She wants to shoot.",
+    "category": "기초"
+  },
+  {
+    "word": "Shore",
+    "meaning": "물가, 바닷가",
+    "example": "We found a shore.",
+    "category": "기초"
+  },
+  {
+    "word": "Short",
+    "meaning": "짧은, 키가 작은",
+    "example": "I need a short.",
+    "category": "기초"
+  },
+  {
+    "word": "Shoulder",
+    "meaning": "어깨",
+    "example": "This is a good shoulder.",
+    "category": "기초"
+  },
+  {
+    "word": "Shout",
+    "meaning": "외치다",
+    "example": "This is a good shout.",
+    "category": "기초"
+  },
+  {
+    "word": "Shower",
+    "meaning": "소나기, 샤워",
+    "example": "The shower is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Shrug",
+    "meaning": "어깨를 으쓱하다",
+    "example": "We need to shrug now.",
+    "category": "기초"
+  },
+  {
+    "word": "Shut",
+    "meaning": "닫다",
+    "example": "The shut is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Sick",
+    "meaning": "병든, 싫증난",
+    "example": "The sick is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Sigh",
+    "meaning": "한숨 쉬다",
+    "example": "This is sigh.",
+    "category": "기초"
+  },
+  {
+    "word": "Sight",
+    "meaning": "광경, 경치",
+    "example": "We found a sight.",
+    "category": "기초"
+  },
+  {
+    "word": "Sign",
+    "meaning": "신호, 구호",
+    "example": "The sign is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Silent",
+    "meaning": "조용한, 침묵의",
+    "example": "She is silent.",
+    "category": "기초"
+  },
+  {
+    "word": "Silk",
+    "meaning": "비단",
+    "example": "This is a good silk.",
+    "category": "기초"
+  },
+  {
+    "word": "Silly",
+    "meaning": "어리석은",
+    "example": "He spoke silly.",
+    "category": "기초"
+  },
+  {
+    "word": "Similar",
+    "meaning": "비슷한",
+    "example": "She is similar.",
+    "category": "기초"
+  },
+  {
+    "word": "Simple",
+    "meaning": "간단한, 단순한",
+    "example": "This is simple.",
+    "category": "기초"
+  },
+  {
+    "word": "Since",
+    "meaning": "그 후, 그 이래",
+    "example": "We found a since.",
+    "category": "기초"
+  },
+  {
+    "word": "Sincerely",
+    "meaning": "성실히",
+    "example": "They work sincerely.",
+    "category": "기초"
+  },
+  {
+    "word": "Single",
+    "meaning": "독신의",
+    "example": "This is a good single.",
+    "category": "기초"
+  },
+  {
+    "word": "Sink",
+    "meaning": "가라앉다",
+    "example": "This is a good sink.",
+    "category": "기초"
+  },
+  {
+    "word": "Site",
+    "meaning": "부지",
+    "example": "This is a good site.",
+    "category": "기초"
+  },
+  {
+    "word": "Situation",
+    "meaning": "상황",
+    "example": "The situation is changing.",
+    "category": "기초"
+  },
+  {
+    "word": "Skill",
+    "meaning": "숙련, 솜씨",
+    "example": "She has a skill.",
+    "category": "기초"
+  },
+  {
+    "word": "Slave",
+    "meaning": "노예",
+    "example": "We found a slave.",
+    "category": "기초"
+  },
+  {
+    "word": "Sleep",
+    "meaning": "자다",
+    "example": "I need a sleep.",
+    "category": "기초"
+  },
+  {
+    "word": "Slide",
+    "meaning": "미끄러지다",
+    "example": "I need a slide.",
+    "category": "기초"
+  },
+  {
+    "word": "Slip",
+    "meaning": "미끄러짐",
+    "example": "The slip is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Smart",
+    "meaning": "산뜻한",
+    "example": "It is very smart.",
+    "category": "기초"
+  },
+  {
+    "word": "Smell",
+    "meaning": "냄새를 맡다, 냄새",
+    "example": "We found a smell.",
+    "category": "기초"
+  },
+  {
+    "word": "Smoke",
+    "meaning": "담배를 피우다, 연기",
+    "example": "I need a smoke.",
+    "category": "기초"
+  },
+  {
+    "word": "Snake",
+    "meaning": "뱀",
+    "example": "She has a snake.",
+    "category": "기초"
+  },
+  {
+    "word": "Sniff",
+    "meaning": "냄새 맡다",
+    "example": "We found a sniff.",
+    "category": "기초"
+  },
+  {
+    "word": "Social",
+    "meaning": "사회의",
+    "example": "I need a social.",
+    "category": "기초"
+  },
+  {
+    "word": "Solar",
+    "meaning": "태양의",
+    "example": "I need a solar.",
+    "category": "기초"
+  },
+  {
+    "word": "Soldier",
+    "meaning": "군인, 병사",
+    "example": "She is soldier.",
+    "category": "기초"
+  },
+  {
+    "word": "Solution",
+    "meaning": "해결, 용해",
+    "example": "We found a solution.",
+    "category": "기초"
+  },
+  {
+    "word": "Sometime",
+    "meaning": "언젠가",
+    "example": "I need a sometime.",
+    "category": "기초"
+  },
+  {
+    "word": "Sophomore",
+    "meaning": "학년생",
+    "example": "I need a sophomore.",
+    "category": "기초"
+  },
+  {
+    "word": "Sore",
+    "meaning": "아픈",
+    "example": "This is a good sore.",
+    "category": "기초"
+  },
+  {
+    "word": "Sound",
+    "meaning": "소리가 나다, 소리",
+    "example": "This is a good sound.",
+    "category": "기초"
+  },
+  {
+    "word": "Source",
+    "meaning": "출처, 근원",
+    "example": "She has a source.",
+    "category": "기초"
+  },
+  {
+    "word": "Sow",
+    "meaning": "씨를 뿌리다",
+    "example": "The sow is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Space",
+    "meaning": "공간, 우주",
+    "example": "This is a good space.",
+    "category": "기초"
+  },
+  {
+    "word": "Spade",
+    "meaning": "삽",
+    "example": "She has a spade.",
+    "category": "기초"
+  },
+  {
+    "word": "Special",
+    "meaning": "특별한",
+    "example": "The room looks special.",
+    "category": "기초"
+  },
+  {
+    "word": "Speech",
+    "meaning": "말, 연설",
+    "example": "We found a speech.",
+    "category": "기초"
+  },
+  {
+    "word": "Spend",
+    "meaning": "소비하다, 지내다",
+    "example": "They often spend together.",
+    "category": "기초"
+  },
+  {
+    "word": "Spirit",
+    "meaning": "정신",
+    "example": "She has a spirit.",
+    "category": "기초"
+  },
+  {
+    "word": "Spot",
+    "meaning": "지점",
+    "example": "The spot is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Square",
+    "meaning": "정사각형, 광장",
+    "example": "The square is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Squirrel",
+    "meaning": "다람쥐",
+    "example": "This is a good squirrel.",
+    "category": "기초"
+  },
+  {
+    "word": "Stadium",
+    "meaning": "(육상)경기장",
+    "example": "I need a stadium.",
+    "category": "기초"
+  },
+  {
+    "word": "Stage",
+    "meaning": "무대",
+    "example": "I need a stage.",
+    "category": "기초"
+  },
+  {
+    "word": "Stair",
+    "meaning": "계단",
+    "example": "I need a stair.",
+    "category": "기초"
+  },
+  {
+    "word": "Stare",
+    "meaning": "응시하다",
+    "example": "We need to stare now.",
+    "category": "기초"
+  },
+  {
+    "word": "State",
+    "meaning": "상태, 국가",
+    "example": "We found a state.",
+    "category": "기초"
+  },
+  {
+    "word": "Statue",
+    "meaning": "조각상",
+    "example": "She has a statue.",
+    "category": "기초"
+  },
+  {
+    "word": "Stay",
+    "meaning": "머무르다",
+    "example": "We found a stay.",
+    "category": "기초"
+  },
+  {
+    "word": "Steady",
+    "meaning": "확고한",
+    "example": "He feels steady.",
+    "category": "기초"
+  },
+  {
+    "word": "Steal",
+    "meaning": "훔치다",
+    "example": "The steal is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Stem",
+    "meaning": "줄기",
+    "example": "This is a good stem.",
+    "category": "기초"
+  },
+  {
+    "word": "Step",
+    "meaning": "걸음, 걷다",
+    "example": "We found a step.",
+    "category": "기초"
+  },
+  {
+    "word": "Stethoscope",
+    "meaning": "청진기",
+    "example": "We found a stethoscope.",
+    "category": "기초"
+  },
+  {
+    "word": "Stomach",
+    "meaning": "위",
+    "example": "She has a stomach.",
+    "category": "기초"
+  },
+  {
+    "word": "Stone",
+    "meaning": "돌",
+    "example": "We found a stone.",
+    "category": "기초"
+  },
+  {
+    "word": "Store",
+    "meaning": "가게, 저축하다",
+    "example": "She wants to store.",
+    "category": "기초"
+  },
+  {
+    "word": "Stormy",
+    "meaning": "폭풍의",
+    "example": "We found a stormy.",
+    "category": "기초"
+  },
+  {
+    "word": "Straight",
+    "meaning": "똑바른",
+    "example": "The straight is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Strange",
+    "meaning": "이상한, 낯선",
+    "example": "He feels strange.",
+    "category": "기초"
+  },
+  {
+    "word": "Stream",
+    "meaning": "흐름, 흐르다",
+    "example": "The stream is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Stress",
+    "meaning": "압박, 강조하다",
+    "example": "I stress every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Stripe",
+    "meaning": "줄무늬",
+    "example": "I need a stripe.",
+    "category": "기초"
+  },
+  {
+    "word": "Struggle",
+    "meaning": "분투노력하다, 싸우다",
+    "example": "She wants to struggle.",
+    "category": "기초"
+  },
+  {
+    "word": "Stupid",
+    "meaning": "어리석은",
+    "example": "I need a stupid.",
+    "category": "기초"
+  },
+  {
+    "word": "Subject",
+    "meaning": "학과, 주제, 주어",
+    "example": "This is a good subject.",
+    "category": "기초"
+  },
+  {
+    "word": "Suburb",
+    "meaning": "교외",
+    "example": "This is a good suburb.",
+    "category": "기초"
+  },
+  {
+    "word": "Subway",
+    "meaning": "지하도, 지하철",
+    "example": "We found a subway.",
+    "category": "기초"
+  },
+  {
+    "word": "Success",
+    "meaning": "성공",
+    "example": "Hard work is the key to success.",
+    "category": "기초"
+  },
+  {
+    "word": "Successful",
+    "meaning": "성공한",
+    "example": "This is successful.",
+    "category": "기초"
+  },
+  {
+    "word": "Such",
+    "meaning": "그러한, 이러한",
+    "example": "This is such.",
+    "category": "기초"
+  },
+  {
+    "word": "Suck",
+    "meaning": "빨다",
+    "example": "We found a suck.",
+    "category": "기초"
+  },
+  {
+    "word": "Suddenly",
+    "meaning": "갑자기",
+    "example": "She walked suddenly.",
+    "category": "기초"
+  },
+  {
+    "word": "Suffer",
+    "meaning": "겪다",
+    "example": "I need a suffer.",
+    "category": "기초"
+  },
+  {
+    "word": "Sugar",
+    "meaning": "설탕",
+    "example": "I need a sugar.",
+    "category": "기초"
+  },
+  {
+    "word": "Suitcase",
+    "meaning": "여행가방",
+    "example": "The suitcase is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Sunrise",
+    "meaning": "해돋이",
+    "example": "I need a sunrise.",
+    "category": "기초"
+  },
+  {
+    "word": "Sunshine",
+    "meaning": "햇빛",
+    "example": "This is a good sunshine.",
+    "category": "기초"
+  },
+  {
+    "word": "Superstition",
+    "meaning": "미신",
+    "example": "The superstition is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Supply",
+    "meaning": "공급, 공급하다",
+    "example": "She wants to supply.",
+    "category": "기초"
+  },
+  {
+    "word": "Support",
+    "meaning": "지지하다, 후원하다",
+    "example": "I will support your idea.",
+    "category": "기초"
+  },
+  {
+    "word": "Suppose",
+    "meaning": "상상하다, 생각하다",
+    "example": "I suppose every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Surface",
+    "meaning": "표면",
+    "example": "We found a surface.",
+    "category": "기초"
+  },
+  {
+    "word": "Surprise",
+    "meaning": "놀라다, 놀람",
+    "example": "She has a surprise.",
+    "category": "기초"
+  },
+  {
+    "word": "Surround",
+    "meaning": "둘러싸다.",
+    "example": "The surround is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Survive",
+    "meaning": "~보다 오래 살다, ~에서 살아남다",
+    "example": "This is a good survive.",
+    "category": "기초"
+  },
+  {
+    "word": "Sweet",
+    "meaning": "달콤한",
+    "example": "This is sweet.",
+    "category": "기초"
+  },
+  {
+    "word": "Swing",
+    "meaning": "그네, 진동",
+    "example": "I need a swing.",
+    "category": "기초"
+  },
+  {
+    "word": "Sword",
+    "meaning": "칼",
+    "example": "She has a sword.",
+    "category": "기초"
+  },
+  {
+    "word": "Symbol",
+    "meaning": "상징",
+    "example": "The symbol is important.",
+    "category": "기초"
+  },
+  {
+    "word": "System",
+    "meaning": "조직, 체계, 지도",
+    "example": "I need a system.",
+    "category": "기초"
+  },
+  {
+    "word": "Tail",
+    "meaning": "꼬리",
+    "example": "The tail is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Taste",
+    "meaning": "맛, 취미",
+    "example": "I need a taste.",
+    "category": "기초"
+  },
+  {
+    "word": "Tax",
+    "meaning": "세금",
+    "example": "We found a tax.",
+    "category": "기초"
+  },
+  {
+    "word": "Tear",
+    "meaning": "찢다, 찢어지다",
+    "example": "I need a tear.",
+    "category": "기초"
+  },
+  {
+    "word": "Teenager",
+    "meaning": "대 소년소녀",
+    "example": "The teenager is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Telephone",
+    "meaning": "전화, 전화를 걸다",
+    "example": "The telephone is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Temperature",
+    "meaning": "온도, 체온",
+    "example": "I need a temperature.",
+    "category": "기초"
+  },
+  {
+    "word": "Temple",
+    "meaning": "절, 사원",
+    "example": "The temple is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Terrible",
+    "meaning": "끔직한, 무서운",
+    "example": "The room looks terrible.",
+    "category": "기초"
+  },
+  {
+    "word": "Theater",
+    "meaning": "극장",
+    "example": "I need a theater.",
+    "category": "기초"
+  },
+  {
+    "word": "Thermometer",
+    "meaning": "온도계",
+    "example": "I need a thermometer.",
+    "category": "기초"
+  },
+  {
+    "word": "Thief",
+    "meaning": "도둑",
+    "example": "The thief is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Thin",
+    "meaning": "얇은, 야윈",
+    "example": "We found a thin.",
+    "category": "기초"
+  },
+  {
+    "word": "Thirsty",
+    "meaning": "목마른",
+    "example": "The thirsty is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Though",
+    "meaning": "비록 ~일지라도",
+    "example": "The though is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Throat",
+    "meaning": "목구멍",
+    "example": "The throat is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Throw",
+    "meaning": "던지다",
+    "example": "This is a good throw.",
+    "category": "기초"
+  },
+  {
+    "word": "Thumb",
+    "meaning": "엄지손가락",
+    "example": "She has a thumb.",
+    "category": "기초"
+  },
+  {
+    "word": "Ticket",
+    "meaning": "표, 입장권",
+    "example": "This is a good ticket.",
+    "category": "기초"
+  },
+  {
+    "word": "Tie",
+    "meaning": "매다, 묶다",
+    "example": "This is a good tie.",
+    "category": "기초"
+  },
+  {
+    "word": "Tightly",
+    "meaning": "단단히",
+    "example": "She walked tightly.",
+    "category": "기초"
+  },
+  {
+    "word": "Tiny",
+    "meaning": "몹시 작은",
+    "example": "We found a tiny.",
+    "category": "기초"
+  },
+  {
+    "word": "Together",
+    "meaning": "함께",
+    "example": "The together is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Tomb",
+    "meaning": "묘, 무덤",
+    "example": "She has a tomb.",
+    "category": "기초"
+  },
+  {
+    "word": "Tongue",
+    "meaning": "혀",
+    "example": "The tongue is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Tool",
+    "meaning": "도구",
+    "example": "We found a tool.",
+    "category": "기초"
+  },
+  {
+    "word": "Tooth",
+    "meaning": "이",
+    "example": "I need a tooth.",
+    "category": "기초"
+  },
+  {
+    "word": "Torch",
+    "meaning": "횃불",
+    "example": "She has a torch.",
+    "category": "기초"
+  },
+  {
+    "word": "Touch",
+    "meaning": "닿다, 감동시키다",
+    "example": "She has a touch.",
+    "category": "기초"
+  },
+  {
+    "word": "Tough",
+    "meaning": "단단한",
+    "example": "The room looks tough.",
+    "category": "기초"
+  },
+  {
+    "word": "Tourist",
+    "meaning": "여행자, 관광객",
+    "example": "We found a tourist.",
+    "category": "기초"
+  },
+  {
+    "word": "Toward",
+    "meaning": "~쪽으로",
+    "example": "This is a good toward.",
+    "category": "기초"
+  },
+  {
+    "word": "Towel",
+    "meaning": "수건, 타월",
+    "example": "The towel is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Tower",
+    "meaning": "탑",
+    "example": "I need a tower.",
+    "category": "기초"
+  },
+  {
+    "word": "Town",
+    "meaning": "읍, 도시",
+    "example": "This is a good town.",
+    "category": "기초"
+  },
+  {
+    "word": "Track",
+    "meaning": "지나간 자국, 선로",
+    "example": "She has a track.",
+    "category": "기초"
+  },
+  {
+    "word": "Tradition",
+    "meaning": "전통, 전설",
+    "example": "She has a tradition.",
+    "category": "기초"
+  },
+  {
+    "word": "Traffic",
+    "meaning": "교통",
+    "example": "I need a traffic.",
+    "category": "기초"
+  },
+  {
+    "word": "Travel",
+    "meaning": "여행하다, 여행",
+    "example": "We need to travel now.",
+    "category": "기초"
+  },
+  {
+    "word": "Treasure",
+    "meaning": "보물",
+    "example": "The treasure is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Treat",
+    "meaning": "다루다",
+    "example": "The treat is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Trick",
+    "meaning": "계략, 속임수",
+    "example": "She has a trick.",
+    "category": "기초"
+  },
+  {
+    "word": "Trip",
+    "meaning": "여행",
+    "example": "This is a good trip.",
+    "category": "기초"
+  },
+  {
+    "word": "Triumph",
+    "meaning": "승리",
+    "example": "She has a triumph.",
+    "category": "기초"
+  },
+  {
+    "word": "Trouble",
+    "meaning": "고생, 걱정하다",
+    "example": "She wants to trouble.",
+    "category": "기초"
+  },
+  {
+    "word": "Trousers",
+    "meaning": "바지",
+    "example": "I need a trousers.",
+    "category": "기초"
+  },
+  {
+    "word": "True",
+    "meaning": "진실한",
+    "example": "The room looks true.",
+    "category": "기초"
+  },
+  {
+    "word": "Trumpet",
+    "meaning": "나팔",
+    "example": "I need a trumpet.",
+    "category": "기초"
+  },
+  {
+    "word": "Trust",
+    "meaning": "신용",
+    "example": "The trust is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Turkey",
+    "meaning": "칠면조",
+    "example": "She has a turkey.",
+    "category": "기초"
+  },
+  {
+    "word": "Turn",
+    "meaning": "돌다, 변화하다",
+    "example": "I turn every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Turtle",
+    "meaning": "바다거북",
+    "example": "I need a turtle.",
+    "category": "기초"
+  },
+  {
+    "word": "Twice",
+    "meaning": "두 번",
+    "example": "We found a twice.",
+    "category": "기초"
+  },
+  {
+    "word": "Twin",
+    "meaning": "쌍둥이의 한 사람",
+    "example": "He feels twin.",
+    "category": "기초"
+  },
+  {
+    "word": "Type",
+    "meaning": "유형",
+    "example": "This is a good type.",
+    "category": "기초"
+  },
+  {
+    "word": "Umbrella",
+    "meaning": "우산",
+    "example": "We found a umbrella.",
+    "category": "기초"
+  },
+  {
+    "word": "Understand",
+    "meaning": "이해하다, 알다",
+    "example": "He can understand well.",
+    "category": "기초"
+  },
+  {
+    "word": "Uniform",
+    "meaning": "제복, 한 모양의",
+    "example": "The room looks uniform.",
+    "category": "기초"
+  },
+  {
+    "word": "Unity",
+    "meaning": "통일/일치",
+    "example": "The unity is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Universe",
+    "meaning": "우주, 전 세계",
+    "example": "We found a universe.",
+    "category": "기초"
+  },
+  {
+    "word": "Unless",
+    "meaning": "~하지 않으면",
+    "example": "This is a good unless.",
+    "category": "기초"
+  },
+  {
+    "word": "Unlike",
+    "meaning": "같지 않은",
+    "example": "I need a unlike.",
+    "category": "기초"
+  },
+  {
+    "word": "Upset",
+    "meaning": "뒤엎다, 당황하게 한다.",
+    "example": "It is very upset.",
+    "category": "기초"
+  },
+  {
+    "word": "Upside",
+    "meaning": "down 거꾸로",
+    "example": "We found a upside.",
+    "category": "기초"
+  },
+  {
+    "word": "Useless",
+    "meaning": "쓸모없는",
+    "example": "This is a good useless.",
+    "category": "기초"
+  },
+  {
+    "word": "Usually",
+    "meaning": "보통, 대개",
+    "example": "They work usually.",
+    "category": "기초"
+  },
+  {
+    "word": "Vacation",
+    "meaning": "휴가",
+    "example": "We found a vacation.",
+    "category": "기초"
+  },
+  {
+    "word": "Vain",
+    "meaning": "무익한",
+    "example": "This is vain.",
+    "category": "기초"
+  },
+  {
+    "word": "Valley",
+    "meaning": "골짜기, 계곡",
+    "example": "The valley is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Valuable",
+    "meaning": "귀중한",
+    "example": "This is valuable.",
+    "category": "기초"
+  },
+  {
+    "word": "Value",
+    "meaning": "가치",
+    "example": "Health is of great value.",
+    "category": "기초"
+  },
+  {
+    "word": "Various",
+    "meaning": "여러 가지의",
+    "example": "She has a various.",
+    "category": "기초"
+  },
+  {
+    "word": "Vegetable",
+    "meaning": "야채",
+    "example": "We found a vegetable.",
+    "category": "기초"
+  },
+  {
+    "word": "View",
+    "meaning": "경치, 의견",
+    "example": "The view is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Village",
+    "meaning": "마을",
+    "example": "This is a good village.",
+    "category": "기초"
+  },
+  {
+    "word": "Voice",
+    "meaning": "목소리",
+    "example": "I need a voice.",
+    "category": "기초"
+  },
+  {
+    "word": "Vote",
+    "meaning": "투표하다, 투표",
+    "example": "They often vote together.",
+    "category": "기초"
+  },
+  {
+    "word": "Voyage",
+    "meaning": "항해",
+    "example": "We found a voyage.",
+    "category": "기초"
+  },
+  {
+    "word": "Wagon",
+    "meaning": "짐마차",
+    "example": "I need a wagon.",
+    "category": "기초"
+  },
+  {
+    "word": "Wake",
+    "meaning": "깨다, 깨우다",
+    "example": "This is a good wake.",
+    "category": "기초"
+  },
+  {
+    "word": "War",
+    "meaning": "전쟁",
+    "example": "She has a war.",
+    "category": "기초"
+  },
+  {
+    "word": "Warn",
+    "meaning": "경고하다",
+    "example": "He can warn well.",
+    "category": "기초"
+  },
+  {
+    "word": "Waste",
+    "meaning": "낭비하다",
+    "example": "She wants to waste.",
+    "category": "기초"
+  },
+  {
+    "word": "Watch",
+    "meaning": "손목시계, 주의",
+    "example": "We found a watch.",
+    "category": "기초"
+  },
+  {
+    "word": "Weak",
+    "meaning": "약한",
+    "example": "It is very weak.",
+    "category": "기초"
+  },
+  {
+    "word": "Wealth",
+    "meaning": "재산, 부",
+    "example": "This is a good wealth.",
+    "category": "기초"
+  },
+  {
+    "word": "Wear",
+    "meaning": "입다, 착용하다",
+    "example": "He can wear well.",
+    "category": "기초"
+  },
+  {
+    "word": "Weather",
+    "meaning": "날씨",
+    "example": "I need a weather.",
+    "category": "기초"
+  },
+  {
+    "word": "Wedding",
+    "meaning": "결혼, 결혼식",
+    "example": "This is a good wedding.",
+    "category": "기초"
+  },
+  {
+    "word": "Weight",
+    "meaning": "무게",
+    "example": "I need a weight.",
+    "category": "기초"
+  },
+  {
+    "word": "Wet",
+    "meaning": "젖은",
+    "example": "I need a wet.",
+    "category": "기초"
+  },
+  {
+    "word": "Whether",
+    "meaning": "~인지 어떤지",
+    "example": "It is very whether.",
+    "category": "기초"
+  },
+  {
+    "word": "While",
+    "meaning": "~하는 동안",
+    "example": "This is a good while.",
+    "category": "기초"
+  },
+  {
+    "word": "Whisker",
+    "meaning": "구레나룻",
+    "example": "This is a good whisker.",
+    "category": "기초"
+  },
+  {
+    "word": "Whisper",
+    "meaning": "속삭이다",
+    "example": "She has a whisper.",
+    "category": "기초"
+  },
+  {
+    "word": "Whistle",
+    "meaning": "휘파람을 불다, 휘파람",
+    "example": "She has a whistle.",
+    "category": "기초"
+  },
+  {
+    "word": "Whole",
+    "meaning": "전부, 전부의",
+    "example": "This is a good whole.",
+    "category": "기초"
+  },
+  {
+    "word": "Wide",
+    "meaning": "넓은, 널리",
+    "example": "We found a wide.",
+    "category": "기초"
+  },
+  {
+    "word": "Wild",
+    "meaning": "야생의, 난폭한",
+    "example": "The room looks wild.",
+    "category": "기초"
+  },
+  {
+    "word": "Win",
+    "meaning": "이기다, 얻다",
+    "example": "We found a win.",
+    "category": "기초"
+  },
+  {
+    "word": "Wink",
+    "meaning": "눈을 깜박거리다, 눈짓하다",
+    "example": "I wink every day.",
+    "category": "기초"
+  },
+  {
+    "word": "Wise",
+    "meaning": "현명한",
+    "example": "He feels wise.",
+    "category": "기초"
+  },
+  {
+    "word": "Wish",
+    "meaning": "소원, 원하다",
+    "example": "She wants to wish.",
+    "category": "기초"
+  },
+  {
+    "word": "Without",
+    "meaning": "~없이",
+    "example": "The without is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Wolf",
+    "meaning": "이리, 늑대",
+    "example": "She has a wolf.",
+    "category": "기초"
+  },
+  {
+    "word": "Wonderful",
+    "meaning": "놀랄만한, 훌륭한",
+    "example": "This is wonderful.",
+    "category": "기초"
+  },
+  {
+    "word": "Wood",
+    "meaning": "나무, 숲",
+    "example": "She has a wood.",
+    "category": "기초"
+  },
+  {
+    "word": "Wool",
+    "meaning": "양모",
+    "example": "This is a good wool.",
+    "category": "기초"
+  },
+  {
+    "word": "Word",
+    "meaning": "낱말, 단어",
+    "example": "This is a good word.",
+    "category": "기초"
+  },
+  {
+    "word": "Worry",
+    "meaning": "걱정하다, 괴롭히다",
+    "example": "She wants to worry.",
+    "category": "기초"
+  },
+  {
+    "word": "Worth",
+    "meaning": "가치, ~에 가치가 있는",
+    "example": "She has a worth.",
+    "category": "기초"
+  },
+  {
+    "word": "Wound",
+    "meaning": "상처, 부상",
+    "example": "I need a wound.",
+    "category": "기초"
+  },
+  {
+    "word": "Wrap",
+    "meaning": "싸다",
+    "example": "The wrap is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Wrong",
+    "meaning": "나쁜, 틀린",
+    "example": "The wrong is important.",
+    "category": "기초"
+  },
+  {
+    "word": "Yell",
+    "meaning": "외치다",
+    "example": "We found a yell.",
+    "category": "기초"
+  }
+]
