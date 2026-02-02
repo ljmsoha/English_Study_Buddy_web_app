@@ -4,6 +4,8 @@ let currentIndex = 0;
 let currentSet = [];
 let currentMode = 'Words';
 let allWords = [];
+let totalWordsCount = 0;
+let currentGroupIndex = 0;
 
 // 초기화
 document.addEventListener('DOMContentLoaded', async () => {
@@ -25,6 +27,9 @@ async function initApp() {
         sessionId = data.session_id;
         currentSet = data.current_set;
         allWords = data.categories;
+        totalWordsCount = data.total_words_count || 0;
+        currentGroupIndex = data.current_group_index || 0;
+        document.getElementById('totalWords').textContent = `총: ${totalWordsCount}개`;
         
         // 카테고리 채우기
         const categorySelect = document.getElementById('categorySelect');
@@ -66,9 +71,19 @@ function showUserProgress(progress, message, reviewMode) {
 }
 
 function displayWord() {
-    if (!currentSet || currentSet.length === 0) return;
+    if (!currentSet || currentSet.length === 0) {
+        console.error('currentSet이 비어있습니다.');
+        return;
+    }
+    
+    if (currentIndex >= currentSet.length) {
+        console.error(`currentIndex(${currentIndex})가 범위를 벗어났습니다. currentSet.length=${currentSet.length}`);
+        return;
+    }
     
     const word = currentSet[currentIndex];
+    console.log('displayWord:', {currentMode, currentIndex, word});
+    
     const meaningDisplay = document.getElementById('meaningDisplay');
     
     let displayText = word.meaning;
@@ -89,8 +104,15 @@ function displayWord() {
 }
 
 function updateStats() {
-    document.getElementById('wordStats').textContent = `단어: ${currentIndex + 1}/3`;
-    document.getElementById('setStats').textContent = `세트: ${Math.floor(currentIndex / 3) + 1}/3`;
+    const totalWords = currentSet.length;
+    const currentSetNum = Math.floor(currentIndex / 3) + 1;
+    const totalSets = Math.ceil(totalWords / 3);
+    
+    // 절대 위치 계산: (현재 묶음 시작 위치) + (현재 인덱스) + 1
+    const absolutePosition = (currentGroupIndex * 3) + currentIndex + 1;
+    
+    document.getElementById('wordStats').textContent = `단어: ${absolutePosition}/${totalWordsCount}`;
+    document.getElementById('setStats').textContent = `세트: ${currentSetNum}/${totalSets}`;
 }
 
 async function checkAnswer() {
@@ -114,20 +136,35 @@ async function checkAnswer() {
         const data = await response.json();
         const resultDiv = document.getElementById('resultMessage');
         
+        // 정확도 업데이트
+        if (data.accuracy !== undefined) {
+            document.getElementById('accuracyStats').textContent = `정확도: ${data.accuracy}%`;
+        }
+        
         if (data.is_correct) {
             if (currentMode === 'ed') {
-                resultDiv.textContent = `✅ 정답: ${word.word} → ${word.past_tense}`;
+                resultDiv.innerHTML = `✅ 정답: ${word.word} → ${word.past_tense}<br><br><span style="color: #666; font-size: 13px;">👉 Enter를 눌러 다음 단어로 이동</span>`;
             } else if (currentMode === 'yb') {
-                resultDiv.textContent = `✅ 정답: ${word.word}`;
+                resultDiv.innerHTML = `✅ 정답: <strong>${word.word}</strong><br><br><span style="color: #666; font-size: 13px;">👉 Enter를 눌러 다음 단어로 이동</span>`;
             } else {
-                resultDiv.textContent = `✅ 정답: ${word.word}`;
+                // 단어를 두껍게 표시
+                const exampleWithBold = word.example ? word.example.replace(new RegExp(`\\b${word.word}\\b`, 'gi'), `<strong>$&</strong>`) : '';
+                const meaningWithBold = word.meaning ? word.meaning.replace(new RegExp(`\\b${word.word}\\b`, 'gi'), `<strong>$&</strong>`) : word.meaning;
+                
+                // 예문 한글 번역 추가 (example_kr 필드가 있으면 사용)
+                const exampleKorean = word.example_kr ? `<br><span style="color: #666; font-size: 14px; margin-left: 20px;">→ ${word.example_kr}</span>` : '';
+                
+                resultDiv.innerHTML = `✅ 정답: <strong>${word.word}</strong><br><br>
+                    📝 예문: ${exampleWithBold}${exampleKorean}<br>
+                    💡 뜻: ${meaningWithBold}<br><br>
+                    <span style="color: #666; font-size: 13px;">👉 Enter를 눌러 다음 단어로 이동</span>`;
             }
             resultDiv.className = 'result-message correct';
             playAudio();
             
-            setTimeout(() => {
-                nextWord();
-            }, 1000);
+            // Enter 키로 다음 단어로 이동하도록 설정
+            document.getElementById('answerInput').value = '';
+            document.getElementById('answerInput').dataset.correctAnswer = 'true';
         } else {
             if (currentMode === 'ed') {
                 resultDiv.textContent = `❌ 오답! 정답: ${word.word} → ${word.past_tense}`;
@@ -194,6 +231,10 @@ function prevWord() {
 
 async function playAudio() {
     const word = currentSet[currentIndex];
+    if (!word || !word.word) {
+        console.error('단어 데이터가 없습니다.');
+        return;
+    }
     try {
         const audio = new Audio(`/api/play-audio?word=${encodeURIComponent(word.word)}`);
         audio.play();
@@ -205,6 +246,10 @@ async function playAudio() {
 
 function googleTranslate() {
     const word = currentSet[currentIndex];
+    if (!word || !word.word) {
+        console.error('단어 데이터가 없습니다.');
+        return;
+    }
     const translateUrl = `https://translate.google.com/?sl=en&tl=ko&text=${encodeURIComponent(word.word)}`;
     window.open(translateUrl, '_blank');
 }
@@ -247,10 +292,22 @@ async function loadWordsSheet() {
         currentIndex = 0;
         currentMode = 'Words';
         
+        // 총 단어 수 업데이트
+        if (data.total_words_count !== undefined) {
+            totalWordsCount = data.total_words_count;
+            document.getElementById('totalWords').textContent = `총: ${totalWordsCount}개`;
+        }
+        
+        // 현재 묶음 인덱스 업데이트
+        if (data.current_group_index !== undefined) {
+            currentGroupIndex = data.current_group_index;
+        }
+        
         // 활성 탭 표시
         setActiveTab('wordsTabBtn');
         
         displayWord();
+        updateStats();
         
         let message = '📘 Words 탭을 로드했습니다.\n원형을 입력해주세요.';
         if (data.message) {
@@ -277,14 +334,30 @@ async function loadEdSheet() {
         });
         
         const data = await response.json();
+        console.log('loadEdSheet response:', data);
+        
         currentSet = data.current_set;
         currentIndex = 0;
         currentMode = 'ed';
+        
+        console.log('After setting:', {currentSet, currentIndex, currentMode});
+        
+        // 총 단어 수 업데이트
+        if (data.total_words_count !== undefined) {
+            totalWordsCount = data.total_words_count;
+            document.getElementById('totalWords').textContent = `총: ${totalWordsCount}개`;
+        }
+        
+        // 현재 묶음 인덱스 업데이트
+        if (data.current_group_index !== undefined) {
+            currentGroupIndex = data.current_group_index;
+        }
         
         // 활성 탭 표시
         setActiveTab('edTabBtn');
         
         displayWord();
+        updateStats();
         
         let message = '⏰ Past Tense 탭을 로드했습니다.\n원형과 과거형을 / 로 구분해서 입력해주세요.\n예: arrive/arrived';
         if (data.message) {
@@ -315,10 +388,22 @@ async function loadYbSheet() {
         currentIndex = 0;
         currentMode = 'yb';
         
+        // 총 단어 수 업데이트
+        if (data.total_words_count !== undefined) {
+            totalWordsCount = data.total_words_count;
+            document.getElementById('totalWords').textContent = `총: ${totalWordsCount}개`;
+        }
+        
+        // 현재 묶음 인덱스 업데이트
+        if (data.current_group_index !== undefined) {
+            currentGroupIndex = data.current_group_index;
+        }
+        
         // 활성 탭 표시
         setActiveTab('ybTabBtn');
         
         displayWord();
+        updateStats();
         
         let message = '📚 YB 영한사전 탭을 로드했습니다.\n2,046개의 단어가 포함되어 있습니다.\n영어 단어를 입력해주세요.';
         if (data.message) {
@@ -344,14 +429,28 @@ async function nextNineWords() {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 session_id: sessionId,
-                category: category
+                category: category,
+                mode: currentMode  // 현재 모드 전달
             })
         });
         
         const data = await response.json();
+        
+        if (data.error) {
+            alert(data.error);
+            return;
+        }
+        
         currentSet = data.current_set;
         currentIndex = 0;
+        
+        // currentGroupIndex 업데이트
+        if (data.current_group_index !== undefined) {
+            currentGroupIndex = data.current_group_index;
+        }
+        
         displayWord();
+        updateStats();
         
         // 메시지 표시
         if (data.message) {
@@ -362,6 +461,7 @@ async function nextNineWords() {
         }
     } catch (error) {
         console.error('새로운 9개 단어 로드 실패:', error);
+        alert('다음 단어 로드에 실패했습니다: ' + error.message);
     }
 }
 
@@ -439,7 +539,16 @@ async function deleteWord(word) {
 
 function handleKeyPress(event) {
     if (event.key === 'Enter') {
-        checkAnswer();
+        const input = document.getElementById('answerInput');
+        
+        // 정답을 맞춘 상태에서 Enter를 누르면 다음 단어로
+        if (input.dataset.correctAnswer === 'true') {
+            input.dataset.correctAnswer = 'false';
+            nextWord();
+        } else {
+            // 일반 상태에서는 답안 체크
+            checkAnswer();
+        }
     }
 }
 

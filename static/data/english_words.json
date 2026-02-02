@@ -3,6222 +3,7259 @@
     "word": "Ability",
     "meaning": "능력, 재능",
     "example": "He has the ability to swim fast.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 빠른 수영 능력을 가지고 있습니다."
   },
   {
     "word": "Able",
     "meaning": "유능한, 할 수 있는",
     "example": "It is very able.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그것은 매우 가능합니다."
   },
   {
     "word": "Absent",
     "meaning": "결석한",
     "example": "This is absent.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 결석입니다."
   },
   {
     "word": "Abuse",
     "meaning": "남용하다, 학대하다.",
     "example": "She wants to abuse.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 학대하고 싶어합니다."
   },
   {
     "word": "Accept",
     "meaning": "받아들이다, 수락하다",
     "example": "Please accept my small gift.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "제 작은 선물을 받아주세요."
   },
   {
     "word": "Accident",
     "meaning": "사고, 우연",
     "example": "She saw a car accident yesterday.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 어제 교통사고를 목격했습니다."
   },
   {
     "word": "Ache",
     "meaning": "아프다",
     "example": "This is a good ache.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 통증입니다."
   },
   {
     "word": "Achieve",
     "meaning": "성취하다, 이루다",
     "example": "You can achieve your goals.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "당신의 목표를 달성할 수 있습니다."
   },
   {
     "word": "Active",
     "meaning": "활동적인, 적극적인",
     "example": "He is an active member of the club.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 클럽의 활동적인 회원입니다."
   },
   {
     "word": "Activity",
     "meaning": "활동",
     "example": "I need a activity.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "활동이 필요해요."
   },
   {
     "word": "Actually",
     "meaning": "실제로",
     "example": "She walked actually.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 실제로 걸었다."
   },
   {
     "word": "Add",
     "meaning": "더하다, 보태다",
     "example": "She wants to add.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 추가하고 싶어합니다."
   },
   {
     "word": "Address",
     "meaning": "주소",
     "example": "We found a address.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "주소를 찾았습니다."
   },
   {
     "word": "Admiral",
     "meaning": "해군대장",
     "example": "This is a good admiral.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 제독입니다."
   },
   {
     "word": "Admire",
     "meaning": "감탄하다, 존경하다",
     "example": "I admire your courage.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "당신의 용기에 감탄합니다."
   },
   {
     "word": "Adult",
     "meaning": "성인, 성인의",
     "example": "This is adult.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 성인입니다."
   },
   {
     "word": "Adventure",
     "meaning": "모험",
     "example": "I need a adventure.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 모험이 필요합니다."
   },
   {
     "word": "Advice",
     "meaning": "조언, 충고",
     "example": "Let me give you some advice.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "몇 가지 조언을 드리겠습니다."
   },
   {
     "word": "Affair",
     "meaning": "사건, 일",
     "example": "She has a affair.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 바람을 피우고 있습니다."
   },
   {
     "word": "Afraid",
     "meaning": "무서워하여",
     "example": "The afraid is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "두려워하는 것이 중요합니다."
   },
   {
     "word": "Afterward",
     "meaning": "후에, 나중에",
     "example": "I need a afterward.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나중에 필요해요."
   },
   {
     "word": "Agree",
     "meaning": "동의하다",
     "example": "I agree every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매일 동의합니다."
   },
   {
     "word": "Ahead",
     "meaning": "앞으로, 앞에",
     "example": "This is a good ahead.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 앞으로 좋은 일입니다."
   },
   {
     "word": "Airport",
     "meaning": "공항",
     "example": "She has a airport.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 공항을 가지고 있습니다."
   },
   {
     "word": "Alarm",
     "meaning": "놀라게 하다, 경보하다",
     "example": "We need to alarm now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지금 경보를 울려야 합니다."
   },
   {
     "word": "Alive",
     "meaning": "살아있는",
     "example": "This is a good alive.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 살아있는 것입니다."
   },
   {
     "word": "Allow",
     "meaning": "허락하다",
     "example": "They often allow together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 허용합니다."
   },
   {
     "word": "Almost",
     "meaning": "거의",
     "example": "The almost is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "거의 중요합니다."
   },
   {
     "word": "Alone",
     "meaning": "홀로, 다만 ~ 뿐",
     "example": "I need a alone.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "혼자가 필요해요."
   },
   {
     "word": "Along",
     "meaning": "~을 따라서",
     "example": "We found a along.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 함께 찾았습니다."
   },
   {
     "word": "Alphabet",
     "meaning": "알파벳 문자",
     "example": "We found a alphabet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 알파벳을 발견했습니다."
   },
   {
     "word": "Altogether",
     "meaning": "전혀, 대체로",
     "example": "We found a altogether.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 완전히 찾았습니다."
   },
   {
     "word": "Amateur",
     "meaning": "아마추어",
     "example": "The amateur is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "아마추어가 중요해요."
   },
   {
     "word": "Amazing",
     "meaning": "놀라운",
     "example": "I need a amazing.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 놀라운 것이 필요합니다."
   },
   {
     "word": "Amount",
     "meaning": "양, 액수, 총계",
     "example": "She has a amount.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 금액을 가지고 있습니다."
   },
   {
     "word": "Amuse",
     "meaning": "재미있게 하다",
     "example": "We need to amuse now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 우리는 즐겁게 지내야합니다."
   },
   {
     "word": "Ancestor",
     "meaning": "조상, 선조",
     "example": "The ancestor is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "조상이 중요합니다."
   },
   {
     "word": "Ancient",
     "meaning": "고대의, 아주 오래된",
     "example": "They visited an ancient temple.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 고대 사원을 방문했습니다."
   },
   {
     "word": "Angle",
     "meaning": "각도",
     "example": "She has a angle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 각도가 있습니다."
   },
   {
     "word": "Angry",
     "meaning": "성난",
     "example": "She has a angry.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 화를 냈습니다."
   },
   {
     "word": "Anxious",
     "meaning": "걱정되는",
     "example": "I need a anxious.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "불안이 필요해요."
   },
   {
     "word": "Anyway",
     "meaning": "어쨌든, 아무튼",
     "example": "I need a anyway.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "어쨌든 필요해요."
   },
   {
     "word": "Apart",
     "meaning": "떨어져서, 따로",
     "example": "This is a good apart.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 차이입니다."
   },
   {
     "word": "Appear",
     "meaning": "나타나다, ~처럼 보이다",
     "example": "A rainbow appeared in the sky.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "하늘에 무지개가 나타났습니다."
   },
   {
     "word": "Appetite",
     "meaning": "식욕",
     "example": "The appetite is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "식욕이 중요합니다."
   },
   {
     "word": "Appointment",
     "meaning": "임명, 약속",
     "example": "We found a appointment.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 약속을 찾았습니다."
   },
   {
     "word": "Area",
     "meaning": "면적, 지역",
     "example": "She has a area.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 영역이 있습니다."
   },
   {
     "word": "Army",
     "meaning": "육군, 군대",
     "example": "The army is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "군대는 중요합니다."
   },
   {
     "word": "Arrest",
     "meaning": "체포하다, 체포",
     "example": "I arrest every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 체포한다."
   },
   {
     "word": "Arrive",
     "meaning": "도착하다",
     "example": "She wants to arrive.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 도착하고 싶어합니다."
   },
   {
     "word": "Art",
     "meaning": "예술, 미술",
     "example": "She has a art.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 예술을 가지고 있습니다."
   },
   {
     "word": "Article",
     "meaning": "기사, 물건",
     "example": "I read an interesting article.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "흥미로운 기사를 읽었습니다."
   },
   {
     "word": "Astonish",
     "meaning": "놀라게 하다",
     "example": "We need to astonish now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 우리는 놀라야 합니다."
   },
   {
     "word": "Athlete",
     "meaning": "운동선수",
     "example": "We found a athlete.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "운동선수를 찾았습니다."
   },
   {
     "word": "Atom",
     "meaning": "원자",
     "example": "The atom is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "원자가 중요합니다."
   },
   {
     "word": "Attend",
     "meaning": "참석하다",
     "example": "I attend every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 참석한다."
   },
   {
     "word": "Attitude",
     "meaning": "태도, 자세",
     "example": "Positive attitude is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "긍정적인 태도가 중요합니다."
   },
   {
     "word": "Attract",
     "meaning": "끌다",
     "example": "The attract is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매력이 중요합니다."
   },
   {
     "word": "Average",
     "meaning": "평균의, 보통의",
     "example": "The average score was 80.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "평균점수는 80점이었습니다."
   },
   {
     "word": "Background",
     "meaning": "배경",
     "example": "I need a background.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "배경이 필요해요."
   },
   {
     "word": "Badly",
     "meaning": "나쁘게, 몹시",
     "example": "They work badly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 제대로 작동하지 않습니다."
   },
   {
     "word": "Balance",
     "meaning": "균형, 잔고",
     "example": "Keep your balance on the ice.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "얼음 위에서 균형을 유지하세요."
   },
   {
     "word": "Bar",
     "meaning": "막대기, 빗장",
     "example": "I need a bar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "바가 필요해요."
   },
   {
     "word": "Base",
     "meaning": "기초, 기초를 두다",
     "example": "I need a base.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "베이스가 필요해요."
   },
   {
     "word": "Basement",
     "meaning": "지하실",
     "example": "She has a basement.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 지하실이 있습니다."
   },
   {
     "word": "Bathroom",
     "meaning": "욕실",
     "example": "We found a bathroom.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 화장실을 찾았습니다."
   },
   {
     "word": "Battle",
     "meaning": "전투, 싸움",
     "example": "We found a battle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 전투를 발견했습니다."
   },
   {
     "word": "Bay",
     "meaning": "만",
     "example": "She has a bay.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는만이 있습니다."
   },
   {
     "word": "Beach",
     "meaning": "해안",
     "example": "We found a beach.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 해변을 발견했습니다."
   },
   {
     "word": "Bean",
     "meaning": "콩",
     "example": "The bean is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "콩이 중요해요."
   },
   {
     "word": "Bear",
     "meaning": "낳다",
     "example": "We found a bear.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 곰을 발견했습니다."
   },
   {
     "word": "Beast",
     "meaning": "짐승(=animal)",
     "example": "I need a beast.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 짐승이 필요합니다."
   },
   {
     "word": "Beat",
     "meaning": "때리다",
     "example": "The beat is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "비트가 중요해요."
   },
   {
     "word": "Beauty",
     "meaning": "아름다움",
     "example": "I need a beauty.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 아름다움이 필요합니다."
   },
   {
     "word": "Become",
     "meaning": "~이 되다, 어울리다",
     "example": "She wants to become.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는되고 싶어합니다."
   },
   {
     "word": "Bedside",
     "meaning": "침대 곁",
     "example": "This is a good bedside.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 침대 옆입니다."
   },
   {
     "word": "Beef",
     "meaning": "쇠고기",
     "example": "I need a beef.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "쇠고기가 필요해요."
   },
   {
     "word": "Beer",
     "meaning": "맥주",
     "example": "I need a beer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "맥주가 필요해요."
   },
   {
     "word": "Beg",
     "meaning": "구걸하다, 청하다",
     "example": "They often beg together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 구걸합니다."
   },
   {
     "word": "Beggar",
     "meaning": "거지",
     "example": "I need a beggar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "거지가 필요해요."
   },
   {
     "word": "Behave",
     "meaning": "행동하다",
     "example": "I behave every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 행동합니다."
   },
   {
     "word": "Behind",
     "meaning": "~의 뒤에",
     "example": "This is a good behind.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 뒤에 있습니다."
   },
   {
     "word": "Believe",
     "meaning": "믿다, 생각하다",
     "example": "I believe in you.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 당신을 믿습니다."
   },
   {
     "word": "Belong",
     "meaning": "누구누구에게 속하다",
     "example": "He can belong well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 속할 수 있습니다."
   },
   {
     "word": "Below",
     "meaning": "~의 아래에",
     "example": "We found a below.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 아래를 찾았습니다."
   },
   {
     "word": "Belt",
     "meaning": "띠, 허리띠",
     "example": "The belt is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "벨트가 중요해요."
   },
   {
     "word": "Bend",
     "meaning": "구부리다",
     "example": "The bend is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "굴곡이 중요합니다."
   },
   {
     "word": "Benefit",
     "meaning": "이익, 혜택",
     "example": "Fresh air is a benefit to health.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "신선한 공기는 건강에 유익합니다."
   },
   {
     "word": "Besides",
     "meaning": "게다가, 그밖에",
     "example": "This is a good besides.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "게다가 이게 좋은데요."
   },
   {
     "word": "Bet",
     "meaning": "돈을 걸다",
     "example": "She has a bet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 내기를 했습니다."
   },
   {
     "word": "Beyond",
     "meaning": "~의 저쪽에, ~이상으로",
     "example": "The beyond is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "너머가 중요합니다."
   },
   {
     "word": "Bike",
     "meaning": "자전거",
     "example": "We found a bike.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 자전거를 찾았습니다."
   },
   {
     "word": "Bill",
     "meaning": "계산서, 지폐",
     "example": "I need a bill.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "청구서가 필요해요."
   },
   {
     "word": "Biology",
     "meaning": "생물학",
     "example": "We found a biology.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 생물학을 찾았습니다."
   },
   {
     "word": "Birth",
     "meaning": "출생",
     "example": "The birth is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "출생이 중요합니다."
   },
   {
     "word": "Bit",
     "meaning": "작은 조각, 조금",
     "example": "I need a bit.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "조금 필요해요."
   },
   {
     "word": "Bite",
     "meaning": "물다, 물어뜯다",
     "example": "She has a bite.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 물린 있습니다."
   },
   {
     "word": "Blanket",
     "meaning": "담요",
     "example": "I need a blanket.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "담요가 필요해요."
   },
   {
     "word": "Bless",
     "meaning": "축복하다",
     "example": "We need to bless now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 우리는 축복해야 합니다."
   },
   {
     "word": "Blind",
     "meaning": "눈먼",
     "example": "The blind is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "맹인은 중요합니다."
   },
   {
     "word": "Blood",
     "meaning": "피",
     "example": "I need a blood.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 피가 필요해요."
   },
   {
     "word": "Blow",
     "meaning": "불다",
     "example": "We found a blow.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 타격을 발견했습니다."
   },
   {
     "word": "Board",
     "meaning": "판자",
     "example": "She has a board.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 보드를 가지고 있습니다."
   },
   {
     "word": "Body",
     "meaning": "몸, 신체",
     "example": "The body is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "몸이 중요합니다."
   },
   {
     "word": "Bone",
     "meaning": "뼈",
     "example": "This is a good bone.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 뼈입니다."
   },
   {
     "word": "Bookstore",
     "meaning": "서점",
     "example": "We found a bookstore.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "서점을 찾았습니다."
   },
   {
     "word": "Booth",
     "meaning": "오두막집, 작은 방",
     "example": "The booth is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "부스가 중요해요."
   },
   {
     "word": "Boring",
     "meaning": "지겨운",
     "example": "I need a boring.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지루한 시간이 필요해요."
   },
   {
     "word": "Borrow",
     "meaning": "빌리다",
     "example": "The borrow is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "대출이 중요합니다."
   },
   {
     "word": "Bother",
     "meaning": "괴롭히다",
     "example": "This is a good bother.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 귀찮은 일입니다."
   },
   {
     "word": "Bottle",
     "meaning": "병",
     "example": "This is a good bottle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 병입니다."
   },
   {
     "word": "Bottom",
     "meaning": "밑, 밑바닥",
     "example": "We found a bottom.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 바닥을 찾았습니다."
   },
   {
     "word": "Bound",
     "meaning": "~로 출발하려고 하는",
     "example": "The bound is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "경계가 중요합니다."
   },
   {
     "word": "Bow",
     "meaning": "절하다, 절",
     "example": "We need to bow now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 우리는 절해야 합니다."
   },
   {
     "word": "Bowl",
     "meaning": "사발, 그릇",
     "example": "The bowl is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그릇이 중요해요."
   },
   {
     "word": "Brain",
     "meaning": "뇌, 머리",
     "example": "I need a brain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나에겐 두뇌가 필요하다."
   },
   {
     "word": "Branch",
     "meaning": "가지",
     "example": "I need a branch.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지점이 필요해요."
   },
   {
     "word": "Brave",
     "meaning": "용감한",
     "example": "The brave soldier saved the boy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "용감한 군인이 소년을 구했습니다."
   },
   {
     "word": "Break",
     "meaning": "부수다, 깨뜨리다",
     "example": "The break is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "휴식은 중요합니다."
   },
   {
     "word": "Breathe",
     "meaning": "숨 쉬다, 호흡하다",
     "example": "She wants to breathe.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 숨을 쉬고 싶어합니다."
   },
   {
     "word": "Bridge",
     "meaning": "다리",
     "example": "This is a good bridge.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 다리입니다."
   },
   {
     "word": "Brief",
     "meaning": "잠시의, 짧은",
     "example": "We had a brief meeting.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 간단한 회의를 가졌습니다."
   },
   {
     "word": "Bright",
     "meaning": "밝은, 영리한",
     "example": "The sun is very bright today.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "오늘은 해가 매우 밝습니다."
   },
   {
     "word": "Bring",
     "meaning": "가져오다, 데려오다",
     "example": "She has a bring.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 가지고 있습니다."
   },
   {
     "word": "British",
     "meaning": "영국인, 영국의",
     "example": "This is british.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이건 영국산이에요."
   },
   {
     "word": "Brown",
     "meaning": "갈색의, 갈색",
     "example": "She has a brown.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 갈색을 가지고 있습니다."
   },
   {
     "word": "Bubble",
     "meaning": "거품",
     "example": "We found a bubble.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 거품을 발견했습니다."
   },
   {
     "word": "Build",
     "meaning": "짓다, 건축하다",
     "example": "I build every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 짓는다."
   },
   {
     "word": "Burden",
     "meaning": "무거운 짐, 짐을 지우다",
     "example": "I need a burden.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "부담이 필요해요."
   },
   {
     "word": "Burn",
     "meaning": "타다, 태우다",
     "example": "I need a burn.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "화상이 필요해요."
   },
   {
     "word": "Bury",
     "meaning": "묻다",
     "example": "I need a bury.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매장이 필요해요."
   },
   {
     "word": "Bush",
     "meaning": "수풀, 덤불",
     "example": "We found a bush.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 덤불을 발견했습니다."
   },
   {
     "word": "Business",
     "meaning": "사업, 일",
     "example": "I need a business.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 사업이 필요해요."
   },
   {
     "word": "Busy",
     "meaning": "바쁜",
     "example": "She has a busy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 바쁘다."
   },
   {
     "word": "Butterfly",
     "meaning": "나비",
     "example": "They work butterfly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 나비처럼 일합니다."
   },
   {
     "word": "Cage",
     "meaning": "새장, 우리",
     "example": "I need a cage.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "새장이 필요해요."
   },
   {
     "word": "Calm",
     "meaning": "평온한",
     "example": "It is very calm.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 조용합니다."
   },
   {
     "word": "Canal",
     "meaning": "운하",
     "example": "This is a good canal.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 운하입니다."
   },
   {
     "word": "Candle",
     "meaning": "양초, 촛불",
     "example": "I need a candle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "양초가 필요해요."
   },
   {
     "word": "Capital",
     "meaning": "수도, 자본",
     "example": "She has a capital.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 자본을 가지고 있습니다."
   },
   {
     "word": "Captain",
     "meaning": "우두머리, 선장",
     "example": "The captain is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "선장이 중요해요."
   },
   {
     "word": "Care",
     "meaning": "걱정, 조심",
     "example": "This is a good care.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 배려입니다."
   },
   {
     "word": "Carry",
     "meaning": "나르다, 운반하다[]",
     "example": "We need to carry now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지금은 휴대해야합니다."
   },
   {
     "word": "Carve",
     "meaning": "새기다, 조각하다.",
     "example": "We need to carve now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지금 조각해야합니다."
   },
   {
     "word": "Cash",
     "meaning": "현금, 현금으로 바꾸다",
     "example": "The cash is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "현금이 중요합니다."
   },
   {
     "word": "Castle",
     "meaning": "성",
     "example": "I need a castle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "성이 필요해요."
   },
   {
     "word": "Cause",
     "meaning": "원인, 이유",
     "example": "It is very cause.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그것은 매우 원인입니다."
   },
   {
     "word": "Ceiling",
     "meaning": "천장",
     "example": "This is a good ceiling.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 천장이네요."
   },
   {
     "word": "Celebrate",
     "meaning": "축하하다",
     "example": "We need to celebrate now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 축하해야 합니다."
   },
   {
     "word": "Cemetery",
     "meaning": "묘지",
     "example": "The cemetery is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "묘지는 중요하다."
   },
   {
     "word": "Center",
     "meaning": "중심, 중심지",
     "example": "She has a center.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 센터가 있습니다."
   },
   {
     "word": "Century",
     "meaning": "세기, 100년",
     "example": "The tower was built a century ago.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "탑은 100년 전에 지어졌습니다."
   },
   {
     "word": "Ceremony",
     "meaning": "의식",
     "example": "We found a ceremony.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 의식을 찾았습니다."
   },
   {
     "word": "Certain",
     "meaning": "확실한, 어떤",
     "example": "This is certain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 확실합니다."
   },
   {
     "word": "Chain",
     "meaning": "사슬",
     "example": "She has a chain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 사슬을 가지고 있습니다."
   },
   {
     "word": "Challenge",
     "meaning": "도전",
     "example": "It was a difficult challenge.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "어려운 도전이었습니다."
   },
   {
     "word": "Chance",
     "meaning": "기회, 가능성",
     "example": "This is a good chance.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 기회입니다."
   },
   {
     "word": "Change",
     "meaning": "변화, 잔돈",
     "example": "This is a good change.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 변화입니다."
   },
   {
     "word": "Character",
     "meaning": "성격, 특징, 등장인물",
     "example": "He has a strong character.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 강한 성격을 가지고 있습니다."
   },
   {
     "word": "Charge",
     "meaning": "청구하다",
     "example": "She wants to charge.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 청구하고 싶어합니다."
   },
   {
     "word": "Charming",
     "meaning": "매력적인",
     "example": "This is charming.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 매력적이다."
   },
   {
     "word": "Chase",
     "meaning": "쫓다, 추적",
     "example": "She has a chase.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 추격전을 벌이고 있습니다."
   },
   {
     "word": "Cheap",
     "meaning": "값싼",
     "example": "The cheap is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "싼 것이 중요합니다."
   },
   {
     "word": "Check",
     "meaning": "저지하다, 대조하다",
     "example": "He can check well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 확인할 수 있습니다."
   },
   {
     "word": "Cheek",
     "meaning": "볼",
     "example": "We found a cheek.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "뺨을 찾았습니다."
   },
   {
     "word": "Chest",
     "meaning": "가슴",
     "example": "The chest is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "가슴이 중요해요"
   },
   {
     "word": "Chief",
     "meaning": "우두머리, 주요한",
     "example": "She is chief.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 최고입니다."
   },
   {
     "word": "Choose",
     "meaning": "고르다, 선택하다",
     "example": "We need to choose now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 선택해야 합니다."
   },
   {
     "word": "Chopstick",
     "meaning": "젓가락",
     "example": "We found a chopstick.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 젓가락을 찾았습니다."
   },
   {
     "word": "Circle",
     "meaning": "원, 집단",
     "example": "This is a good circle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 서클입니다."
   },
   {
     "word": "Clap",
     "meaning": "탁 치다",
     "example": "The clap is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "박수는 중요합니다."
   },
   {
     "word": "Clean",
     "meaning": "깨끗한",
     "example": "It is very clean.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 깨끗합니다."
   },
   {
     "word": "Clear",
     "meaning": "맑은, 명백한",
     "example": "This is clear.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 분명합니다."
   },
   {
     "word": "Cleave",
     "meaning": "쪼개다, 찢다.",
     "example": "The cleave is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "쪼개짐이 중요합니다."
   },
   {
     "word": "Clerk",
     "meaning": "사무원, 점원",
     "example": "The clerk is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "점원이 중요해요."
   },
   {
     "word": "Clever",
     "meaning": "영리한",
     "example": "She is clever.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 영리하다."
   },
   {
     "word": "Climate",
     "meaning": "기후, 풍토",
     "example": "I need a climate.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "기후가 필요해요."
   },
   {
     "word": "Climb",
     "meaning": "기어오르다, 오르다",
     "example": "The climb is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "등산이 중요합니다."
   },
   {
     "word": "Closet",
     "meaning": "벽장",
     "example": "This is a good closet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 옷장이네요."
   },
   {
     "word": "Cloth",
     "meaning": "천, 직물",
     "example": "I need a cloth.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "천이 필요해요."
   },
   {
     "word": "Cloudy",
     "meaning": "구름이 낀",
     "example": "This is a good cloudy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "날씨가 흐려서 좋습니다."
   },
   {
     "word": "Clue",
     "meaning": "실마리, 단서",
     "example": "We found a clue.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 단서를 찾았습니다."
   },
   {
     "word": "Coal",
     "meaning": "석탄",
     "example": "This is a good coal.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 석탄입니다."
   },
   {
     "word": "Coast",
     "meaning": "해안",
     "example": "She has a coast.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 해안이 있습니다."
   },
   {
     "word": "Coeducation",
     "meaning": "남녀 공학",
     "example": "I need a coeducation.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "남녀공학 교육이 필요해요."
   },
   {
     "word": "Coil",
     "meaning": "코일, 감긴 것",
     "example": "I need a coil.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "코일이 필요해요."
   },
   {
     "word": "Coin",
     "meaning": "동전, 화폐",
     "example": "We found a coin.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 동전을 찾았습니다."
   },
   {
     "word": "Collect",
     "meaning": "모으다, 수집하다",
     "example": "I collect old coins.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 오래된 동전을 수집합니다."
   },
   {
     "word": "College",
     "meaning": "단과대학, 전문학교",
     "example": "I need a college.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "대학이 필요해요."
   },
   {
     "word": "Colorful",
     "meaning": "다채로운, 화려한",
     "example": "She is colorful.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 다채롭다."
   },
   {
     "word": "Comb",
     "meaning": "빗, 빗질하다",
     "example": "We need to comb now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 빗질을 해야 합니다."
   },
   {
     "word": "Comedy",
     "meaning": "희극, 코미디",
     "example": "This is a good comedy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 코미디입니다."
   },
   {
     "word": "Comfort",
     "meaning": "편안함, 위로",
     "example": "The sofa gives great comfort.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "소파는 편안함을 선사합니다."
   },
   {
     "word": "Common",
     "meaning": "공통의, 흔한",
     "example": "We have a common interest.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 공통의 이익을 가지고 있습니다."
   },
   {
     "word": "Communication",
     "meaning": "전달, 교통",
     "example": "The communication is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "의사소통이 중요합니다."
   },
   {
     "word": "Company",
     "meaning": "친구",
     "example": "She has a company.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 회사를 가지고 있습니다."
   },
   {
     "word": "Compare",
     "meaning": "비교하다",
     "example": "Don't compare me with others.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나를 다른 사람과 비교하지 마십시오."
   },
   {
     "word": "Comparison",
     "meaning": "비교",
     "example": "She has a comparison.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 비교가 있습니다."
   },
   {
     "word": "Competent",
     "meaning": "유능한",
     "example": "This is competent.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 유능합니다."
   },
   {
     "word": "Competition",
     "meaning": "경쟁",
     "example": "We found a competition.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 경쟁을 찾았습니다."
   },
   {
     "word": "Complain",
     "meaning": "불평하다",
     "example": "She wants to complain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 불평하고 싶어합니다."
   },
   {
     "word": "Complete",
     "meaning": "완성하다",
     "example": "We need to complete now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지금 완료해야 합니다."
   },
   {
     "word": "Composer",
     "meaning": "작곡가",
     "example": "She has a composer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 작곡가가 있습니다."
   },
   {
     "word": "Compulsory",
     "meaning": "의무적인",
     "example": "It is very compulsory.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이는 매우 필수입니다."
   },
   {
     "word": "Concert",
     "meaning": "음악회",
     "example": "The concert is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "콘서트가 중요해요."
   },
   {
     "word": "Condition",
     "meaning": "상태, 조건",
     "example": "The car is in good condition.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "차량 상태는 양호합니다."
   },
   {
     "word": "Connect",
     "meaning": "연결하다",
     "example": "The bridge connects the two cities.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "다리는 두 도시를 연결합니다."
   },
   {
     "word": "Consider",
     "meaning": "고려하다, 생각하다",
     "example": "Please consider my offer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "제 제안을 고려해 주세요."
   },
   {
     "word": "Contain",
     "meaning": "포함하다, 담고 있다",
     "example": "This box contains books.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이 상자에는 책이 들어있습니다."
   },
   {
     "word": "Contest",
     "meaning": "경쟁",
     "example": "The contest is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "대회가 중요해요."
   },
   {
     "word": "Continent",
     "meaning": "대륙",
     "example": "I need a continent.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 대륙이 필요하다."
   },
   {
     "word": "Continue",
     "meaning": "계속하다",
     "example": "The rain continued all night.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "비는 밤새도록 계속됐다."
   },
   {
     "word": "Contrary",
     "meaning": "반대의",
     "example": "We found a contrary.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 반대되는 것을 발견했습니다."
   },
   {
     "word": "Control",
     "meaning": "조절하다, 지배하다",
     "example": "Control your emotions.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "감정을 조절하세요."
   },
   {
     "word": "Cookie",
     "meaning": "쿠키, 맛있는 작은 과자",
     "example": "I need a cookie.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "쿠키가 필요해요."
   },
   {
     "word": "Cool",
     "meaning": "서늘한, 냉정한",
     "example": "The room looks cool.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 시원해 보이네요."
   },
   {
     "word": "Corn",
     "meaning": "곡물",
     "example": "I need a corn.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "옥수수가 필요해요."
   },
   {
     "word": "Correctly",
     "meaning": "정확히",
     "example": "They work correctly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "올바르게 작동합니다."
   },
   {
     "word": "Cost",
     "meaning": "비용",
     "example": "The cost is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "비용이 중요합니다."
   },
   {
     "word": "Cotton",
     "meaning": "솜, 면화",
     "example": "She has a cotton.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 면화를 가지고 있습니다."
   },
   {
     "word": "Cough",
     "meaning": "기침, 기침을 하다",
     "example": "I cough every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 기침을 한다."
   },
   {
     "word": "Count",
     "meaning": "세다, 계산하다",
     "example": "He can count well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 계산을 잘 할 수 있다."
   },
   {
     "word": "Couple",
     "meaning": "한 쌍, 커플",
     "example": "She is couple.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 커플입니다."
   },
   {
     "word": "Course",
     "meaning": "진로, 과정",
     "example": "The course is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "코스가 중요합니다."
   },
   {
     "word": "Cousin",
     "meaning": "사촌",
     "example": "I need a cousin.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "사촌이 필요해요."
   },
   {
     "word": "Cover",
     "meaning": "덮개, 덮다",
     "example": "We found a cover.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "표지를 찾았습니다."
   },
   {
     "word": "Crack",
     "meaning": "갈라진 틈",
     "example": "This is a good crack.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 균열입니다."
   },
   {
     "word": "Crash",
     "meaning": "충돌(추락)하다, 와르르 무너지다",
     "example": "She wants to crash.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 충돌하고 싶어합니다."
   },
   {
     "word": "Crazy",
     "meaning": "미친",
     "example": "This is a good crazy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 미친 짓입니다."
   },
   {
     "word": "Create",
     "meaning": "창조하다, 만들다",
     "example": "He created a new app.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 새로운 앱을 만들었습니다."
   },
   {
     "word": "Creek",
     "meaning": "시냇물",
     "example": "This is a good creek.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 개울입니다."
   },
   {
     "word": "Crew",
     "meaning": "승무원",
     "example": "I need a crew.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "승무원이 필요해요."
   },
   {
     "word": "Cricket",
     "meaning": "크리켓 경기",
     "example": "This is a good cricket.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 귀뚜라미입니다."
   },
   {
     "word": "Crop",
     "meaning": "농작물",
     "example": "This is a good crop.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 작물입니다."
   },
   {
     "word": "Crowded",
     "meaning": "붐비는, 혼잡한",
     "example": "This is crowded.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이곳은 혼잡합니다."
   },
   {
     "word": "Crown",
     "meaning": "왕관",
     "example": "She has a crown.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 왕관을 가지고 있습니다."
   },
   {
     "word": "Culture",
     "meaning": "문화",
     "example": "I want to learn about Korean culture.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 한국 문화에 대해 배우고 싶습니다."
   },
   {
     "word": "Curious",
     "meaning": "호기심이 강한",
     "example": "She is curious.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 호기심이 많습니다."
   },
   {
     "word": "Custom",
     "meaning": "습관, 풍습",
     "example": "We found a custom.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 관습을 찾았습니다."
   },
   {
     "word": "Damage",
     "meaning": "손해, 피해",
     "example": "The storm caused big damage.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "폭풍으로 인해 큰 피해가 발생했습니다."
   },
   {
     "word": "Danger",
     "meaning": "위험",
     "example": "We found a danger.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 위험을 발견했습니다."
   },
   {
     "word": "Dark",
     "meaning": "어두운",
     "example": "This is a good dark.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 어둠입니다."
   },
   {
     "word": "Data",
     "meaning": "자료",
     "example": "This is a good data.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 데이터입니다."
   },
   {
     "word": "Date",
     "meaning": "날짜, 데이트 약속",
     "example": "I need a date.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "데이트가 필요해요."
   },
   {
     "word": "Daughter",
     "meaning": "딸",
     "example": "This is a good daughter.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 딸입니다."
   },
   {
     "word": "Dawn",
     "meaning": "새벽",
     "example": "The dawn is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "새벽이 중요합니다."
   },
   {
     "word": "Deal",
     "meaning": "분배하다",
     "example": "I deal every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매일 거래해요."
   },
   {
     "word": "Dear",
     "meaning": "친애하는, 값비싼",
     "example": "We found a dear.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 소중한 사람을 찾았습니다."
   },
   {
     "word": "Death",
     "meaning": "죽음, 사망",
     "example": "We found a death.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 죽음을 발견했습니다."
   },
   {
     "word": "Debt",
     "meaning": "은혜, 빚",
     "example": "She has a debt.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 빚이 있습니다."
   },
   {
     "word": "Decide",
     "meaning": "결정하다, 결심하다",
     "example": "I decide every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 결정한다."
   },
   {
     "word": "Decision",
     "meaning": "결정, 결심",
     "example": "It was a hard decision to make.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "어려운 결정이었습니다."
   },
   {
     "word": "Deck",
     "meaning": "갑판",
     "example": "I need a deck.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "데크가 필요해요."
   },
   {
     "word": "Declare",
     "meaning": "선언하다",
     "example": "She wants to declare.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 선언하고 싶어합니다."
   },
   {
     "word": "Decrease",
     "meaning": "감소, [동]감소하다",
     "example": "He can decrease well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 줄어들 수 있습니다."
   },
   {
     "word": "Deep",
     "meaning": "깊은, 깊게",
     "example": "We found a deep.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 깊은 곳을 찾았습니다."
   },
   {
     "word": "Deer",
     "meaning": "사슴",
     "example": "I need a deer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "사슴이 필요해요."
   },
   {
     "word": "Degree",
     "meaning": "도(온도/각도), 학위",
     "example": "The water is 100 degrees.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "물은 100도입니다."
   },
   {
     "word": "Delicious",
     "meaning": "맛있는",
     "example": "The delicious is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "맛있는 것이 중요합니다."
   },
   {
     "word": "Delight",
     "meaning": "기쁨",
     "example": "She has a delight.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 기쁨을 느낍니다."
   },
   {
     "word": "Democracy",
     "meaning": "민주주의, 민주정치",
     "example": "I need a democracy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 민주주의가 필요하다."
   },
   {
     "word": "Department",
     "meaning": "부, 백화점의 매장",
     "example": "This is a good department.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 부서입니다."
   },
   {
     "word": "Depend",
     "meaning": "의지하다, ~에 달려있다",
     "example": "I depend on my parents.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 부모님에게 의존합니다."
   },
   {
     "word": "Describe",
     "meaning": "묘사하다, 설명하다",
     "example": "Describe your room to me.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "당신의 방에 대해 설명해주세요."
   },
   {
     "word": "Desert",
     "meaning": "사막",
     "example": "I need a desert.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "사막이 필요해요."
   },
   {
     "word": "Deserve",
     "meaning": "받을 가치가있다,~할 만하다",
     "example": "He can deserve well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 충분히 그럴 자격이 있다."
   },
   {
     "word": "Design",
     "meaning": "디자인, 설계",
     "example": "Who designed this building?",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이 건물을 설계한 사람은 누구입니까?"
   },
   {
     "word": "Destroy",
     "meaning": "파괴하다",
     "example": "We need to destroy now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 파괴해야 합니다."
   },
   {
     "word": "Detail",
     "meaning": "세부사항",
     "example": "Tell me every detail.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "모든 세부 사항을 알려주세요."
   },
   {
     "word": "Detective",
     "meaning": "탐정",
     "example": "We found a detective.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 형사를 찾았습니다."
   },
   {
     "word": "Devil",
     "meaning": "악마",
     "example": "I need a devil.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 악마가 필요하다."
   },
   {
     "word": "Diary",
     "meaning": "일기",
     "example": "We found a diary.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 일기장을 찾았습니다."
   },
   {
     "word": "Dictionary",
     "meaning": "사전",
     "example": "We found a dictionary.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 사전을 찾았습니다."
   },
   {
     "word": "Different",
     "meaning": "다른",
     "example": "She has a different.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 다른 것을 가지고 있습니다."
   },
   {
     "word": "Difficult",
     "meaning": "어려운",
     "example": "She has a difficult.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 어려운 일이 있습니다."
   },
   {
     "word": "Dig",
     "meaning": "파다",
     "example": "This is a good dig.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 발굴입니다."
   },
   {
     "word": "Diligent",
     "meaning": "부지런한",
     "example": "This is diligent.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 부지런한 것입니다."
   },
   {
     "word": "Dinning",
     "meaning": "room 식당",
     "example": "This is a good dinning.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 식사입니다."
   },
   {
     "word": "Direction",
     "meaning": "방향, 지시",
     "example": "Which direction should I go?",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "어느 방향으로 가야 하나요?"
   },
   {
     "word": "Dirty",
     "meaning": "더러운",
     "example": "She has a dirty.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 더러운 것을 가지고 있습니다."
   },
   {
     "word": "Disappoint",
     "meaning": "실망시키다",
     "example": "We found a disappoint.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 실망스러운 것을 발견했습니다."
   },
   {
     "word": "Discover",
     "meaning": "발견하다",
     "example": "They discovered a new island.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 새로운 섬을 발견했습니다."
   },
   {
     "word": "Discuss",
     "meaning": "토론하다",
     "example": "He can discuss well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 토론을 잘 할 수 있다."
   },
   {
     "word": "Dish",
     "meaning": "접시, 요리",
     "example": "She has a dish.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 접시를 가지고 있습니다."
   },
   {
     "word": "Distance",
     "meaning": "거리",
     "example": "The distance is 10 kilometers.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "거리는 10km입니다."
   },
   {
     "word": "Ditch",
     "meaning": "도랑",
     "example": "We found a ditch.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 도랑을 발견했습니다."
   },
   {
     "word": "Dive",
     "meaning": "다이빙하다, 잠수하다",
     "example": "They often dive together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 다이빙합니다."
   },
   {
     "word": "Doll",
     "meaning": "인형",
     "example": "She is doll.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 인형입니다."
   },
   {
     "word": "Dollar",
     "meaning": "달러",
     "example": "She has a dollar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 1달러를 가지고 있습니다."
   },
   {
     "word": "Downtown",
     "meaning": "번화가",
     "example": "She has a downtown.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 시내에 있어요."
   },
   {
     "word": "Drag",
     "meaning": "질질 끌다",
     "example": "This is a good drag.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 드래그입니다."
   },
   {
     "word": "Draw",
     "meaning": "끌다, 당기다",
     "example": "I need a draw.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "무승부가 필요해요."
   },
   {
     "word": "Dream",
     "meaning": "꿈, 꿈을 꾸다",
     "example": "I need a dream.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "꿈이 필요해요."
   },
   {
     "word": "Drop",
     "meaning": "떨어지다, 떨어뜨리다",
     "example": "The drop is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "드랍이 중요합니다."
   },
   {
     "word": "Drown",
     "meaning": "빠뜨리다 빠지다 빠져죽다",
     "example": "She has a drown.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 익사했습니다."
   },
   {
     "word": "Drugstore",
     "meaning": "약국",
     "example": "I need a drugstore.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "약국이 필요해요."
   },
   {
     "word": "Drum",
     "meaning": "북",
     "example": "We found a drum.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "드럼을 찾았어요."
   },
   {
     "word": "Dry",
     "meaning": "마른",
     "example": "I need a dry.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "건조가 필요해요."
   },
   {
     "word": "Dull",
     "meaning": "우둔한, 무딘",
     "example": "It is very dull.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 지루합니다."
   },
   {
     "word": "Dumb",
     "meaning": "벙어리의",
     "example": "We found a dumb.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 바보를 발견했습니다."
   },
   {
     "word": "Dye",
     "meaning": "물감",
     "example": "This is a good dye.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 염료입니다."
   },
   {
     "word": "Early",
     "meaning": "일찍이",
     "example": "They work early.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 일찍 일합니다."
   },
   {
     "word": "Earnings",
     "meaning": "벌이",
     "example": "This is a good earnings.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 수입입니다."
   },
   {
     "word": "Earth",
     "meaning": "지구, 땅",
     "example": "The earth is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지구는 중요합니다."
   },
   {
     "word": "Edge",
     "meaning": "날, 가장자리",
     "example": "We found a edge.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 우위를 찾았습니다."
   },
   {
     "word": "Education",
     "meaning": "교육",
     "example": "We found a education.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 교육을 찾았습니다."
   },
   {
     "word": "Effect",
     "meaning": "효과, 영향",
     "example": "The medicine had a good effect.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "약의 효과가 좋았습니다."
   },
   {
     "word": "Effort",
     "meaning": "노력",
     "example": "He put a lot of effort into it.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 그것에 많은 노력을 기울였습니다."
   },
   {
     "word": "Either",
     "meaning": "~도 또한 ~ 하지 않다",
     "example": "She is either.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 둘 중 하나입니다."
   },
   {
     "word": "Elder",
     "meaning": "손위의, 연상의",
     "example": "We found a elder.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 장로를 찾았습니다."
   },
   {
     "word": "Election",
     "meaning": "선거",
     "example": "She has a election.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 선거를 가졌습니다."
   },
   {
     "word": "Electricity",
     "meaning": "전기",
     "example": "The electricity is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "전기가 중요해요."
   },
   {
     "word": "Elementary",
     "meaning": "초보의",
     "example": "This is a good elementary.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 초등학교입니다."
   },
   {
     "word": "Else",
     "meaning": "그밖에",
     "example": "This is a good else.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 다른 좋은 것입니다."
   },
   {
     "word": "Empty",
     "meaning": "빈",
     "example": "I need a empty.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "빈 공간이 필요해요."
   },
   {
     "word": "Enemy",
     "meaning": "적",
     "example": "She has a enemy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 적이 있습니다."
   },
   {
     "word": "Energy",
     "meaning": "에너지, 활기",
     "example": "Children have much energy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "아이들은 에너지가 넘칩니다."
   },
   {
     "word": "Engage",
     "meaning": "고용하다, 약속하다",
     "example": "He can engage well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 참여할 수 있습니다."
   },
   {
     "word": "Engineer",
     "meaning": "기사, 공학자",
     "example": "She has a engineer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 엔지니어가 있습니다."
   },
   {
     "word": "Enjoy",
     "meaning": "즐기다",
     "example": "The enjoy is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "즐기는 것이 중요합니다."
   },
   {
     "word": "Enough",
     "meaning": "충분한, 충분히",
     "example": "This is enough.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것으로 충분합니다."
   },
   {
     "word": "Entire",
     "meaning": "전체의",
     "example": "She has a entire.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 전체를 가지고 있습니다."
   },
   {
     "word": "Envelope",
     "meaning": "봉",
     "example": "I need a envelope.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "봉투가 필요해요."
   },
   {
     "word": "Environment",
     "meaning": "환경",
     "example": "We must protect the environment.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 환경을 보호해야 합니다."
   },
   {
     "word": "Equal",
     "meaning": "같은, 동등한",
     "example": "She is equal.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 평등합니다."
   },
   {
     "word": "Eraser",
     "meaning": "지우개",
     "example": "We found a eraser.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지우개를 찾았어요."
   },
   {
     "word": "Error",
     "meaning": "잘못",
     "example": "She has a error.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 오류가 있습니다."
   },
   {
     "word": "Escape",
     "meaning": "탈출하다, 피하다",
     "example": "The bird escaped from the cage.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "새가 새장에서 탈출했습니다."
   },
   {
     "word": "Especially",
     "meaning": "특별히",
     "example": "He spoke especially.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 특히 말했다."
   },
   {
     "word": "Event",
     "meaning": "사건, 행사",
     "example": "It was a special event.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "특별한 행사였습니다."
   },
   {
     "word": "Evil",
     "meaning": "악, 나쁜[]",
     "example": "This is a good evil.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 선악입니다."
   },
   {
     "word": "Exactly",
     "meaning": "정확히",
     "example": "They work exactly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 정확하게 작동합니다."
   },
   {
     "word": "Examination",
     "meaning": "시험, 조사",
     "example": "I need a examination.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "검사가 필요해요."
   },
   {
     "word": "Example",
     "meaning": "예, 보기",
     "example": "I need a example.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "예가 필요합니다."
   },
   {
     "word": "Excellent",
     "meaning": "뛰어난",
     "example": "She has a excellent.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 훌륭합니다."
   },
   {
     "word": "Except",
     "meaning": "제외하다",
     "example": "I except every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일을 제외하고."
   },
   {
     "word": "Exchange",
     "meaning": "교환하다",
     "example": "They often exchange together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 교류합니다."
   },
   {
     "word": "Excited",
     "meaning": "흥분한",
     "example": "He feels excited.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 흥분을 느낀다."
   },
   {
     "word": "Excuse",
     "meaning": "용서하다, 변명하다",
     "example": "I excuse every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매일 미안해요."
   },
   {
     "word": "Exercise",
     "meaning": "운동, 연습하다",
     "example": "He can exercise well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 운동을 잘 할 수 있다."
   },
   {
     "word": "Exit",
     "meaning": "출구",
     "example": "This is a good exit.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 출구입니다."
   },
   {
     "word": "Expect",
     "meaning": "기대하다, ~라고 생각하다",
     "example": "We need to expect now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 기대해야 합니다."
   },
   {
     "word": "Expensive",
     "meaning": "값비싼",
     "example": "She has a expensive.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 비싸다."
   },
   {
     "word": "Experience",
     "meaning": "경험",
     "example": "I have experience in teaching.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "가르친 경험이 있습니다."
   },
   {
     "word": "Explain",
     "meaning": "설명하다",
     "example": "Can you explain this rule?",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이 규칙을 설명할 수 있나요?"
   },
   {
     "word": "Explode",
     "meaning": "폭발시키다",
     "example": "I need a explode.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "폭발이 필요해요."
   },
   {
     "word": "Explore",
     "meaning": "탐험하다",
     "example": "I explore every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 탐색한다."
   },
   {
     "word": "Express",
     "meaning": "표현하다, 나타내다",
     "example": "Express your feelings.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "당신의 감정을 표현하십시오."
   },
   {
     "word": "Expressway",
     "meaning": "고속도로",
     "example": "She has a expressway.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 고속도로를 가지고 있습니다."
   },
   {
     "word": "Fact",
     "meaning": "사실",
     "example": "This is a good fact.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 사실입니다."
   },
   {
     "word": "Factory",
     "meaning": "공장",
     "example": "This is a good factory.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 공장입니다."
   },
   {
     "word": "Fail",
     "meaning": "실패하다",
     "example": "They often fail together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 실패합니다."
   },
   {
     "word": "Fair",
     "meaning": "공명정대한",
     "example": "She is fair.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 공정하다."
   },
   {
     "word": "Famous",
     "meaning": "유명한",
     "example": "She is a famous singer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 유명한 가수입니다."
   },
   {
     "word": "Fare",
     "meaning": "요금",
     "example": "She has a fare.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 요금을 가지고 있습니다."
   },
   {
     "word": "Fat",
     "meaning": "살찐, 지방",
     "example": "We found a fat.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지방을 발견했습니다."
   },
   {
     "word": "Fault",
     "meaning": "결점, 잘못.",
     "example": "This is a good fault.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 잘못입니다."
   },
   {
     "word": "Favorite",
     "meaning": "가장 좋아하는",
     "example": "Blue is my favorite color.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "파란색은 내가 가장 좋아하는 색이다."
   },
   {
     "word": "Fear",
     "meaning": "두려움, 공포",
     "example": "He overcame his fear.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 두려움을 극복했습니다."
   },
   {
     "word": "Feast",
     "meaning": "향연, 잔치",
     "example": "The feast is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "잔치는 중요합니다."
   },
   {
     "word": "Feather",
     "meaning": "깃털",
     "example": "This is a good feather.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 깃털입니다."
   },
   {
     "word": "Feed",
     "meaning": "먹을 것을 주다",
     "example": "I need a feed.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "피드가 필요해요."
   },
   {
     "word": "Fence",
     "meaning": "울타리",
     "example": "She has a fence.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 울타리를 가지고 있습니다."
   },
   {
     "word": "Fever",
     "meaning": "열",
     "example": "This is a good fever.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 발열입니다."
   },
   {
     "word": "Fierce",
     "meaning": "사나운",
     "example": "The fierce is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "치열함이 중요합니다."
   },
   {
     "word": "Fight",
     "meaning": "싸우다, 전투",
     "example": "I need a fight.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 싸움이 필요합니다."
   },
   {
     "word": "Figure",
     "meaning": "숫자, 계산, 모습, 인물",
     "example": "The room looks figure.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 그림처럼 보입니다."
   },
   {
     "word": "Fill",
     "meaning": "채우다, 가득하다",
     "example": "They often fill together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 채워집니다."
   },
   {
     "word": "Finally",
     "meaning": "최후로, 마침내",
     "example": "He spoke finally.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 마침내 말했다."
   },
   {
     "word": "Firm",
     "meaning": "굳은",
     "example": "We found a firm.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 회사를 찾았습니다."
   },
   {
     "word": "Flame",
     "meaning": "불꽃",
     "example": "She has a flame.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 불꽃을 가지고 있습니다."
   },
   {
     "word": "Flashlight",
     "meaning": "카메라의 플래시, 회중전등",
     "example": "She has a flashlight.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 손전등을 가지고 있습니다."
   },
   {
     "word": "Flat",
     "meaning": "평평한",
     "example": "The room looks flat.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 평면적으로 보입니다."
   },
   {
     "word": "Flight",
     "meaning": "비행, 항공편",
     "example": "The flight was delayed.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "비행기가 지연되었습니다."
   },
   {
     "word": "Float",
     "meaning": "뜨다",
     "example": "This is a good float.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 플로트입니다."
   },
   {
     "word": "Flood",
     "meaning": "홍수",
     "example": "I need a flood.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "홍수가 필요해요."
   },
   {
     "word": "Flow",
     "meaning": "흐르다, 넘쳐흐르다",
     "example": "This is a good flow.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 흐름이다."
   },
   {
     "word": "Flute",
     "meaning": "플루트, 피리",
     "example": "I need a flute.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "플루트가 필요해요."
   },
   {
     "word": "Focus",
     "meaning": "집중하다",
     "example": "Focus on your work.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "당신의 일에 집중하세요."
   },
   {
     "word": "Fog",
     "meaning": "안개",
     "example": "We found a fog.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "안개를 발견했습니다."
   },
   {
     "word": "Folk",
     "meaning": "사람들",
     "example": "We found a folk.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 사람들을 찾았습니다."
   },
   {
     "word": "Follow",
     "meaning": "따르다",
     "example": "I need a follow.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "팔로우가 필요해요."
   },
   {
     "word": "Foolish",
     "meaning": "어리석은",
     "example": "We found a foolish.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 어리석은 것을 발견했습니다."
   },
   {
     "word": "Force",
     "meaning": "힘, 강요하다",
     "example": "I force every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매일 강요해요."
   },
   {
     "word": "Foreign",
     "meaning": "외국의",
     "example": "I like foreign movies.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 외국영화를 좋아한다."
   },
   {
     "word": "Forest",
     "meaning": "숲",
     "example": "The forest is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "숲은 중요합니다."
   },
   {
     "word": "Fortunately",
     "meaning": "운 좋게, 다행히",
     "example": "She walked fortunately.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 다행히 걸었다."
   },
   {
     "word": "Forward",
     "meaning": "앞쪽에, 앞으로",
     "example": "I need a forward.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "전진이 필요해요."
   },
   {
     "word": "Foundation",
     "meaning": "기초",
     "example": "This is a good foundation.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 기초입니다."
   },
   {
     "word": "Frankly",
     "meaning": "솔직히",
     "example": "They work frankly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 솔직하게 일합니다."
   },
   {
     "word": "French",
     "meaning": "프랑스 사람, 프랑스어",
     "example": "She has a french.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 프랑스어를 가지고 있습니다."
   },
   {
     "word": "Fresh",
     "meaning": "새로운",
     "example": "This is fresh.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 신선합니다."
   },
   {
     "word": "Frighten",
     "meaning": "깜짝 놀라게 하다",
     "example": "She wants to frighten.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 겁을주고 싶어합니다."
   },
   {
     "word": "Frog",
     "meaning": "개구리",
     "example": "We found a frog.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 개구리를 발견했습니다."
   },
   {
     "word": "Front",
     "meaning": "정면, 앞부분",
     "example": "She has a front.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 정면을 가지고 있습니다."
   },
   {
     "word": "Fruit",
     "meaning": "과일",
     "example": "This is a good fruit.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 과일이다."
   },
   {
     "word": "Fun",
     "meaning": "놀이, 재미",
     "example": "I need a fun.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 재미가 필요합니다."
   },
   {
     "word": "Funeral",
     "meaning": "장례식",
     "example": "This is a good funeral.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 장례식이네요."
   },
   {
     "word": "Fur",
     "meaning": "부드러운 털, 모피",
     "example": "I need a fur.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "모피가 필요해요."
   },
   {
     "word": "Furniture",
     "meaning": "가구",
     "example": "We found a furniture.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 가구를 발견했습니다."
   },
   {
     "word": "Further",
     "meaning": "더욱이, 터먼",
     "example": "We found a further.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 더 많은 것을 발견했습니다."
   },
   {
     "word": "Future",
     "meaning": "미래",
     "example": "Think about your future.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "당신의 미래에 대해 생각해보십시오."
   },
   {
     "word": "Gain",
     "meaning": "얻다, 이기다",
     "example": "We found a gain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 이득을 찾았습니다."
   },
   {
     "word": "Gallery",
     "meaning": "화랑",
     "example": "I need a gallery.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "갤러리가 필요해요."
   },
   {
     "word": "Garage",
     "meaning": "차고",
     "example": "The garage is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "차고는 중요합니다."
   },
   {
     "word": "Gather",
     "meaning": "모으다",
     "example": "We found a gather.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 모임을 찾았습니다."
   },
   {
     "word": "Gay",
     "meaning": "명랑한, 화려한",
     "example": "It is very gay.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 게이입니다."
   },
   {
     "word": "Gaze",
     "meaning": "응시하다, 바라보다",
     "example": "We need to gaze now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 시선을 돌려야 합니다."
   },
   {
     "word": "General",
     "meaning": "일반적인, 전체적인",
     "example": "This is a general rule.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 일반적인 규칙입니다."
   },
   {
     "word": "German",
     "meaning": "독일사람, 독일어",
     "example": "She has a german.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 독일인을 가지고 있습니다."
   },
   {
     "word": "Gesture",
     "meaning": "몸짓",
     "example": "We found a gesture.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "제스처를 찾았습니다."
   },
   {
     "word": "Giant",
     "meaning": "거대한",
     "example": "He feels giant.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 거대하다고 느낍니다."
   },
   {
     "word": "Gift",
     "meaning": "선물, 타고난 재능",
     "example": "We found a gift.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 선물을 찾았습니다."
   },
   {
     "word": "Giraffe",
     "meaning": "기린",
     "example": "We found a giraffe.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 기린을 발견했습니다."
   },
   {
     "word": "Glory",
     "meaning": "영광",
     "example": "The glory is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "영광이 중요합니다."
   },
   {
     "word": "Goal",
     "meaning": "목표, 골",
     "example": "The goal is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "목표가 중요합니다."
   },
   {
     "word": "God",
     "meaning": "신",
     "example": "The god is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "신은 중요합니다."
   },
   {
     "word": "Government",
     "meaning": "정부",
     "example": "The government made a new law.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "정부가 새로운 법을 만들었습니다."
   },
   {
     "word": "Grab",
     "meaning": "움켜잡다",
     "example": "The grab is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "잡는 것이 중요합니다."
   },
   {
     "word": "Grade",
     "meaning": "학년",
     "example": "We found a grade.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "등급을 찾았습니다."
   },
   {
     "word": "Graduate",
     "meaning": "졸업하다",
     "example": "He can graduate well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 졸업할 수 있다."
   },
   {
     "word": "Grain",
     "meaning": "곡식, 낱알",
     "example": "She has a grain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 곡물을 가지고 있습니다."
   },
   {
     "word": "Grammar",
     "meaning": "문법",
     "example": "She has a grammar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 문법을 가지고 있습니다."
   },
   {
     "word": "Grand",
     "meaning": "웅장한, 화려한",
     "example": "The room looks grand.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 웅장해 보이네요."
   },
   {
     "word": "Grass",
     "meaning": "풀, 잔디",
     "example": "We found a grass.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 잔디를 발견했습니다."
   },
   {
     "word": "Grave",
     "meaning": "중대한",
     "example": "This is grave.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 심각하다."
   },
   {
     "word": "Gray",
     "meaning": "회색, 회색의",
     "example": "She has a gray.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 회색을 가지고 있습니다."
   },
   {
     "word": "Greedy",
     "meaning": "탐욕스러운",
     "example": "He feels greedy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 욕심을 느낀다."
   },
   {
     "word": "Greeting",
     "meaning": "인사, 축하",
     "example": "This is greeting.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "인사입니다."
   },
   {
     "word": "Ground",
     "meaning": "땅, 운동장",
     "example": "The ground is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "땅이 중요합니다."
   },
   {
     "word": "Group",
     "meaning": "집단",
     "example": "She has a group.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 그룹이 있습니다."
   },
   {
     "word": "Guard",
     "meaning": "지키다, 경계, 위병",
     "example": "The guard is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "경비원이 중요합니다."
   },
   {
     "word": "Guess",
     "meaning": "추측하다, 추측",
     "example": "I guess every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매일 그런 것 같아요."
   },
   {
     "word": "Guest",
     "meaning": "손님( visitor )",
     "example": "I need a guest.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "손님이 필요해요."
   },
   {
     "word": "Guide",
     "meaning": "안내자, 안내하다",
     "example": "They often guide together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "함께 안내하는 경우가 많습니다."
   },
   {
     "word": "Gun",
     "meaning": "총",
     "example": "This is a good gun.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 총입니다."
   },
   {
     "word": "Habit",
     "meaning": "습관",
     "example": "Reading is a good habit.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "독서는 좋은 습관입니다."
   },
   {
     "word": "Halt",
     "meaning": "정지하다",
     "example": "They often halt together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 멈춰 있습니다."
   },
   {
     "word": "Hand",
     "meaning": "주다, 건네주다",
     "example": "We found a hand.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 손을 찾았습니다."
   },
   {
     "word": "Handle",
     "meaning": "손잡이",
     "example": "The handle is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "손잡이가 중요해요."
   },
   {
     "word": "Handshake",
     "meaning": "악수",
     "example": "I need a handshake.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "악수가 필요해요."
   },
   {
     "word": "Handsome",
     "meaning": "잘생긴, 멋진",
     "example": "She has a handsome.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 잘 생겼다."
   },
   {
     "word": "Hang",
     "meaning": "걸다, 매달다",
     "example": "I need a hang.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "잠시 기다려 주세요."
   },
   {
     "word": "Happen",
     "meaning": "일어나다, 생기다",
     "example": "The happen is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "일어난 일이 중요합니다."
   },
   {
     "word": "Hardly",
     "meaning": "거의 ~ 아니다",
     "example": "She walked hardly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 거의 걷지 않았습니다."
   },
   {
     "word": "Harmful",
     "meaning": "해로운",
     "example": "She is harmful.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 해롭다."
   },
   {
     "word": "Harvest",
     "meaning": "수확, 추수",
     "example": "The harvest is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "수확이 중요합니다."
   },
   {
     "word": "Haste",
     "meaning": "급함, 신속, 서두르다",
     "example": "I need a haste.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "서둘러야 해요."
   },
   {
     "word": "Hate",
     "meaning": "미워하다",
     "example": "We need to hate now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 우리는 미워해야 합니다."
   },
   {
     "word": "Hawk",
     "meaning": "매",
     "example": "This is a good hawk.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 매입니다."
   },
   {
     "word": "Hay",
     "meaning": "건초",
     "example": "This is a good hay.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 건초입니다."
   },
   {
     "word": "Health",
     "meaning": "건강",
     "example": "Health is better than wealth.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "건강은 부보다 낫습니다."
   },
   {
     "word": "Heart",
     "meaning": "심장",
     "example": "This is a good heart.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 마음입니다."
   },
   {
     "word": "Heat",
     "meaning": "열, 더위",
     "example": "I need a heat.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "열이 필요해요."
   },
   {
     "word": "Heaven",
     "meaning": "하늘",
     "example": "The heaven is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "천국이 중요합니다."
   },
   {
     "word": "Heavy",
     "meaning": "무거운",
     "example": "The heavy is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "무거운 것이 중요합니다."
   },
   {
     "word": "Hero",
     "meaning": "영웅 복수형:heroes",
     "example": "The hero is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "영웅이 중요해요."
   },
   {
     "word": "Hesitate",
     "meaning": "주저하다, 망설이다",
     "example": "They often hesitate together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 주저합니다."
   },
   {
     "word": "Hide",
     "meaning": "감추다, 숨다",
     "example": "The hide is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "숨기기가 중요합니다."
   },
   {
     "word": "History",
     "meaning": "역사",
     "example": "I like studying history.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 역사 공부를 좋아해요."
   },
   {
     "word": "Hit",
     "meaning": "치다",
     "example": "I need a hit.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "히트가 필요해."
   },
   {
     "word": "Hobby",
     "meaning": "취미",
     "example": "I need a hobby.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "취미가 필요해요."
   },
   {
     "word": "Hold",
     "meaning": "쥐다, 개최하다",
     "example": "We need to hold now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지금은 붙잡아야합니다."
   },
   {
     "word": "Hole",
     "meaning": "구멍",
     "example": "We found a hole.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 구멍을 발견했습니다."
   },
   {
     "word": "Holiday",
     "meaning": "휴일, 휴가",
     "example": "The holiday is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "휴일은 중요합니다."
   },
   {
     "word": "Hollow",
     "meaning": "구멍, 속이 빈",
     "example": "I need a hollow.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "빈 공간이 필요해요."
   },
   {
     "word": "Homesick",
     "meaning": "고향을 그리워하는, 향수병의",
     "example": "We found a homesick.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "향수병을 찾았습니다."
   },
   {
     "word": "Hometown",
     "meaning": "고향",
     "example": "I need a hometown.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "고향이 필요해요."
   },
   {
     "word": "Honest",
     "meaning": "정직한",
     "example": "It is very honest.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 정직합니다."
   },
   {
     "word": "Hop",
     "meaning": "한발로 뛰다",
     "example": "She is hop.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 홉입니다."
   },
   {
     "word": "Horizon",
     "meaning": "수평선",
     "example": "I need a horizon.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지평선이 필요해요."
   },
   {
     "word": "Horn",
     "meaning": "뿔, 경적",
     "example": "I need a horn.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "경적이 필요해요."
   },
   {
     "word": "Hospital",
     "meaning": "병원",
     "example": "I need a hospital.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "병원이 필요해요."
   },
   {
     "word": "However",
     "meaning": "아무리 ~해도, 그러나",
     "example": "We found a however.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그러나 우리는 찾았습니다."
   },
   {
     "word": "Howl",
     "meaning": "짖다, 울부짖다",
     "example": "The howl is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "울부짖는 소리가 중요합니다."
   },
   {
     "word": "Huge",
     "meaning": "거대한",
     "example": "He feels huge.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 거대하다고 느낍니다."
   },
   {
     "word": "Hunger",
     "meaning": "굶주림",
     "example": "We found a hunger.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 배고픔을 발견했습니다."
   },
   {
     "word": "Hunter",
     "meaning": "사냥꾼",
     "example": "She has a hunter.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 사냥꾼이 있습니다."
   },
   {
     "word": "Hurray",
     "meaning": "만세",
     "example": "I need a hurray.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "만세가 필요합니다."
   },
   {
     "word": "Hurry",
     "meaning": "서두르다, 서두름",
     "example": "We found a hurry.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 서두르는 것을 발견했습니다."
   },
   {
     "word": "Hurt",
     "meaning": "상처를 입히다",
     "example": "We found a hurt.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 상처를 발견했습니다."
   },
   {
     "word": "Husband",
     "meaning": "남편",
     "example": "She has a husband.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 남편이 있습니다."
   },
   {
     "word": "Hut",
     "meaning": "오두막집",
     "example": "This is a good hut.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 오두막입니다."
   },
   {
     "word": "Hydrogen",
     "meaning": "수소",
     "example": "This is a good hydrogen.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 수소입니다."
   },
   {
     "word": "Iceberg",
     "meaning": "빙산",
     "example": "She has a iceberg.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 빙산을 가지고 있습니다."
   },
   {
     "word": "Idea",
     "meaning": "생각, 이념",
     "example": "I need a idea.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "아이디어가 필요해요."
   },
   {
     "word": "Imagine",
     "meaning": "상상하다",
     "example": "Imagine you are on a beach.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "당신이 해변에 있다고 상상해보십시오."
   },
   {
     "word": "Immediately",
     "meaning": "곧, 즉시",
     "example": "She walked immediately.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 즉시 걸었다."
   },
   {
     "word": "Import",
     "meaning": "수입(품)",
     "example": "This is a good import.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 수입품입니다."
   },
   {
     "word": "Important",
     "meaning": "중요한",
     "example": "It is very important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그것은 매우 중요합니다."
   },
   {
     "word": "Improve",
     "meaning": "향상시키다, 개선하다",
     "example": "My English is improving.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "내 영어 실력이 향상되고 있어요."
   },
   {
     "word": "Include",
     "meaning": "포함하다",
     "example": "The price includes tax.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "가격에는 세금이 포함되어 있습니다."
   },
   {
     "word": "Increase",
     "meaning": "증가, [동]증가하다",
     "example": "He can increase well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 성장할 수 있습니다."
   },
   {
     "word": "Indeed",
     "meaning": "참으로",
     "example": "We found a indeed.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 실제로를 찾았습니다."
   },
   {
     "word": "Independent",
     "meaning": "독립의",
     "example": "I need a independent.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "독립이 필요해요."
   },
   {
     "word": "Industrial",
     "meaning": "산업의, 공업의",
     "example": "She has a industrial.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 산업을 가지고 있습니다."
   },
   {
     "word": "Information",
     "meaning": "정보",
     "example": "Where can I get information?",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "정보는 어디서 얻을 수 있나요?"
   },
   {
     "word": "Inner",
     "meaning": "안쪽의",
     "example": "The inner is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "내면이 중요합니다."
   },
   {
     "word": "Inning",
     "meaning": "회",
     "example": "The inning is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이닝이 중요하다."
   },
   {
     "word": "Insect",
     "meaning": "곤충",
     "example": "This is a good insect.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 곤충입니다."
   },
   {
     "word": "Instead",
     "meaning": "대신에",
     "example": "I need a instead.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "대신이 필요합니다."
   },
   {
     "word": "Instrument",
     "meaning": "기계, 기구, 도구",
     "example": "This is a good instrument.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 악기입니다."
   },
   {
     "word": "Interest",
     "meaning": "관심, 흥미, 이자",
     "example": "I have an interest in music.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 음악에 관심이 있어요."
   },
   {
     "word": "Interesting",
     "meaning": "재미있는",
     "example": "The interesting is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "흥미로운 것이 중요합니다."
   },
   {
     "word": "International",
     "meaning": "국제적인",
     "example": "He feels international.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 국제적인 느낌을 받습니다."
   },
   {
     "word": "Intimate",
     "meaning": "친밀한",
     "example": "The room looks intimate.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 친밀 해 보입니다."
   },
   {
     "word": "Introduce",
     "meaning": "소개하다, 도입하다",
     "example": "He can introduce well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 소개를 잘 할 수 있다."
   },
   {
     "word": "Invader",
     "meaning": "침입자",
     "example": "The invader is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "침략자가 중요합니다."
   },
   {
     "word": "Invent",
     "meaning": "발명하다",
     "example": "We need to invent now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 발명해야 합니다."
   },
   {
     "word": "Invite",
     "meaning": "초대하다",
     "example": "I invite every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 초대합니다."
   },
   {
     "word": "Ivy",
     "meaning": "담쟁이덩굴",
     "example": "I need a ivy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "담쟁이덩굴이 필요해요."
   },
   {
     "word": "Jar",
     "meaning": "항아리",
     "example": "I need a jar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "항아리가 필요해요."
   },
   {
     "word": "Jean",
     "meaning": "진 바지, 진으로 만든 옷",
     "example": "The jean is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "청바지가 중요해요."
   },
   {
     "word": "Jewel",
     "meaning": "보석",
     "example": "She has a jewel.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 보석을 가지고 있습니다."
   },
   {
     "word": "Job",
     "meaning": "직업, 일",
     "example": "I need a job.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "직업이 필요해요."
   },
   {
     "word": "Join",
     "meaning": "결합하다, 참가하다",
     "example": "We need to join now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 합류해야 합니다."
   },
   {
     "word": "Joke",
     "meaning": "농담, 농담을 하다",
     "example": "I joke every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 농담을 한다."
   },
   {
     "word": "Journey",
     "meaning": "여행, 여정",
     "example": "Life is a long journey.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "인생은 긴 여행이다."
   },
   {
     "word": "Joy",
     "meaning": "기쁨",
     "example": "We found a joy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 기쁨을 찾았습니다."
   },
   {
     "word": "Judge",
     "meaning": "재판관",
     "example": "We found a judge.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 판사를 찾았습니다."
   },
   {
     "word": "Junior",
     "meaning": "후배, 손아래에",
     "example": "The junior is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "후배가 중요해요."
   },
   {
     "word": "Kind",
     "meaning": "친절한, 종류",
     "example": "She is kind.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 친절합니다."
   },
   {
     "word": "Kindergarten",
     "meaning": "유치원",
     "example": "She has a kindergarten.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 유치원이 있습니다."
   },
   {
     "word": "Knee",
     "meaning": "무릎",
     "example": "She has a knee.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 무릎이 있습니다."
   },
   {
     "word": "Knowledge",
     "meaning": "지식",
     "example": "Knowledge is power.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "아는 것이 힘입니다."
   },
   {
     "word": "Label",
     "meaning": "꼬리표, 딱지",
     "example": "This is a good label.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 라벨입니다."
   },
   {
     "word": "Lamb",
     "meaning": "새끼냔",
     "example": "We found a lamb.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 양을 찾았습니다."
   },
   {
     "word": "Language",
     "meaning": "언어",
     "example": "English is a global language.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "영어는 글로벌 언어입니다."
   },
   {
     "word": "Lantern",
     "meaning": "랜턴",
     "example": "We found a lantern.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 랜턴을 발견했습니다."
   },
   {
     "word": "Later",
     "meaning": "후에, 나중에",
     "example": "We found a later.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 나중에 찾았습니다."
   },
   {
     "word": "Laundry",
     "meaning": "세탁소",
     "example": "The laundry is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "세탁이 중요해요."
   },
   {
     "word": "Lay",
     "meaning": "눕히다, 놓다",
     "example": "We found a lay.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 평신도를 찾았습니다."
   },
   {
     "word": "Lead",
     "meaning": "인도하다, 지내다",
     "example": "I lead every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 리드한다."
   },
   {
     "word": "Leak",
     "meaning": "새다",
     "example": "We found a leak.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "누출을 발견했습니다."
   },
   {
     "word": "Leap",
     "meaning": "뛰다",
     "example": "She has a leap.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 도약했습니다."
   },
   {
     "word": "Least",
     "meaning": "가장 적은, 최소한의",
     "example": "He feels least.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 기분이 가장 좋지 않습니다."
   },
   {
     "word": "Lend",
     "meaning": "빌려주다",
     "example": "The lend is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "대출이 중요합니다."
   },
   {
     "word": "Lesson",
     "meaning": "학과, 교훈",
     "example": "We found a lesson.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 교훈을 찾았습니다."
   },
   {
     "word": "Letter",
     "meaning": "편지, 문자",
     "example": "She has a letter.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 편지를 가지고 있습니다."
   },
   {
     "word": "Liberty",
     "meaning": "자유",
     "example": "This is a good liberty.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 자유입니다."
   },
   {
     "word": "Library",
     "meaning": "도서관",
     "example": "The library is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "도서관은 중요합니다."
   },
   {
     "word": "License",
     "meaning": "면허",
     "example": "She has a license.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 면허를 가지고 있습니다."
   },
   {
     "word": "Life",
     "meaning": "생명, 생활",
     "example": "I need a life.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 생명이 필요합니다."
   },
   {
     "word": "Lift",
     "meaning": "들어 올리다",
     "example": "This is a good lift.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 리프트입니다."
   },
   {
     "word": "Limit",
     "meaning": "제한하다, 한계, 제한",
     "example": "She wants to limit.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 제한하고 싶어합니다."
   },
   {
     "word": "List",
     "meaning": "명부",
     "example": "She has a list.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 목록을 가지고 있습니다."
   },
   {
     "word": "Living",
     "meaning": "room 거실",
     "example": "The living is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "생활이 중요합니다."
   },
   {
     "word": "Load",
     "meaning": "짐, 부담",
     "example": "I need a load.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "짐이 필요해요."
   },
   {
     "word": "Loaf",
     "meaning": "빵 한 덩어리",
     "example": "The room looks loaf.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 빵빵해 보인다."
   },
   {
     "word": "Locate",
     "meaning": "위치하다",
     "example": "He can locate well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 위치를 잘 찾을 수 있다."
   },
   {
     "word": "Lock",
     "meaning": "자물쇠, 자물쇠를 채우다",
     "example": "The lock is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "자물쇠가 중요합니다."
   },
   {
     "word": "Log",
     "meaning": "통나무",
     "example": "The log is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "로그가 중요합니다."
   },
   {
     "word": "Lonely",
     "meaning": "고독한",
     "example": "He spoke lonely.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 외롭게 말했다."
   },
   {
     "word": "Lose",
     "meaning": "잃다, 지다",
     "example": "The lose is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "패는 것이 중요합니다."
   },
   {
     "word": "Loud",
     "meaning": "목소리가 큰, 시끄러운",
     "example": "She has a loud.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 시끄러워요."
   },
   {
     "word": "Low",
     "meaning": "낮은, 낮게",
     "example": "This is a good low.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 최저치입니다."
   },
   {
     "word": "Luck",
     "meaning": "행운",
     "example": "We found a luck.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 행운을 찾았습니다."
   },
   {
     "word": "Machine",
     "meaning": "기계",
     "example": "This is a good machine.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 기계입니다."
   },
   {
     "word": "Magazine",
     "meaning": "잡지",
     "example": "I need a magazine.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "잡지가 필요해요."
   },
   {
     "word": "Mail",
     "meaning": "우편물",
     "example": "She has a mail.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 우편물을 가지고 있습니다."
   },
   {
     "word": "Main",
     "meaning": "주요한",
     "example": "This is main.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것이 메인입니다."
   },
   {
     "word": "Mammal",
     "meaning": "포유동물",
     "example": "The mammal is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "포유류는 중요합니다."
   },
   {
     "word": "Manage",
     "meaning": "관리하다, 경영하다",
     "example": "He manages a small shop.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 작은 가게를 운영하고 있습니다."
   },
   {
     "word": "Mankind",
     "meaning": "인간",
     "example": "This is mankind.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것이 바로 인류입니다."
   },
   {
     "word": "Marble",
     "meaning": "대리석",
     "example": "We found a marble.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 대리석을 발견했습니다."
   },
   {
     "word": "March",
     "meaning": "행진, 행진하다",
     "example": "They often march together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 행진합니다."
   },
   {
     "word": "Marry",
     "meaning": "결혼하다",
     "example": "I marry every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 결혼한다."
   },
   {
     "word": "Mars",
     "meaning": "화성",
     "example": "I need a mars.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "화성이 필요해요."
   },
   {
     "word": "Master",
     "meaning": "주인, 정복하다",
     "example": "We need to master now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 마스터해야 합니다."
   },
   {
     "word": "Match",
     "meaning": "시합",
     "example": "The match is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "경기는 중요하다."
   },
   {
     "word": "Math",
     "meaning": "수학",
     "example": "This is a good math.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 수학입니다."
   },
   {
     "word": "Matter",
     "meaning": "일, 문제",
     "example": "I need a matter.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "문제가 필요해요."
   },
   {
     "word": "Maybe",
     "meaning": "아마",
     "example": "I need a maybe.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "아마도 필요할 것 같아요."
   },
   {
     "word": "Mayor",
     "meaning": "시장",
     "example": "This is a good mayor.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 시장님이십니다."
   },
   {
     "word": "Measure",
     "meaning": "측정하다, 재다",
     "example": "Measure the length of the desk.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "책상의 길이를 측정하세요."
   },
   {
     "word": "Meat",
     "meaning": "고기",
     "example": "We found a meat.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 고기를 발견했습니다."
   },
   {
     "word": "Memory",
     "meaning": "기억",
     "example": "I have a good memory.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 좋은 기억을 가지고 있습니다."
   },
   {
     "word": "Mention",
     "meaning": "말하다",
     "example": "They often mention together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "함께 언급하는 경우가 많습니다."
   },
   {
     "word": "Merchant",
     "meaning": "상인",
     "example": "She is merchant.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 상인입니다."
   },
   {
     "word": "Merry",
     "meaning": "즐거운",
     "example": "The merry is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "즐거움이 중요합니다."
   },
   {
     "word": "Message",
     "meaning": "메시지, 전갈",
     "example": "Leave a message for him.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그에게 메시지를 남겨주세요."
   },
   {
     "word": "Metal",
     "meaning": "금속",
     "example": "The metal is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "금속이 중요합니다."
   },
   {
     "word": "Method",
     "meaning": "방법",
     "example": "The method is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방법이 중요합니다."
   },
   {
     "word": "Might",
     "meaning": "힘",
     "example": "She has a might.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 힘이 있습니다."
   },
   {
     "word": "Mild",
     "meaning": "온화한",
     "example": "It is very mild.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 온화합니다."
   },
   {
     "word": "Mile",
     "meaning": "마일",
     "example": "The mile is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "마일이 중요합니다."
   },
   {
     "word": "Million",
     "meaning": "백만",
     "example": "I need a million.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "백만 달러가 필요해요."
   },
   {
     "word": "Mind",
     "meaning": "마음",
     "example": "She has a mind.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 마음이 있습니다."
   },
   {
     "word": "Miss",
     "meaning": "놓치다, 그리워하다",
     "example": "I miss every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 그리워요."
   },
   {
     "word": "Mistake",
     "meaning": "실수",
     "example": "Don't be afraid of making mistakes.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "실수하는 것을 두려워하지 마십시오."
   },
   {
     "word": "Modern",
     "meaning": "현대적인",
     "example": "They live in a modern house.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 현대적인 집에 살고 있습니다."
   },
   {
     "word": "Moment",
     "meaning": "순간",
     "example": "This is a good moment.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지금은 좋은 순간이다."
   },
   {
     "word": "Monk",
     "meaning": "승려",
     "example": "This is a good monk.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 스님입니다."
   },
   {
     "word": "Monument",
     "meaning": "기념비, 기념물",
     "example": "The monument is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "기념물은 중요합니다."
   },
   {
     "word": "Mostly",
     "meaning": "대개는",
     "example": "She walked mostly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 대부분 걸었다."
   },
   {
     "word": "Mouse",
     "meaning": "생쥐",
     "example": "We found a mouse.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 쥐를 발견했습니다."
   },
   {
     "word": "Museum",
     "meaning": "박물관",
     "example": "The museum is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "박물관은 중요하다."
   },
   {
     "word": "Musician",
     "meaning": "음악가",
     "example": "We found a musician.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 음악가를 찾았습니다."
   },
   {
     "word": "Mystery",
     "meaning": "신비, 불가사의",
     "example": "This is a good mystery.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 미스터리입니다."
   },
   {
     "word": "Nail",
     "meaning": "손톱, 발톱",
     "example": "She has a nail.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 손톱이 있습니다."
   },
   {
     "word": "Nation",
     "meaning": "국가",
     "example": "This is a good nation.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 나라입니다."
   },
   {
     "word": "Nature",
     "meaning": "자연, 본성",
     "example": "I love the beauty of nature.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 자연의 아름다움을 좋아합니다."
   },
   {
     "word": "Navy",
     "meaning": "해군",
     "example": "The navy is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "해군이 중요해요."
   },
   {
     "word": "Nearly",
     "meaning": "거의",
     "example": "She walked nearly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 거의 걸었다."
   },
   {
     "word": "Necessary",
     "meaning": "필요한",
     "example": "The room looks necessary.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 꼭 필요한 것 같습니다."
   },
   {
     "word": "Need",
     "meaning": "필요로 하다, 필요",
     "example": "He can need well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 필요할 수 있습니다."
   },
   {
     "word": "Neighbor",
     "meaning": "이웃사람",
     "example": "She has a neighbor.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 이웃이 있습니다."
   },
   {
     "word": "Neigher",
     "meaning": "~도 아니고 ~도 아니다",
     "example": "I need a neigher.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이웃이 필요해요."
   },
   {
     "word": "Nephew",
     "meaning": "조카",
     "example": "I need a nephew.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "조카가 필요해요."
   },
   {
     "word": "Nickname",
     "meaning": "별명, 애칭",
     "example": "This is a good nickname.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 별명이네요."
   },
   {
     "word": "Niece",
     "meaning": "조카딸",
     "example": "She has a niece.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 조카가 있습니다."
   },
   {
     "word": "Noble",
     "meaning": "고귀한",
     "example": "It is very noble.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 고귀합니다."
   },
   {
     "word": "Nod",
     "meaning": "끄덕이다",
     "example": "The nod is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "고개를 끄덕이는 것이 중요합니다."
   },
   {
     "word": "Noise",
     "meaning": "소리, 소음",
     "example": "We found a noise.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "소음이 발생했습니다."
   },
   {
     "word": "None",
     "meaning": "아무도 ~않다",
     "example": "This is a good none.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 것이 아닙니다."
   },
   {
     "word": "Normal",
     "meaning": "보통의",
     "example": "I need a normal.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 정상이 필요합니다."
   },
   {
     "word": "Notice",
     "meaning": "알아차리다, 통지",
     "example": "Did you notice his new hair?",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그의 새로운 머리를 보셨나요?"
   },
   {
     "word": "Nuclear",
     "meaning": "핵의",
     "example": "I need a nuclear.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "핵이 필요해요"
   },
   {
     "word": "Nurse",
     "meaning": "간호사",
     "example": "The nurse is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "간호사가 중요해요."
   },
   {
     "word": "Oath",
     "meaning": "맹세, 선서",
     "example": "We found a oath.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 맹세를 찾았습니다."
   },
   {
     "word": "Obey",
     "meaning": "복종하다",
     "example": "They often obey together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 순종합니다."
   },
   {
     "word": "Object",
     "meaning": "물체, 목적",
     "example": "There is an object on the table.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "테이블 위에 물건이 있습니다."
   },
   {
     "word": "Obtain",
     "meaning": "얻다",
     "example": "This is a good obtain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 결과입니다."
   },
   {
     "word": "Occur",
     "meaning": "일어나다",
     "example": "This is a good occur.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 현상입니다."
   },
   {
     "word": "Ocean",
     "meaning": "대양",
     "example": "We found a ocean.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 바다를 발견했습니다."
   },
   {
     "word": "Offer",
     "meaning": "제공하다",
     "example": "They often offer together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "함께 제안하는 경우가 많습니다."
   },
   {
     "word": "Office",
     "meaning": "사무실, 회사",
     "example": "She has a office.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 사무실을 가지고 있습니다."
   },
   {
     "word": "Officer",
     "meaning": "공무원, 장교",
     "example": "The officer is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "장교가 중요합니다."
   },
   {
     "word": "Once",
     "meaning": "한번, 한때",
     "example": "He feels once.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 한 번 느낀다."
   },
   {
     "word": "Operator",
     "meaning": "교환수",
     "example": "The operator is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "운영자가 중요합니다."
   },
   {
     "word": "Opinion",
     "meaning": "의견",
     "example": "What is your opinion?",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "당신의 의견은 무엇입니까?"
   },
   {
     "word": "Opportunity",
     "meaning": "기회",
     "example": "Don't miss this opportunity.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이 기회를 놓치지 마세요."
   },
   {
     "word": "Order",
     "meaning": "순서, 명령",
     "example": "This is a good order.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 명령이다."
   },
   {
     "word": "Ostrich",
     "meaning": "타조, 방관자",
     "example": "This is a good ostrich.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 타조입니다."
   },
   {
     "word": "Otherwise",
     "meaning": "다른 방법으로, 그렇지 않으면",
     "example": "We found a otherwise.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 다른 것을 발견했습니다."
   },
   {
     "word": "Overhear",
     "meaning": "엿듣다",
     "example": "I need a overhear.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "엿듣는 사람이 필요해요"
   },
   {
     "word": "Owe",
     "meaning": "힘입다, 빛(의무)이 있다.",
     "example": "This is a good owe.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 빚입니다."
   },
   {
     "word": "Owl",
     "meaning": "올빼미",
     "example": "She has a owl.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 올빼미를 가지고 있습니다."
   },
   {
     "word": "Own",
     "meaning": "자기 자신의, 소유하다",
     "example": "We need to own now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 소유해야 합니다."
   },
   {
     "word": "Paint",
     "meaning": "그리다, 페인트를 칠하다",
     "example": "I paint every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 그림을 그린다."
   },
   {
     "word": "Pair",
     "meaning": "한 쌍",
     "example": "It is very pair.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 쌍입니다."
   },
   {
     "word": "Pal",
     "meaning": "친구",
     "example": "She has a pal.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 친구가 있습니다."
   },
   {
     "word": "Palace",
     "meaning": "궁전",
     "example": "The palace is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "궁전이 중요해요."
   },
   {
     "word": "Parade",
     "meaning": "행렬",
     "example": "She has a parade.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 퍼레이드를 가졌습니다."
   },
   {
     "word": "Pardon",
     "meaning": "용서",
     "example": "This is a good pardon.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 용서입니다."
   },
   {
     "word": "Pass",
     "meaning": "지나가다, 합격하다",
     "example": "We need to pass now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 통과해야 합니다."
   },
   {
     "word": "Passenger",
     "meaning": "승객",
     "example": "We found a passenger.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "승객을 찾았습니다."
   },
   {
     "word": "Passport",
     "meaning": "여권",
     "example": "She has a passport.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 여권을 가지고 있습니다."
   },
   {
     "word": "Past",
     "meaning": "과거의, ~을 지나서",
     "example": "She has a past.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 과거가 있습니다."
   },
   {
     "word": "Patient",
     "meaning": "참을성 있는, 환자",
     "example": "Be patient with children.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "아이들에게 인내심을 가지십시오."
   },
   {
     "word": "Pause",
     "meaning": "중지, 멈추다",
     "example": "We found a pause.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "일시 중지를 찾았습니다."
   },
   {
     "word": "Peaceful",
     "meaning": "평화로운",
     "example": "The room looks peaceful.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 평화로워 보이네요."
   },
   {
     "word": "Pepper",
     "meaning": "후추",
     "example": "I need a pepper.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "후추가 필요해요."
   },
   {
     "word": "Perfect",
     "meaning": "완벽한",
     "example": "The weather is perfect today.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "오늘 날씨가 완벽해요."
   },
   {
     "word": "Perform",
     "meaning": "공연하다, 수행하다",
     "example": "The actors performed well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "배우들의 연기가 좋았습니다."
   },
   {
     "word": "Perhaps",
     "meaning": "아마",
     "example": "We found a perhaps.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "아마도 찾았습니다."
   },
   {
     "word": "Pet",
     "meaning": "애완동물, 귀여워하는",
     "example": "She has a pet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 애완동물을 키우고 있습니다."
   },
   {
     "word": "Petal",
     "meaning": "꽃잎",
     "example": "We found a petal.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "꽃잎을 찾았어요."
   },
   {
     "word": "Photographer",
     "meaning": "사진사",
     "example": "We found a photographer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "사진 작가를 찾았습니다."
   },
   {
     "word": "Pick",
     "meaning": "고르다, 줍다",
     "example": "I need a pick.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "선택이 필요해요."
   },
   {
     "word": "Piece",
     "meaning": "한 조각",
     "example": "This is piece.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 조각입니다."
   },
   {
     "word": "Pigeon",
     "meaning": "비둘기",
     "example": "We found a pigeon.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 비둘기를 발견했습니다."
   },
   {
     "word": "Pilgrim",
     "meaning": "순례자",
     "example": "The pilgrim is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "순례자가 중요합니다."
   },
   {
     "word": "Pill",
     "meaning": "알약",
     "example": "This is a good pill.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 약입니다."
   },
   {
     "word": "Pilot",
     "meaning": "조종사, 안내인",
     "example": "It is very pilot.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 파일럿입니다."
   },
   {
     "word": "Pitch",
     "meaning": "던지다",
     "example": "She has a pitch.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 피치를 가지고 있습니다."
   },
   {
     "word": "Plane",
     "meaning": "비행기",
     "example": "She has a plane.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 비행기를 가지고 있습니다."
   },
   {
     "word": "Planet",
     "meaning": "유성",
     "example": "This is a good planet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 행성이다."
   },
   {
     "word": "Plant",
     "meaning": "식물, 식물을 심다",
     "example": "She has a plant.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 식물을 가지고 있습니다."
   },
   {
     "word": "Plate",
     "meaning": "접시",
     "example": "I need a plate.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "접시가 필요해요."
   },
   {
     "word": "Pleasant",
     "meaning": "기분 좋은, 유쾌한",
     "example": "She is pleasant.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 유쾌합니다."
   },
   {
     "word": "Plenty",
     "meaning": "풍부, 많은",
     "example": "We found a plenty.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 많이 찾았습니다."
   },
   {
     "word": "Poet",
     "meaning": "시인",
     "example": "He feels poet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 시인이라고 느낀다."
   },
   {
     "word": "Politely",
     "meaning": "공손히, 정중하게",
     "example": "They work politely.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 정중하게 일합니다."
   },
   {
     "word": "Pollution",
     "meaning": "오염",
     "example": "I need a pollution.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "오염이 필요해요."
   },
   {
     "word": "Pop",
     "meaning": "펑하고 소리 나다, 대중음악",
     "example": "I need a pop.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "팝이 필요해요."
   },
   {
     "word": "Popular",
     "meaning": "인기 있는",
     "example": "It is very popular.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 인기가 있습니다."
   },
   {
     "word": "Population",
     "meaning": "인구",
     "example": "The room looks population.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 인구처럼 보입니다."
   },
   {
     "word": "Port",
     "meaning": "항구",
     "example": "The port is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "항구가 중요합니다."
   },
   {
     "word": "Possible",
     "meaning": "가능한",
     "example": "The room looks possible.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 가능할 것 같습니다."
   },
   {
     "word": "Post",
     "meaning": "우편, 우편물",
     "example": "I need a post.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "게시물이 필요해요."
   },
   {
     "word": "Potato",
     "meaning": "감자",
     "example": "I need a potato.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "감자가 필요해요."
   },
   {
     "word": "Powder",
     "meaning": "가루, 화약",
     "example": "I need a powder.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "가루가 필요해요."
   },
   {
     "word": "Practice",
     "meaning": "연습하다",
     "example": "They often practice together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 연습합니다."
   },
   {
     "word": "Prairie",
     "meaning": "대초원",
     "example": "I need a prairie.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "초원이 필요해요."
   },
   {
     "word": "Pray",
     "meaning": "빌다",
     "example": "This is a good pray.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 기도입니다."
   },
   {
     "word": "Precious",
     "meaning": "귀중한",
     "example": "It is very precious.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그것은 매우 귀중합니다."
   },
   {
     "word": "Prepare",
     "meaning": "준비하다",
     "example": "Prepare for the exam.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "시험을 준비하세요."
   },
   {
     "word": "Present",
     "meaning": "현재, 선물",
     "example": "The present is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "현재가 중요합니다."
   },
   {
     "word": "President",
     "meaning": "대통령",
     "example": "We found a president.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 대통령을 찾았습니다."
   },
   {
     "word": "Press",
     "meaning": "누르다",
     "example": "She has a press.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 언론을 가지고 있습니다."
   },
   {
     "word": "Pretend",
     "meaning": "~인 체하다",
     "example": "We need to pretend now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 척해야합니다."
   },
   {
     "word": "Pretty",
     "meaning": "예쁜, 상당히",
     "example": "We found a pretty.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 예쁜 것을 발견했습니다."
   },
   {
     "word": "Price",
     "meaning": "값, 가격",
     "example": "This is a good price.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 가격입니다."
   },
   {
     "word": "Primary",
     "meaning": "본래의",
     "example": "I need a primary.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 기본이 필요합니다."
   },
   {
     "word": "Prince",
     "meaning": "왕자",
     "example": "This is a good prince.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 왕자입니다."
   },
   {
     "word": "Principal",
     "meaning": "교장, 주요한, 長",
     "example": "The room looks principal.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 교장처럼 보입니다."
   },
   {
     "word": "Prison",
     "meaning": "형무소",
     "example": "She has a prison.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 감옥이 있습니다."
   },
   {
     "word": "Private",
     "meaning": "개인의",
     "example": "He feels private.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 사적인 느낌을 받습니다."
   },
   {
     "word": "Prize",
     "meaning": "상, 상품",
     "example": "This is a good prize.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 상입니다."
   },
   {
     "word": "Probably",
     "meaning": "아마",
     "example": "He spoke probably.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 아마 말했다."
   },
   {
     "word": "Problem",
     "meaning": "문제",
     "example": "She has a problem.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 문제가 있습니다."
   },
   {
     "word": "Produce",
     "meaning": "생산하다",
     "example": "They often produce together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "함께 생산하는 경우가 많습니다."
   },
   {
     "word": "Product",
     "meaning": "제품, 결과물",
     "example": "This is a high-quality product.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 고품질의 제품입니다."
   },
   {
     "word": "Project",
     "meaning": "계획, 계획하다",
     "example": "They often project together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 프로젝트를 진행합니다."
   },
   {
     "word": "Promise",
     "meaning": "가망, 전망, 약속",
     "example": "This is a good promise.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 약속이다."
   },
   {
     "word": "Pronunciation",
     "meaning": "발음",
     "example": "I need a pronunciation.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "발음이 필요해요."
   },
   {
     "word": "Properly",
     "meaning": "적당히, 올바르게",
     "example": "She walked properly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 제대로 걸었다."
   },
   {
     "word": "Protect",
     "meaning": "보호하다",
     "example": "We need to protect now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 보호해야 합니다."
   },
   {
     "word": "Proud",
     "meaning": "자랑스러운, 오만한",
     "example": "She is proud.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 자랑스러워합니다."
   },
   {
     "word": "Prove",
     "meaning": "증명하다",
     "example": "They often prove together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 증명합니다."
   },
   {
     "word": "Proverb",
     "meaning": "속담",
     "example": "We found a proverb.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 속담을 찾았습니다."
   },
   {
     "word": "Public",
     "meaning": "공중(사회), 공공의, 공중의",
     "example": "The public is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "대중은 중요합니다."
   },
   {
     "word": "Pull",
     "meaning": "잡아당기다, 끌다",
     "example": "She has a pull.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 당김을 가지고 있습니다."
   },
   {
     "word": "Pulse",
     "meaning": "맥박",
     "example": "She has a pulse.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 맥박이 있습니다."
   },
   {
     "word": "Pumpkin",
     "meaning": "호박",
     "example": "She has a pumpkin.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 호박을 가지고 있습니다."
   },
   {
     "word": "Puritan",
     "meaning": "청교도",
     "example": "The puritan is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "청교도는 중요합니다."
   },
   {
     "word": "Purpose",
     "meaning": "목적",
     "example": "What is the purpose of your visit?",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방문 목적은 무엇입니까?"
   },
   {
     "word": "Push",
     "meaning": "밀다",
     "example": "I need a push.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 추진이 필요하다."
   },
   {
     "word": "Puzzle",
     "meaning": "수수께끼",
     "example": "We found a puzzle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 퍼즐을 찾았습니다."
   },
   {
     "word": "Quality",
     "meaning": "품질, 질",
     "example": "Quality is more important than quantity.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "양보다 질이 더 중요합니다."
   },
   {
     "word": "Quarter",
     "meaning": "분의, 분",
     "example": "This is a good quarter.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 분기입니다."
   },
   {
     "word": "Quiet",
     "meaning": "조용한",
     "example": "It is very quiet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 조용합니다."
   },
   {
     "word": "Quite",
     "meaning": "아주, 매우",
     "example": "I need a quite.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "꽤 필요해요."
   },
   {
     "word": "Race",
     "meaning": "경주, 민족",
     "example": "I need a race.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 경주가 필요하다."
   },
   {
     "word": "Raise",
     "meaning": "올리다, 일으키다",
     "example": "This is a good raise.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 인상입니다."
   },
   {
     "word": "Rapidly",
     "meaning": "빨리, 신속히",
     "example": "They work rapidly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 빠르게 일합니다."
   },
   {
     "word": "Rat",
     "meaning": "쥐, 들쥐",
     "example": "She has a rat.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 쥐가 있습니다."
   },
   {
     "word": "Rate",
     "meaning": "비율, 속도",
     "example": "We found a rate.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "요금을 찾았습니다."
   },
   {
     "word": "Rather",
     "meaning": "오히려, 얼마간",
     "example": "This is a good rather.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "오히려 이게 좋은데요."
   },
   {
     "word": "Reach",
     "meaning": "도착하다",
     "example": "We need to reach now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 도달해야 합니다."
   },
   {
     "word": "Rear",
     "meaning": "뒤쪽",
     "example": "This is a good rear.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 후방이네요."
   },
   {
     "word": "Reason",
     "meaning": "이유",
     "example": "Give me a reason for that.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그 이유를 알려주세요."
   },
   {
     "word": "Receive",
     "meaning": "받다",
     "example": "I need a receive.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "수신이 필요해요."
   },
   {
     "word": "Recently",
     "meaning": "최근에",
     "example": "He spoke recently.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 최근에 말했습니다."
   },
   {
     "word": "Record",
     "meaning": "기록",
     "example": "The record is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "기록이 중요합니다."
   },
   {
     "word": "Reduce",
     "meaning": "줄이다, 감소시키다",
     "example": "Reduce the use of plastic.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "플라스틱 사용을 줄이세요."
   },
   {
     "word": "Refrigerator",
     "meaning": "냉장고",
     "example": "The refrigerator is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "냉장고가 중요해요."
   },
   {
     "word": "Refuse",
     "meaning": "거절하다",
     "example": "They often refuse together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "함께 거절하는 경우가 많습니다."
   },
   {
     "word": "Regular",
     "meaning": "규칙적인",
     "example": "He feels regular.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 규칙적이라고 느낀다."
   },
   {
     "word": "Rein",
     "meaning": "고삐",
     "example": "The rein is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "고삐가 중요합니다."
   },
   {
     "word": "Relative",
     "meaning": "친척, 관계가 있는",
     "example": "She has a relative.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 친척이 있습니다."
   },
   {
     "word": "Relay",
     "meaning": "교되자, 교대하다",
     "example": "They often relay together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 중계합니다."
   },
   {
     "word": "Religious",
     "meaning": "종교적인",
     "example": "She is religious.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 종교적이다."
   },
   {
     "word": "Remain",
     "meaning": "남다",
     "example": "I need a remain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "잔금이 필요해요."
   },
   {
     "word": "Remember",
     "meaning": "기억하다",
     "example": "I remember your face.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 당신의 얼굴을 기억합니다."
   },
   {
     "word": "Remind",
     "meaning": "생각나게 하다",
     "example": "She wants to remind.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 상기시키고 싶어합니다."
   },
   {
     "word": "Remove",
     "meaning": "옮기다",
     "example": "She has a remove.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 제거가 있습니다."
   },
   {
     "word": "Repeat",
     "meaning": "되풀이하다",
     "example": "She wants to repeat.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 반복하고 싶어합니다."
   },
   {
     "word": "Replace",
     "meaning": "~을 대신하다, 제 자리에 놓다.",
     "example": "They often replace together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "함께 교체하는 경우가 많습니다."
   },
   {
     "word": "Reply",
     "meaning": "대답(하다)",
     "example": "She wants to reply.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 대답하고 싶어합니다."
   },
   {
     "word": "Report",
     "meaning": "보고, 보고하다",
     "example": "She wants to report.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 보고하고 싶어합니다."
   },
   {
     "word": "Republic",
     "meaning": "공화국",
     "example": "We found a republic.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 공화국을 찾았습니다."
   },
   {
     "word": "Resources",
     "meaning": "자원, 수단",
     "example": "This is a good resources.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 자료입니다."
   },
   {
     "word": "Respect",
     "meaning": "존경 동 존경하다",
     "example": "They often respect together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 존경합니다."
   },
   {
     "word": "Rest",
     "meaning": "휴식, 나머지",
     "example": "We found a rest.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 휴식을 찾았습니다."
   },
   {
     "word": "Restaurant",
     "meaning": "식당",
     "example": "We found a restaurant.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 레스토랑을 찾았습니다."
   },
   {
     "word": "Result",
     "meaning": "결과",
     "example": "The result was surprising.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "결과는 놀라웠습니다."
   },
   {
     "word": "Return",
     "meaning": "돌아가다, 돌아오다",
     "example": "The return is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "반품이 중요합니다."
   },
   {
     "word": "Review",
     "meaning": "검토하다, 복습하다",
     "example": "Review your notes.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "메모를 검토하세요."
   },
   {
     "word": "Revival",
     "meaning": "부활",
     "example": "This is a good revival.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 부흥이다."
   },
   {
     "word": "Revolution",
     "meaning": "혁명",
     "example": "We found a revolution.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 혁명을 찾았습니다."
   },
   {
     "word": "Rid",
     "meaning": "제거 하다",
     "example": "I rid every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 제거합니다."
   },
   {
     "word": "Riddle",
     "meaning": "수수께끼",
     "example": "This is a good riddle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 수수께끼입니다."
   },
   {
     "word": "Ride",
     "meaning": "타다, 타고 가다",
     "example": "We found a ride.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 차를 찾았습니다."
   },
   {
     "word": "Roar",
     "meaning": "으르렁거리다",
     "example": "She has a roar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 포효합니다."
   },
   {
     "word": "Robber",
     "meaning": "강도",
     "example": "The robber is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "강도가 중요해요."
   },
   {
     "word": "Roll",
     "meaning": "구르다, 굴리다",
     "example": "The roll is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "롤이 중요해요"
   },
   {
     "word": "Rope",
     "meaning": "밧줄",
     "example": "I need a rope.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "밧줄이 필요해요."
   },
   {
     "word": "Route",
     "meaning": "길",
     "example": "I need a route.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "경로가 필요해요."
   },
   {
     "word": "Row",
     "meaning": "줄, 열",
     "example": "I need a row.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "행이 필요합니다."
   },
   {
     "word": "Rub",
     "meaning": "비비다, 문지르다",
     "example": "I need a rub.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 문지름이 필요하다."
   },
   {
     "word": "Rudely",
     "meaning": "무례하게",
     "example": "He spoke rudely.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 무례하게 말했다."
   },
   {
     "word": "Ruin",
     "meaning": "파멸",
     "example": "The ruin is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "파멸이 중요합니다."
   },
   {
     "word": "Rule",
     "meaning": "규정하다",
     "example": "He can rule well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 통치할 수 있다."
   },
   {
     "word": "Sad",
     "meaning": "슬픈",
     "example": "I need a sad.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 슬픔이 필요하다."
   },
   {
     "word": "Safely",
     "meaning": "안전하게",
     "example": "He spoke safely.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 안전하게 말했다."
   },
   {
     "word": "Sail",
     "meaning": "항해하다, 돛",
     "example": "We need to sail now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 항해해야 합니다."
   },
   {
     "word": "Sale",
     "meaning": "판매, 염가판매",
     "example": "I need a sale.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "판매가 필요해요."
   },
   {
     "word": "Salt",
     "meaning": "소금",
     "example": "The salt is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "소금이 중요해요."
   },
   {
     "word": "Sample",
     "meaning": "견본",
     "example": "The sample is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "샘플이 중요합니다."
   },
   {
     "word": "Sand",
     "meaning": "모래, 모래밭",
     "example": "I need a sand.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "모래가 필요해요."
   },
   {
     "word": "Save",
     "meaning": "구하다, 저축하다",
     "example": "She wants to save.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 저장하고 싶어합니다."
   },
   {
     "word": "Saw",
     "meaning": "톱, 톱으로 켜다",
     "example": "We found a saw.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "톱을 찾았어요."
   },
   {
     "word": "Saying",
     "meaning": "격언",
     "example": "She has a saying.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 이런 말을 했습니다."
   },
   {
     "word": "Scar",
     "meaning": "상처",
     "example": "I need a scar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "흉터가 필요해요."
   },
   {
     "word": "Scare",
     "meaning": "놀라게 하다, 놀라다",
     "example": "He can scare well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 겁을 잘 먹을 수 있습니다."
   },
   {
     "word": "Scene",
     "meaning": "장면, 현장",
     "example": "We found a scene.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 한 장면을 발견했습니다."
   },
   {
     "word": "Schedule",
     "meaning": "예정표",
     "example": "This is a good schedule.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 일정이네요."
   },
   {
     "word": "Scholar",
     "meaning": "학자",
     "example": "I need a scholar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "학자가 필요해요."
   },
   {
     "word": "Science",
     "meaning": "과학",
     "example": "This is a good science.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 과학입니다."
   },
   {
     "word": "Score",
     "meaning": "점수",
     "example": "The score is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "점수가 중요합니다."
   },
   {
     "word": "Scratch",
     "meaning": "할퀴다, 긁다",
     "example": "The scratch is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "스크래치가 중요합니다."
   },
   {
     "word": "Scream",
     "meaning": "날카롭게 소리치다",
     "example": "The scream is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "비명은 중요합니다."
   },
   {
     "word": "Sculpture",
     "meaning": "조각(품)",
     "example": "I need a sculpture.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "조각품이 필요해요."
   },
   {
     "word": "Search",
     "meaning": "찾다",
     "example": "I need a search.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "검색이 필요해요."
   },
   {
     "word": "Seat",
     "meaning": "좌석, 앉히다",
     "example": "The seat is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "자리가 중요해요."
   },
   {
     "word": "Secretary",
     "meaning": "비서",
     "example": "I need a secretary.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "비서가 필요해요."
   },
   {
     "word": "Section",
     "meaning": "부분, 구역",
     "example": "I need a section.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "섹션이 필요해요."
   },
   {
     "word": "Seed",
     "meaning": "씨, 씨를 뿌리다",
     "example": "This is a good seed.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 씨앗입니다."
   },
   {
     "word": "Seldom",
     "meaning": "좀처럼 ~하지 않다",
     "example": "This is a good seldom.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 경우가 거의 없습니다."
   },
   {
     "word": "Select",
     "meaning": "고르다, 선발한",
     "example": "This is select.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "셀렉트입니다."
   },
   {
     "word": "Semester",
     "meaning": "학기",
     "example": "I need a semester.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "한 학기가 필요해요."
   },
   {
     "word": "Senior",
     "meaning": "선배, 손위에",
     "example": "The senior is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "선배가 중요해요."
   },
   {
     "word": "Sentence",
     "meaning": "문장",
     "example": "We found a sentence.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "문장을 찾았습니다."
   },
   {
     "word": "Series",
     "meaning": "연속, 시리즈",
     "example": "She has a series.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 시리즈를 가지고 있습니다."
   },
   {
     "word": "Serious",
     "meaning": "진지한",
     "example": "He feels serious.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 심각하다고 느낀다."
   },
   {
     "word": "Servant",
     "meaning": "하인",
     "example": "She is servant.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 하인입니다."
   },
   {
     "word": "Service",
     "meaning": "서비스, 봉사",
     "example": "The service here is excellent.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이곳의 서비스는 훌륭합니다."
   },
   {
     "word": "Settler",
     "meaning": "이주민",
     "example": "She has a settler.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 정착민이 있습니다."
   },
   {
     "word": "Several",
     "meaning": "여럿의, 몇몇의",
     "example": "This is a good several.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 몇 가지입니다."
   },
   {
     "word": "Shade",
     "meaning": "그늘",
     "example": "I need a shade.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그늘이 필요해요."
   },
   {
     "word": "Shadow",
     "meaning": "그림자",
     "example": "The shadow is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그림자가 중요해요."
   },
   {
     "word": "Shake",
     "meaning": "떨다, 흔들다",
     "example": "She has a shake.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 흔들림이 있습니다."
   },
   {
     "word": "Shape",
     "meaning": "모양",
     "example": "We found a shape.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 모양을 찾았습니다."
   },
   {
     "word": "Sharp",
     "meaning": "날카로운",
     "example": "The room looks sharp.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 날카로워 보이네요."
   },
   {
     "word": "Sheep",
     "meaning": "양",
     "example": "This is a good sheep.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 양입니다."
   },
   {
     "word": "Sheet",
     "meaning": "침대의 시트, 종이 한 장",
     "example": "This is sheet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "시트입니다."
   },
   {
     "word": "Shell",
     "meaning": "조개",
     "example": "This is a good shell.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 껍질입니다."
   },
   {
     "word": "Shine",
     "meaning": "빛나다",
     "example": "The shine is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "광택이 중요합니다."
   },
   {
     "word": "Shock",
     "meaning": "충격, 충격을 주다",
     "example": "We found a shock.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 충격을 발견했습니다."
   },
   {
     "word": "Shoot",
     "meaning": "쏘다, 사격하다",
     "example": "She wants to shoot.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 쏘고 싶어합니다."
   },
   {
     "word": "Shore",
     "meaning": "물가, 바닷가",
     "example": "We found a shore.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 해안을 발견했습니다."
   },
   {
     "word": "Short",
     "meaning": "짧은, 키가 작은",
     "example": "I need a short.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 짧은 것이 필요하다."
   },
   {
     "word": "Shoulder",
     "meaning": "어깨",
     "example": "This is a good shoulder.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 어깨네요."
   },
   {
     "word": "Shout",
     "meaning": "외치다",
     "example": "This is a good shout.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 외침입니다."
   },
   {
     "word": "Shower",
     "meaning": "소나기, 샤워",
     "example": "The shower is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "샤워는 중요합니다."
   },
   {
     "word": "Shrug",
     "meaning": "어깨를 으쓱하다",
     "example": "We need to shrug now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이제 어깨를 으쓱해야 합니다."
   },
   {
     "word": "Shut",
     "meaning": "닫다",
     "example": "The shut is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "닫는 것이 중요합니다."
   },
   {
     "word": "Sick",
     "meaning": "병든, 싫증난",
     "example": "The sick is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "아픈 사람이 중요합니다."
   },
   {
     "word": "Sigh",
     "meaning": "한숨 쉬다",
     "example": "This is sigh.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "한숨입니다."
   },
   {
     "word": "Sight",
     "meaning": "광경, 경치",
     "example": "We found a sight.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 광경을 찾았습니다."
   },
   {
     "word": "Sign",
     "meaning": "신호, 구호",
     "example": "The sign is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "기호가 중요합니다."
   },
   {
     "word": "Silent",
     "meaning": "조용한, 침묵의",
     "example": "She is silent.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 침묵합니다."
   },
   {
     "word": "Silk",
     "meaning": "비단",
     "example": "This is a good silk.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 실크입니다."
   },
   {
     "word": "Silly",
     "meaning": "어리석은",
     "example": "He spoke silly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 어리석게 말했다."
   },
   {
     "word": "Similar",
     "meaning": "비슷한",
     "example": "She is similar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀도 비슷해요."
   },
   {
     "word": "Simple",
     "meaning": "간단한, 단순한",
     "example": "This is simple.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 간단합니다."
   },
   {
     "word": "Since",
     "meaning": "그 후, 그 이래",
     "example": "We found a since.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그 이후로 찾았습니다."
   },
   {
     "word": "Sincerely",
     "meaning": "성실히",
     "example": "They work sincerely.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 진심으로 일합니다."
   },
   {
     "word": "Single",
     "meaning": "독신의",
     "example": "This is a good single.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 싱글입니다."
   },
   {
     "word": "Sink",
     "meaning": "가라앉다",
     "example": "This is a good sink.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 싱크대입니다."
   },
   {
     "word": "Site",
     "meaning": "부지",
     "example": "This is a good site.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 사이트입니다."
   },
   {
     "word": "Situation",
     "meaning": "상황",
     "example": "The situation is changing.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "상황이 변하고 있습니다."
   },
   {
     "word": "Skill",
     "meaning": "숙련, 솜씨",
     "example": "She has a skill.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 기술이 있습니다."
   },
   {
     "word": "Slave",
     "meaning": "노예",
     "example": "We found a slave.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 노예를 찾았습니다."
   },
   {
     "word": "Sleep",
     "meaning": "자다",
     "example": "I need a sleep.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "잠이 필요해요."
   },
   {
     "word": "Slide",
     "meaning": "미끄러지다",
     "example": "I need a slide.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "슬라이드가 필요해요."
   },
   {
     "word": "Slip",
     "meaning": "미끄러짐",
     "example": "The slip is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "슬립이 중요합니다."
   },
   {
     "word": "Smart",
     "meaning": "산뜻한",
     "example": "It is very smart.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 똑똑합니다."
   },
   {
     "word": "Smell",
     "meaning": "냄새를 맡다, 냄새",
     "example": "We found a smell.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 냄새를 발견했습니다."
   },
   {
     "word": "Smoke",
     "meaning": "담배를 피우다, 연기",
     "example": "I need a smoke.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "연기가 필요해요."
   },
   {
     "word": "Snake",
     "meaning": "뱀",
     "example": "She has a snake.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 뱀이 있습니다."
   },
   {
     "word": "Sniff",
     "meaning": "냄새 맡다",
     "example": "We found a sniff.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 냄새를 찾았습니다."
   },
   {
     "word": "Social",
     "meaning": "사회의",
     "example": "I need a social.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "소셜이 필요해요."
   },
   {
     "word": "Solar",
     "meaning": "태양의",
     "example": "I need a solar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "태양광이 필요해요."
   },
   {
     "word": "Soldier",
     "meaning": "군인, 병사",
     "example": "She is soldier.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 군인입니다."
   },
   {
     "word": "Solution",
     "meaning": "해결, 용해",
     "example": "We found a solution.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 해결책을 찾았습니다."
   },
   {
     "word": "Sometime",
     "meaning": "언젠가",
     "example": "I need a sometime.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "언젠가는 필요해요."
   },
   {
     "word": "Sophomore",
     "meaning": "학년생",
     "example": "I need a sophomore.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "2학년이 필요해요."
   },
   {
     "word": "Sore",
     "meaning": "아픈",
     "example": "This is a good sore.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 상처입니다."
   },
   {
     "word": "Sound",
     "meaning": "소리가 나다, 소리",
     "example": "This is a good sound.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 소리입니다."
   },
   {
     "word": "Source",
     "meaning": "출처, 근원",
     "example": "She has a source.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 출처를 가지고 있습니다."
   },
   {
     "word": "Sow",
     "meaning": "씨를 뿌리다",
     "example": "The sow is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "모돈이 중요합니다."
   },
   {
     "word": "Space",
     "meaning": "공간, 우주",
     "example": "This is a good space.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이곳은 좋은 공간이다."
   },
   {
     "word": "Spade",
     "meaning": "삽",
     "example": "She has a spade.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 스페이드를 가지고 있습니다."
   },
   {
     "word": "Special",
     "meaning": "특별한",
     "example": "The room looks special.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 특별해 보이네요."
   },
   {
     "word": "Speech",
     "meaning": "말, 연설",
     "example": "We found a speech.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "연설을 찾았습니다."
   },
   {
     "word": "Spend",
     "meaning": "소비하다, 지내다",
     "example": "They often spend together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 지냅니다."
   },
   {
     "word": "Spirit",
     "meaning": "정신",
     "example": "She has a spirit.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 영혼이 있습니다."
   },
   {
     "word": "Spot",
     "meaning": "지점",
     "example": "The spot is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그 자리가 중요해요."
   },
   {
     "word": "Square",
     "meaning": "정사각형, 광장",
     "example": "The square is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "광장이 중요해요."
   },
   {
     "word": "Squirrel",
     "meaning": "다람쥐",
     "example": "This is a good squirrel.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 다람쥐입니다."
   },
   {
     "word": "Stadium",
     "meaning": "(육상)경기장",
     "example": "I need a stadium.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "경기장이 필요해요."
   },
   {
     "word": "Stage",
     "meaning": "무대",
     "example": "I need a stage.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "무대가 필요해요."
   },
   {
     "word": "Stair",
     "meaning": "계단",
     "example": "I need a stair.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "계단이 필요해요."
   },
   {
     "word": "Stare",
     "meaning": "응시하다",
     "example": "We need to stare now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 바라보아야 합니다."
   },
   {
     "word": "State",
     "meaning": "상태, 국가",
     "example": "We found a state.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 상태를 찾았습니다."
   },
   {
     "word": "Statue",
     "meaning": "조각상",
     "example": "She has a statue.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 동상을 가지고 있습니다."
   },
   {
     "word": "Stay",
     "meaning": "머무르다",
     "example": "We found a stay.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 숙박을 찾았습니다."
   },
   {
     "word": "Steady",
     "meaning": "확고한",
     "example": "He feels steady.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 안정감을 느낀다."
   },
   {
     "word": "Steal",
     "meaning": "훔치다",
     "example": "The steal is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "도둑질이 중요합니다."
   },
   {
     "word": "Stem",
     "meaning": "줄기",
     "example": "This is a good stem.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 줄기입니다."
   },
   {
     "word": "Step",
     "meaning": "걸음, 걷다",
     "example": "We found a step.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 단계를 찾았습니다."
   },
   {
     "word": "Stethoscope",
     "meaning": "청진기",
     "example": "We found a stethoscope.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "청진기를 찾았어요."
   },
   {
     "word": "Stomach",
     "meaning": "위",
     "example": "She has a stomach.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 위가 있습니다."
   },
   {
     "word": "Stone",
     "meaning": "돌",
     "example": "We found a stone.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 돌을 발견했습니다."
   },
   {
     "word": "Store",
     "meaning": "가게, 저축하다",
     "example": "She wants to store.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 저장하고 싶어합니다."
   },
   {
     "word": "Stormy",
     "meaning": "폭풍의",
     "example": "We found a stormy.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 폭풍우를 발견했습니다."
   },
   {
     "word": "Straight",
     "meaning": "똑바른",
     "example": "The straight is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "직진이 중요합니다."
   },
   {
     "word": "Strange",
     "meaning": "이상한, 낯선",
     "example": "He feels strange.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 이상한 느낌을 받았습니다."
   },
   {
     "word": "Stream",
     "meaning": "흐름, 흐르다",
     "example": "The stream is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "스트림이 중요합니다."
   },
   {
     "word": "Stress",
     "meaning": "압박, 강조하다",
     "example": "I stress every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 스트레스를 받는다."
   },
   {
     "word": "Stripe",
     "meaning": "줄무늬",
     "example": "I need a stripe.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "줄무늬가 필요해요."
   },
   {
     "word": "Struggle",
     "meaning": "분투노력하다, 싸우다",
     "example": "She wants to struggle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 투쟁하고 싶어합니다."
   },
   {
     "word": "Stupid",
     "meaning": "어리석은",
     "example": "I need a stupid.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "바보가 필요해."
   },
   {
     "word": "Subject",
     "meaning": "학과, 주제, 주어",
     "example": "This is a good subject.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 주제입니다."
   },
   {
     "word": "Suburb",
     "meaning": "교외",
     "example": "This is a good suburb.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 교외입니다."
   },
   {
     "word": "Subway",
     "meaning": "지하도, 지하철",
     "example": "We found a subway.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "지하철을 찾았습니다."
   },
   {
     "word": "Success",
     "meaning": "성공",
     "example": "Hard work is the key to success.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "열심히 일하는 것이 성공의 열쇠입니다."
   },
   {
     "word": "Successful",
     "meaning": "성공한",
     "example": "This is successful.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 성공했습니다."
   },
   {
     "word": "Such",
     "meaning": "그러한, 이러한",
     "example": "This is such.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 그런 것입니다."
   },
   {
     "word": "Suck",
     "meaning": "빨다",
     "example": "We found a suck.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 짜증나는 것을 발견했습니다."
   },
   {
     "word": "Suddenly",
     "meaning": "갑자기",
     "example": "She walked suddenly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 갑자기 걸어갔다."
   },
   {
     "word": "Suffer",
     "meaning": "겪다",
     "example": "I need a suffer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "고통이 필요해요."
   },
   {
     "word": "Sugar",
     "meaning": "설탕",
     "example": "I need a sugar.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "설탕이 필요해요."
   },
   {
     "word": "Suitcase",
     "meaning": "여행가방",
     "example": "The suitcase is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "여행가방이 중요해요."
   },
   {
     "word": "Sunrise",
     "meaning": "해돋이",
     "example": "I need a sunrise.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 일출이 필요하다."
   },
   {
     "word": "Sunshine",
     "meaning": "햇빛",
     "example": "This is a good sunshine.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 햇빛입니다."
   },
   {
     "word": "Superstition",
     "meaning": "미신",
     "example": "The superstition is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "미신은 중요합니다."
   },
   {
     "word": "Supply",
     "meaning": "공급, 공급하다",
     "example": "She wants to supply.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 공급하고 싶어합니다."
   },
   {
     "word": "Support",
     "meaning": "지지하다, 후원하다",
     "example": "I will support your idea.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 당신의 아이디어를 지지할 것입니다."
   },
   {
     "word": "Suppose",
     "meaning": "상상하다, 생각하다",
     "example": "I suppose every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매일 그랬던 것 같아요."
   },
   {
     "word": "Surface",
     "meaning": "표면",
     "example": "We found a surface.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "표면을 찾았습니다."
   },
   {
     "word": "Surprise",
     "meaning": "놀라다, 놀람",
     "example": "She has a surprise.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 놀랐습니다."
   },
   {
     "word": "Surround",
     "meaning": "둘러싸다.",
     "example": "The surround is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "주변 환경이 중요합니다."
   },
   {
     "word": "Survive",
     "meaning": "~보다 오래 살다, ~에서 살아남다",
     "example": "This is a good survive.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 생존입니다."
   },
   {
     "word": "Sweet",
     "meaning": "달콤한",
     "example": "This is sweet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 달콤하다."
   },
   {
     "word": "Swing",
     "meaning": "그네, 진동",
     "example": "I need a swing.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그네가 필요해요."
   },
   {
     "word": "Sword",
     "meaning": "칼",
     "example": "She has a sword.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 칼을 가지고 있습니다."
   },
   {
     "word": "Symbol",
     "meaning": "상징",
     "example": "The symbol is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "상징이 중요합니다."
   },
   {
     "word": "System",
     "meaning": "조직, 체계, 지도",
     "example": "I need a system.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "시스템이 필요해요."
   },
   {
     "word": "Tail",
     "meaning": "꼬리",
     "example": "The tail is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "꼬리가 중요합니다."
   },
   {
     "word": "Taste",
     "meaning": "맛, 취미",
     "example": "I need a taste.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "맛이 필요해요."
   },
   {
     "word": "Tax",
     "meaning": "세금",
     "example": "We found a tax.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "세금을 찾았습니다."
   },
   {
     "word": "Tear",
     "meaning": "찢다, 찢어지다",
     "example": "I need a tear.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "눈물이 필요해요."
   },
   {
     "word": "Teenager",
     "meaning": "대 소년소녀",
     "example": "The teenager is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "십대는 중요합니다."
   },
   {
     "word": "Telephone",
     "meaning": "전화, 전화를 걸다",
     "example": "The telephone is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "전화는 중요합니다."
   },
   {
     "word": "Temperature",
     "meaning": "온도, 체온",
     "example": "I need a temperature.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "온도가 필요해요."
   },
   {
     "word": "Temple",
     "meaning": "절, 사원",
     "example": "The temple is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "성전은 중요합니다."
   },
   {
     "word": "Terrible",
     "meaning": "끔직한, 무서운",
     "example": "The room looks terrible.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 정말 끔찍해 보이네요."
   },
   {
     "word": "Theater",
     "meaning": "극장",
     "example": "I need a theater.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "극장이 필요해요."
   },
   {
     "word": "Thermometer",
     "meaning": "온도계",
     "example": "I need a thermometer.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "온도계가 필요해요."
   },
   {
     "word": "Thief",
     "meaning": "도둑",
     "example": "The thief is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "도둑이 중요해요."
   },
   {
     "word": "Thin",
     "meaning": "얇은, 야윈",
     "example": "We found a thin.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 얇은 것을 발견했습니다."
   },
   {
     "word": "Thirsty",
     "meaning": "목마른",
     "example": "The thirsty is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "목마른 사람이 중요합니다."
   },
   {
     "word": "Though",
     "meaning": "비록 ~일지라도",
     "example": "The though is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그래도 중요합니다."
   },
   {
     "word": "Throat",
     "meaning": "목구멍",
     "example": "The throat is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "목이 중요합니다."
   },
   {
     "word": "Throw",
     "meaning": "던지다",
     "example": "This is a good throw.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 던지는 것입니다."
   },
   {
     "word": "Thumb",
     "meaning": "엄지손가락",
     "example": "She has a thumb.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 엄지손가락을 가지고 있습니다."
   },
   {
     "word": "Ticket",
     "meaning": "표, 입장권",
     "example": "This is a good ticket.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 티켓입니다."
   },
   {
     "word": "Tie",
     "meaning": "매다, 묶다",
     "example": "This is a good tie.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 넥타이입니다."
   },
   {
     "word": "Tightly",
     "meaning": "단단히",
     "example": "She walked tightly.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 단단히 걸었다."
   },
   {
     "word": "Tiny",
     "meaning": "몹시 작은",
     "example": "We found a tiny.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 작은 것을 발견했습니다."
   },
   {
     "word": "Together",
     "meaning": "함께",
     "example": "The together is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "함께하는 것이 중요합니다."
   },
   {
     "word": "Tomb",
     "meaning": "묘, 무덤",
     "example": "She has a tomb.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 무덤이 있습니다."
   },
   {
     "word": "Tongue",
     "meaning": "혀",
     "example": "The tongue is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "혀가 중요합니다."
   },
   {
     "word": "Tool",
     "meaning": "도구",
     "example": "We found a tool.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 도구를 찾았습니다."
   },
   {
     "word": "Tooth",
     "meaning": "이",
     "example": "I need a tooth.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이가 필요해요."
   },
   {
     "word": "Torch",
     "meaning": "횃불",
     "example": "She has a torch.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 횃불을 가지고 있습니다."
   },
   {
     "word": "Touch",
     "meaning": "닿다, 감동시키다",
     "example": "She has a touch.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 손길을 가졌습니다."
   },
   {
     "word": "Tough",
     "meaning": "단단한",
     "example": "The room looks tough.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 힘들어 보이네요."
   },
   {
     "word": "Tourist",
     "meaning": "여행자, 관광객",
     "example": "We found a tourist.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "관광객을 찾았습니다."
   },
   {
     "word": "Toward",
     "meaning": "~쪽으로",
     "example": "This is a good toward.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 것입니다."
   },
   {
     "word": "Towel",
     "meaning": "수건, 타월",
     "example": "The towel is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "수건이 중요해요."
   },
   {
     "word": "Tower",
     "meaning": "탑",
     "example": "I need a tower.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "탑이 필요해요."
   },
   {
     "word": "Town",
     "meaning": "읍, 도시",
     "example": "This is a good town.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이곳은 좋은 마을이다."
   },
   {
     "word": "Track",
     "meaning": "지나간 자국, 선로",
     "example": "She has a track.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 트랙을 가지고 있습니다."
   },
   {
     "word": "Tradition",
     "meaning": "전통, 전설",
     "example": "She has a tradition.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 전통이 있습니다."
   },
   {
     "word": "Traffic",
     "meaning": "교통",
     "example": "I need a traffic.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "교통량이 필요해요."
   },
   {
     "word": "Travel",
     "meaning": "여행하다, 여행",
     "example": "We need to travel now.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 지금 여행을 해야 합니다."
   },
   {
     "word": "Treasure",
     "meaning": "보물",
     "example": "The treasure is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "보물은 중요합니다."
   },
   {
     "word": "Treat",
     "meaning": "다루다",
     "example": "The treat is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "대접이 중요합니다."
   },
   {
     "word": "Trick",
     "meaning": "계략, 속임수",
     "example": "She has a trick.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 트릭이 있습니다."
   },
   {
     "word": "Trip",
     "meaning": "여행",
     "example": "This is a good trip.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 여행이다."
   },
   {
     "word": "Triumph",
     "meaning": "승리",
     "example": "She has a triumph.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 승리했습니다."
   },
   {
     "word": "Trouble",
     "meaning": "고생, 걱정하다",
     "example": "She wants to trouble.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 문제를 일으키고 싶어합니다."
   },
   {
     "word": "Trousers",
     "meaning": "바지",
     "example": "I need a trousers.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "바지가 필요해요."
   },
   {
     "word": "True",
     "meaning": "진실한",
     "example": "The room looks true.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 진짜 같네요."
   },
   {
     "word": "Trumpet",
     "meaning": "나팔",
     "example": "I need a trumpet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "트럼펫이 필요해요."
   },
   {
     "word": "Trust",
     "meaning": "신용",
     "example": "The trust is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "신뢰가 중요합니다."
   },
   {
     "word": "Turkey",
     "meaning": "칠면조",
     "example": "She has a turkey.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 칠면조를 갖고 있어요."
   },
   {
     "word": "Turn",
     "meaning": "돌다, 변화하다",
     "example": "I turn every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 돌린다."
   },
   {
     "word": "Turtle",
     "meaning": "바다거북",
     "example": "I need a turtle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "거북이가 필요해요."
   },
   {
     "word": "Twice",
     "meaning": "두 번",
     "example": "We found a twice.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 두 번 찾았습니다."
   },
   {
     "word": "Twin",
     "meaning": "쌍둥이의 한 사람",
     "example": "He feels twin.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 쌍둥이를 느낀다."
   },
   {
     "word": "Type",
     "meaning": "유형",
     "example": "This is a good type.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 유형입니다."
   },
   {
     "word": "Umbrella",
     "meaning": "우산",
     "example": "We found a umbrella.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 우산을 찾았습니다."
   },
   {
     "word": "Understand",
     "meaning": "이해하다, 알다",
     "example": "He can understand well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 이해할 수 있습니다."
   },
   {
     "word": "Uniform",
     "meaning": "제복, 한 모양의",
     "example": "The room looks uniform.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방은 균일 해 보입니다."
   },
   {
     "word": "Unity",
     "meaning": "통일/일치",
     "example": "The unity is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "단결이 중요합니다."
   },
   {
     "word": "Universe",
     "meaning": "우주, 전 세계",
     "example": "We found a universe.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 우주를 발견했습니다."
   },
   {
     "word": "Unless",
     "meaning": "~하지 않으면",
     "example": "This is a good unless.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그렇지 않으면 좋은 것입니다."
   },
   {
     "word": "Unlike",
     "meaning": "같지 않은",
     "example": "I need a unlike.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 다른 사람이 필요합니다."
   },
   {
     "word": "Upset",
     "meaning": "뒤엎다, 당황하게 한다.",
     "example": "It is very upset.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 화가났습니다."
   },
   {
     "word": "Upside",
     "meaning": "down 거꾸로",
     "example": "We found a upside.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 좋은 점을 찾았습니다."
   },
   {
     "word": "Useless",
     "meaning": "쓸모없는",
     "example": "This is a good useless.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 쓸모가 없습니다."
   },
   {
     "word": "Usually",
     "meaning": "보통, 대개",
     "example": "They work usually.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 보통 일합니다."
   },
   {
     "word": "Vacation",
     "meaning": "휴가",
     "example": "We found a vacation.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 휴가를 찾았습니다."
   },
   {
     "word": "Vain",
     "meaning": "무익한",
     "example": "This is vain.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 헛된 일입니다."
   },
   {
     "word": "Valley",
     "meaning": "골짜기, 계곡",
     "example": "The valley is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "계곡이 중요해요."
   },
   {
     "word": "Valuable",
     "meaning": "귀중한",
     "example": "This is valuable.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 가치 있는 일입니다."
   },
   {
     "word": "Value",
     "meaning": "가치",
     "example": "Health is of great value.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "건강은 큰 가치가 있습니다."
   },
   {
     "word": "Various",
     "meaning": "여러 가지의",
     "example": "She has a various.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 다양한 것을 가지고 있습니다."
   },
   {
     "word": "Vegetable",
     "meaning": "야채",
     "example": "We found a vegetable.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 야채를 발견했습니다."
   },
   {
     "word": "View",
     "meaning": "경치, 의견",
     "example": "The view is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "관점이 중요합니다."
   },
   {
     "word": "Village",
     "meaning": "마을",
     "example": "This is a good village.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이곳은 좋은 마을이다."
   },
   {
     "word": "Voice",
     "meaning": "목소리",
     "example": "I need a voice.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "목소리가 필요해요."
   },
   {
     "word": "Vote",
     "meaning": "투표하다, 투표",
     "example": "They often vote together.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그들은 종종 함께 투표합니다."
   },
   {
     "word": "Voyage",
     "meaning": "항해",
     "example": "We found a voyage.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 항해를 찾았습니다."
   },
   {
     "word": "Wagon",
     "meaning": "짐마차",
     "example": "I need a wagon.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "마차가 필요해요."
   },
   {
     "word": "Wake",
     "meaning": "깨다, 깨우다",
     "example": "This is a good wake.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 깨우기입니다."
   },
   {
     "word": "War",
     "meaning": "전쟁",
     "example": "She has a war.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 전쟁이 있습니다."
   },
   {
     "word": "Warn",
     "meaning": "경고하다",
     "example": "He can warn well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 경고를 잘 할 수 있다."
   },
   {
     "word": "Waste",
     "meaning": "낭비하다",
     "example": "She wants to waste.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 낭비하고 싶어합니다."
   },
   {
     "word": "Watch",
     "meaning": "손목시계, 주의",
     "example": "We found a watch.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 시계를 찾았습니다."
   },
   {
     "word": "Weak",
     "meaning": "약한",
     "example": "It is very weak.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "매우 약합니다."
   },
   {
     "word": "Wealth",
     "meaning": "재산, 부",
     "example": "This is a good wealth.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 부입니다."
   },
   {
     "word": "Wear",
     "meaning": "입다, 착용하다",
     "example": "He can wear well.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 잘 입을 수 있어요."
   },
   {
     "word": "Weather",
     "meaning": "날씨",
     "example": "I need a weather.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "날씨가 필요해요."
   },
   {
     "word": "Wedding",
     "meaning": "결혼, 결혼식",
     "example": "This is a good wedding.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 결혼식이다."
   },
   {
     "word": "Weight",
     "meaning": "무게",
     "example": "I need a weight.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "무게가 필요해요."
   },
   {
     "word": "Wet",
     "meaning": "젖은",
     "example": "I need a wet.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "젖을 필요가 있어요."
   },
   {
     "word": "Whether",
     "meaning": "~인지 어떤지",
     "example": "It is very whether.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "여부가 매우 높습니다."
   },
   {
     "word": "While",
     "meaning": "~하는 동안",
     "example": "This is a good while.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "좋은 시간입니다."
   },
   {
     "word": "Whisker",
     "meaning": "구레나룻",
     "example": "This is a good whisker.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 수염입니다."
   },
   {
     "word": "Whisper",
     "meaning": "속삭이다",
     "example": "She has a whisper.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 속삭임이 있습니다."
   },
   {
     "word": "Whistle",
     "meaning": "휘파람을 불다, 휘파람",
     "example": "She has a whistle.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 휘파람을 불고 있습니다."
   },
   {
     "word": "Whole",
     "meaning": "전부, 전부의",
     "example": "This is a good whole.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 전체입니다."
   },
   {
     "word": "Wide",
     "meaning": "넓은, 널리",
     "example": "We found a wide.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 넓은 것을 발견했습니다."
   },
   {
     "word": "Wild",
     "meaning": "야생의, 난폭한",
     "example": "The room looks wild.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "방이 거칠어 보입니다."
   },
   {
     "word": "Win",
     "meaning": "이기다, 얻다",
     "example": "We found a win.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 승리를 찾았습니다."
   },
   {
     "word": "Wink",
     "meaning": "눈을 깜박거리다, 눈짓하다",
     "example": "I wink every day.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "나는 매일 윙크를 한다."
   },
   {
     "word": "Wise",
     "meaning": "현명한",
     "example": "He feels wise.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그는 현명하다고 느낀다."
   },
   {
     "word": "Wish",
     "meaning": "소원, 원하다",
     "example": "She wants to wish.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 소원을 원합니다."
   },
   {
     "word": "Without",
     "meaning": "~없이",
     "example": "The without is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "없는 것이 중요합니다."
   },
   {
     "word": "Wolf",
     "meaning": "이리, 늑대",
     "example": "She has a wolf.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀에게는 늑대가 있습니다."
   },
   {
     "word": "Wonderful",
     "meaning": "놀랄만한, 훌륭한",
     "example": "This is wonderful.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 훌륭합니다."
   },
   {
     "word": "Wood",
     "meaning": "나무, 숲",
     "example": "She has a wood.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 나무를 가지고 있습니다."
   },
   {
     "word": "Wool",
     "meaning": "양모",
     "example": "This is a good wool.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 양모입니다."
   },
   {
     "word": "Word",
     "meaning": "낱말, 단어",
     "example": "This is a good word.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "이것은 좋은 말입니다."
   },
   {
     "word": "Worry",
     "meaning": "걱정하다, 괴롭히다",
     "example": "She wants to worry.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 걱정하고 싶어합니다."
   },
   {
     "word": "Worth",
     "meaning": "가치, ~에 가치가 있는",
     "example": "She has a worth.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "그녀는 가치가 있습니다."
   },
   {
     "word": "Wound",
     "meaning": "상처, 부상",
     "example": "I need a wound.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "상처가 필요해요"
   },
   {
     "word": "Wrap",
     "meaning": "싸다",
     "example": "The wrap is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "랩이 중요해요."
   },
   {
     "word": "Wrong",
     "meaning": "나쁜, 틀린",
     "example": "The wrong is important.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "잘못된 것이 중요합니다."
   },
   {
     "word": "Yell",
     "meaning": "외치다",
     "example": "We found a yell.",
-    "category": "기초"
+    "category": "기초",
+    "example_kr": "우리는 소리를 발견했습니다."
   }
 ]

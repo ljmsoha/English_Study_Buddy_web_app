@@ -298,7 +298,8 @@ def api_init():
         'username': username
     }
     
-    current_set = all_nine_words[0:3] if len(all_nine_words) >= 3 else all_nine_words
+    # 전체 9개 단어를 current_set으로 전송
+    current_set = all_nine_words
     
     return jsonify({
         'session_id': session_id,
@@ -309,7 +310,8 @@ def api_init():
         'user_progress': progress,
         'message': message,
         'review_mode': review_mode,
-        'current_group_index': current_group_idx
+        'current_group_index': current_group_idx,
+        'total_words_count': len(words)
     })
 
 @app.route('/api/load-words-sheet', methods=['POST'])
@@ -325,6 +327,12 @@ def load_words_sheet():
     word_groups = create_word_groups(words, 3)
     current_group_idx = progress.get('current_group_index', 0)
     review_mode = progress.get('review_mode', False)
+    
+    # 범위를 벗어났으면 처음으로 돌아가기
+    if current_group_idx >= len(word_groups):
+        current_group_idx = 0
+        progress['current_group_index'] = 0
+        save_user_progress(username, 'Words', progress)
     
     if review_mode:
         # 복습 모드
@@ -358,7 +366,8 @@ def load_words_sheet():
         sessions[session_id]['review_mode'] = review_mode
         sessions[session_id]['current_group_index'] = current_group_idx
     
-    current_set = all_nine_words[0:3] if len(all_nine_words) >= 3 else all_nine_words
+    # 전체 9개 단어를 current_set으로 전송
+    current_set = all_nine_words
     
     return jsonify({
         'current_set': current_set,
@@ -367,7 +376,9 @@ def load_words_sheet():
         'total_attempts': 0,
         'user_progress': progress,
         'message': message,
-        'review_mode': review_mode
+        'review_mode': review_mode,
+        'total_words_count': len(words),
+        'current_group_index': current_group_idx
     })
 
 @app.route('/api/load-ed-sheet', methods=['POST'])
@@ -387,6 +398,12 @@ def load_ed_sheet():
     word_groups = create_word_groups(ed_words, 3)
     current_group_idx = progress.get('current_group_index', 0)
     review_mode = progress.get('review_mode', False)
+    
+    # 범위를 벗어났으면 처음으로 돌아가기
+    if current_group_idx >= len(word_groups):
+        current_group_idx = 0
+        progress['current_group_index'] = 0
+        save_user_progress(username, 'ed', progress)
     
     if review_mode:
         # 복습 모드
@@ -420,7 +437,8 @@ def load_ed_sheet():
         sessions[session_id]['review_mode'] = review_mode
         sessions[session_id]['current_group_index'] = current_group_idx
     
-    current_set = all_nine_words[0:3] if len(all_nine_words) >= 3 else all_nine_words
+    # 전체 9개 단어를 current_set으로 전송
+    current_set = all_nine_words
     
     return jsonify({
         'current_set': current_set,
@@ -430,7 +448,9 @@ def load_ed_sheet():
         'mode': 'ed',
         'user_progress': progress,
         'message': message,
-        'review_mode': review_mode
+        'review_mode': review_mode,
+        'total_words_count': len(ed_words),
+        'current_group_index': current_group_idx
     })
 
 @app.route('/api/load-yb-sheet', methods=['POST'])
@@ -450,6 +470,12 @@ def load_yb_sheet():
     word_groups = create_word_groups(yb_words, 3)
     current_group_idx = progress.get('current_group_index', 0)
     review_mode = progress.get('review_mode', False)
+    
+    # 범위를 벗어났으면 처음으로 돌아가기
+    if current_group_idx >= len(word_groups):
+        current_group_idx = 0
+        progress['current_group_index'] = 0
+        save_user_progress(username, 'yb', progress)
     
     if review_mode:
         # 복습 모드 - 9개 묶음(27개 단어) 복습
@@ -483,7 +509,8 @@ def load_yb_sheet():
         sessions[session_id]['review_mode'] = review_mode
         sessions[session_id]['current_group_index'] = current_group_idx
     
-    current_set = all_nine_words[0:3] if len(all_nine_words) >= 3 else all_nine_words
+    # 전체 9개 단어를 current_set으로 전송
+    current_set = all_nine_words
     
     return jsonify({
         'current_set': current_set,
@@ -493,7 +520,9 @@ def load_yb_sheet():
         'mode': 'yb',
         'user_progress': progress,
         'message': message,
-        'review_mode': review_mode
+        'review_mode': review_mode,
+        'total_words_count': len(yb_words),
+        'current_group_index': current_group_idx
     })
 
 @app.route('/api/check-answer', methods=['POST'])
@@ -554,69 +583,51 @@ def next_word():
     if not user_session:
         return jsonify({'error': 'Session not found'}), 404
     
-    if current_index < 2:
-        # 현재 세트 내 다음 단어
+    # 전체 단어 수 확인
+    all_nine_words = user_session.get('all_nine_words', [])
+    total_words = len(all_nine_words)
+    
+    print(f"DEBUG: current_index={current_index}, total_words={total_words}, all_nine_words length={len(all_nine_words)}")
+    
+    if total_words == 0:
+        return jsonify({'error': 'No words in session', 'action': 'error'}), 400
+    
+    # 마지막 단어가 아니면 다음 단어로
+    if current_index < total_words - 1:
         return jsonify({'action': 'next_word', 'index': current_index + 1})
     else:
-        # 세트 완료 - 다음 세트로 이동할지 확인
-        user_session['repeat_count'] += 1
+        # 모든 단어 완료 - 9개 묶음 완료
+        username = user_session.get('username')
+        progress = get_user_progress(username, user_session['current_mode'])
+        new_group_index = progress.get('current_group_index', 0) + 3
+        
+        print(f"DEBUG: Completing set. new_group_index={new_group_index}, mode={user_session['current_mode']}")
         
         # 복습 모드인 경우
         if user_session.get('review_mode', False):
-            # 복습은 27문제이므로 9세트
-            if user_session['repeat_count'] >= 9:
-                # 복습 완료 - 진행 상황 업데이트
-                username = user_session.get('username')
-                progress = get_user_progress(username, user_session['current_mode'])
-                progress['review_mode'] = False
-                progress['current_group_index'] = progress.get('review_start_group', 0) + 9
-                save_user_progress(username, user_session['current_mode'], progress)
-                
-                return jsonify({'action': 'review_complete', 'message': '복습 완료! 다음 단어로 이동합니다.'})
-            else:
-                # 다음 복습 세트
-                set_index = user_session['repeat_count']
-                start_idx = set_index * 3
-                current_set = user_session['all_nine_words'][start_idx:start_idx + 3]
-                return jsonify({
-                    'action': 'next_set',
-                    'current_set': current_set,
-                    'repeat_count': user_session['repeat_count']
-                })
+            # 복습 완료
+            progress['review_mode'] = False
+            progress['current_group_index'] = new_group_index
+            save_user_progress(username, user_session['current_mode'], progress)
+            return jsonify({'action': 'review_complete', 'message': '복습 완료! 다음 단어로 이동합니다.'})
+        
+        # 9개 묶음(27개 단어) 완료 체크 - Words 모드에만 적용
+        current_mode = user_session.get('current_mode', 'Words')
+        if current_mode == 'Words' and new_group_index > 0 and new_group_index % 9 == 0:
+            # 복습 모드 진입 (Words 모드만)
+            progress['review_mode'] = True
+            progress['review_start_group'] = new_group_index - 9
+            progress['current_group_index'] = new_group_index
+            save_user_progress(username, current_mode, progress)
+            return jsonify({
+                'action': 'enter_review',
+                'message': f'🎉 {new_group_index}개 묶음 완료! 복습을 시작할까요?'
+            })
         else:
-            # 일반 모드
-            if user_session['repeat_count'] >= 3:
-                # 9개 단어(3개 묶음) 완료
-                username = user_session.get('username')
-                progress = get_user_progress(username, user_session['current_mode'])
-                new_group_index = progress.get('current_group_index', 0) + 3
-                
-                # 9개 묶음(27개 단어) 완료 체크
-                if new_group_index > 0 and new_group_index % 9 == 0:
-                    # 복습 모드 진입
-                    progress['review_mode'] = True
-                    progress['review_start_group'] = new_group_index - 9
-                    progress['current_group_index'] = new_group_index
-                    save_user_progress(username, user_session['current_mode'], progress)
-                    return jsonify({
-                        'action': 'enter_review',
-                        'message': f'🎉 {new_group_index}개 묶음 완료! 복습을 시작할까요?'
-                    })
-                else:
-                    # 일반 진행
-                    progress['current_group_index'] = new_group_index
-                    save_user_progress(username, user_session['current_mode'], progress)
-                    return jsonify({'action': 'set_complete', 'repeat_count': user_session['repeat_count']})
-            else:
-                # 다음 세트로 자동 이동
-                set_index = user_session['repeat_count']
-                start_idx = set_index * 3
-                current_set = user_session['all_nine_words'][start_idx:start_idx + 3]
-                return jsonify({
-                    'action': 'next_set',
-                    'current_set': current_set,
-                    'repeat_count': user_session['repeat_count']
-                })
+            # 일반 진행 - 다시 할거냐고 물어보기
+            progress['current_group_index'] = new_group_index
+            save_user_progress(username, user_session['current_mode'], progress)
+            return jsonify({'action': 'set_complete', 'repeat_count': 0})
 
 @app.route('/api/next-nine-words', methods=['POST'])
 @login_required
@@ -624,13 +635,15 @@ def next_nine_words():
     """새로운 9개 단어로 이동 (다음 묶음)"""
     data = request.json
     session_id = data.get('session_id')
+    mode = data.get('mode', 'Words')  # 클라이언트에서 모드 받기
     
     user_session = sessions.get(session_id)
     if not user_session:
         return jsonify({'error': 'Session not found'}), 404
     
     username = user_session.get('username')
-    mode = user_session.get('current_mode', 'Words')
+    # 세션의 모드 업데이트
+    user_session['current_mode'] = mode
     progress = get_user_progress(username, mode)
     
     # 복습 모드 시작
@@ -638,9 +651,22 @@ def next_nine_words():
         return start_review_mode(session_id, username, mode)
     
     # 일반 모드: 다음 3개 묶음 로드
-    words = load_words()
+    # 모드에 따라 다른 파일 로드
+    if mode == 'ed':
+        words = load_ed_words()
+    elif mode == 'yb':
+        words = load_yb_words()
+    else:
+        words = load_words()
+    
     word_groups = create_word_groups(words, 3)
     current_group_idx = progress.get('current_group_index', 0)
+    
+    # 모든 단어를 학습했으면 처음으로 돌아가기
+    if current_group_idx >= len(word_groups):
+        current_group_idx = 0
+        progress['current_group_index'] = 0
+        save_user_progress(username, mode, progress)
     
     if current_group_idx < len(word_groups):
         current_groups = word_groups[current_group_idx:current_group_idx + 3]
@@ -654,19 +680,32 @@ def next_nine_words():
         user_session['total_attempts'] = 0
         user_session['current_group_index'] = current_group_idx
         
-        current_set = all_nine_words[0:3]
+        # 전체 9개 단어를 current_set으로 전송
+        current_set = all_nine_words
+        
+        completion_message = ""
+        if current_group_idx == 0 and progress.get('completed_count', 0) > 0:
+            completion_message = " (🎉 모든 단어 완료! 처음부터 다시 시작합니다)"
         
         return jsonify({
             'current_set': current_set,
             'repeat_count': 0,
-            'message': f"{current_group_idx+1}~{current_group_idx+3}번 묶음"
+            'message': f"{current_group_idx+1}~{current_group_idx+3}번 묶음{completion_message}",
+            'current_group_index': current_group_idx
         })
     else:
-        return jsonify({'error': '모든 단어를 학습했습니다!'}), 404
+        return jsonify({'error': '단어 로드 실패'}), 404
 
 def start_review_mode(session_id, username, mode):
     """복습 모드 시작"""
-    words = load_words()
+    # 모드에 따라 다른 파일 로드
+    if mode == 'ed':
+        words = load_ed_words()
+    elif mode == 'yb':
+        words = load_yb_words()
+    else:
+        words = load_words()
+    
     word_groups = create_word_groups(words, 3)
     progress = get_user_progress(username, mode)
     
