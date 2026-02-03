@@ -43,8 +43,24 @@
             </div>
         </div>
 
+        <!-- AI 전용 영역 (기본 숨김) -->
+        <div id="aiSection" style="display: none;">
+            <div class="ai-card">
+                <h3 id="aiWord">단어</h3>
+                <button onclick="generateAiSentences()" class="btn-primary">🤖 AI 예문 생성</button>
+                <div id="aiSentences" style="margin-top: 15px; white-space: pre-line;"></div>
+                
+                <hr style="margin: 20px 0;">
+                
+                <h4>이 단어로 문장 만들기:</h4>
+                <textarea id="userSentence" rows="3" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px;" placeholder="단어를 사용해서 문장을 만들어보세요..."></textarea>
+                <button onclick="checkUserSentence()" class="btn-primary">✅ AI 평가 받기</button>
+                <div id="aiFeedback" style="margin-top: 15px; white-space: pre-line;"></div>
+            </div>
+        </div>
+
         <!-- 입력 영역 -->
-        <div class="input-section">
+        <div class="input-section" id="normalInputSection">
             <input 
                 type="text" 
                 id="answerInput" 
@@ -62,7 +78,7 @@
         <div class="button-section">
             <button onclick="prevWord()" class="btn">◀ 이전</button>
             <button onclick="nextWord()" class="btn">다음 ▶</button>
-            <button onclick="playAudio()" class="btn">🔊 발음 (Space)</button>
+            <button onclick="playAudio()" class="btn">🔊 발음 (`)</button>
             <button onclick="googleTranslate()" class="btn">🌐 구글 번역</button>
         </div>
 
@@ -74,6 +90,7 @@
             <button id="edTabBtn" onclick="loadEdSheet()" class="btn-small">ed</button>
             <button id="ybTabBtn" onclick="loadYbSheet()" class="btn-small">YB</button>
             <button id="numbersTabBtn" onclick="loadNumbersSheet()" class="btn-small">🔢 숫자</button>
+            <button id="aiTabBtn" onclick="loadAiTab()" class="btn-small">🤖 AI</button>
         </div>
     </div>
 

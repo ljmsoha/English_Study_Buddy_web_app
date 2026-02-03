@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await initApp();
     document.getElementById('answerInput').focus();
     document.addEventListener('keydown', (e) => {
-        if (e.code === 'Space') {
+        if (e.key === '`') {
             e.preventDefault();
             playAudio();
         }
@@ -610,9 +610,106 @@ function setActiveTab(activeTabId) {
     document.getElementById('edTabBtn').classList.remove('active-tab');
     document.getElementById('ybTabBtn').classList.remove('active-tab');
     document.getElementById('numbersTabBtn').classList.remove('active-tab');
+    document.getElementById('aiTabBtn').classList.remove('active-tab');
     
     // 선택된 탭에 active-tab 클래스 추가
     document.getElementById(activeTabId).classList.add('active-tab');
+}
+
+// AI 탭 로드
+async function loadAiTab() {
+    try {
+        // AI 탭 활성화
+        setActiveTab('aiTabBtn');
+        
+        // AI 섹션 표시, 일반 섹션 숨김
+        document.getElementById('aiSection').style.display = 'block';
+        document.getElementById('normalInputSection').style.display = 'none';
+        document.querySelector('.button-section').style.display = 'none';
+        document.querySelector('.result-message').style.display = 'none';
+        
+        // Words 단어 로드
+        const response = await fetch('/api/init');
+        const data = await response.json();
+        currentSet = data.current_set;
+        currentIndex = 0;
+        currentMode = 'ai';
+        
+        // 첫 단어 표시
+        displayAiWord();
+        
+        alert('🤖 AI 탭을 로드했습니다.\n단어를 사용해서 문장을 만들고 AI의 평가를 받아보세요!');
+    } catch (error) {
+        console.error('AI 탭 로드 실패:', error);
+    }
+}
+
+function displayAiWord() {
+    if (!currentSet || currentSet.length === 0) return;
+    
+    const word = currentSet[currentIndex];
+    document.getElementById('aiWord').textContent = `${word.word} (${word.meaning})`;
+    document.getElementById('aiSentences').textContent = '';
+    document.getElementById('aiFeedback').textContent = '';
+    document.getElementById('userSentence').value = '';
+}
+
+async function generateAiSentences() {
+    const word = currentSet[currentIndex];
+    const sentencesDiv = document.getElementById('aiSentences');
+    sentencesDiv.textContent = '🤖 AI가 예문을 생성하고 있습니다...';
+    
+    try {
+        const response = await fetch('/api/ai-generate-sentences', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ word: word.word })
+        });
+        
+        const data = await response.json();
+        if (data.success) {
+            sentencesDiv.textContent = data.sentences;
+        } else {
+            sentencesDiv.textContent = '❌ 오류: ' + data.error;
+        }
+    } catch (error) {
+        console.error('AI 예문 생성 실패:', error);
+        sentencesDiv.textContent = '❌ AI 예문 생성에 실패했습니다.';
+    }
+}
+
+async function checkUserSentence() {
+    const word = currentSet[currentIndex];
+    const userSentence = document.getElementById('userSentence').value.trim();
+    const feedbackDiv = document.getElementById('aiFeedback');
+    
+    if (!userSentence) {
+        alert('문장을 입력해주세요!');
+        return;
+    }
+    
+    feedbackDiv.textContent = '🤖 AI가 평가하고 있습니다...';
+    
+    try {
+        const response = await fetch('/api/ai-check-sentence', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+                word: word.word,
+                sentence: userSentence 
+            })
+        });
+        
+        const data = await response.json();
+        if (data.success) {
+            feedbackDiv.textContent = data.feedback;
+        } else {
+            feedbackDiv.textContent = '❌ 오류: ' + data.error;
+        }
+    } catch (error) {
+        console.error('AI 평가 실패:', error);
+        feedbackDiv.textContent = '❌ AI 평가에 실패했습니다.';
+    }
 }
 
 // 모달 외부 클릭 시 닫기
@@ -622,3 +719,4 @@ window.onclick = function(event) {
         modal.style.display = 'none';
     }
 }
+

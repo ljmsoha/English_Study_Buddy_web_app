@@ -7,12 +7,17 @@ from pathlib import Path
 from gtts import gTTS
 import io
 from datetime import timedelta
+import google.generativeai as genai
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key-change-this-in-production'  # 보안을 위해 변경하세요
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
 app.config['SESSION_COOKIE_HTTPONLY'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=30)  # 30일간 로그인 유지
+
+# Google Gemini API 설정
+GEMINI_API_KEY = 'AIzaSyDdc4zUH3WGJqNVvEdXzYquJ3dqGpECOZw'
+genai.configure(api_key=GEMINI_API_KEY)
 
 # 사용자 파일 경로
 USERS_FILE = os.path.join(os.path.dirname(__file__), 'users.json')
@@ -937,6 +942,56 @@ def get_categories():
     words = load_words()
     categories = sorted(list(set(w.get('category', '기타') for w in words)))
     return jsonify(categories)
+
+@app.route('/api/ai-generate-sentences', methods=['POST'])
+@login_required
+def ai_generate_sentences():
+    """AI로 단어를 사용한 예문 생성"""
+    data = request.json
+    word = data.get('word', '')
+    
+    try:
+        model = genai.GenerativeModel('gemini-flash-latest')
+        prompt = f"""단어 '{word}'를 사용해서 쉬운 영어 문장 3개를 만들어주세요.
+각 문장 아래에 한국어 번역도 함께 적어주세요.
+형식:
+1. [영어 문장]
+   (한국어 번역)
+2. [영어 문장]
+   (한국어 번역)
+3. [영어 문장]
+   (한국어 번역)"""
+        
+        response = model.generate_content(prompt)
+        return jsonify({'success': True, 'sentences': response.text})
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/api/ai-check-sentence', methods=['POST'])
+@login_required
+def ai_check_sentence():
+    """AI로 사용자가 만든 문장 평가"""
+    data = request.json
+    word = data.get('word', '')
+    user_sentence = data.get('sentence', '')
+    
+    try:
+        model = genai.GenerativeModel('gemini-flash-latest')
+        prompt = f"""학생이 단어 '{word}'를 사용해서 다음 문장을 만들었습니다:
+"{user_sentence}"
+
+이 문장을 평가해주세요:
+1. 문법적으로 올바른가요? (O/X)
+2. 단어를 올바르게 사용했나요? (O/X)
+3. 더 자연스러운 표현이 있다면 제안해주세요.
+4. 좋은 점을 칭찬해주세요.
+
+친절하고 격려하는 톤으로 답변해주세요."""
+        
+        response = model.generate_content(prompt)
+        return jsonify({'success': True, 'feedback': response.text})
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
