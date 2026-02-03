@@ -7,17 +7,22 @@ from pathlib import Path
 from gtts import gTTS
 import io
 from datetime import timedelta
-import google.generativeai as genai
+
+# Google Gemini API 설정 (선택적)
+try:
+    import google.generativeai as genai
+    GEMINI_API_KEY = 'AIzaSyDdc4zUH3WGJqNVvEdXzYquJ3dqGpECOZw'
+    genai.configure(api_key=GEMINI_API_KEY)
+    AI_AVAILABLE = True
+except ImportError:
+    AI_AVAILABLE = False
+    print("Warning: google-generativeai not installed. AI features will be disabled.")
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key-change-this-in-production'  # 보안을 위해 변경하세요
 app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
 app.config['SESSION_COOKIE_HTTPONLY'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=30)  # 30일간 로그인 유지
-
-# Google Gemini API 설정
-GEMINI_API_KEY = 'AIzaSyDdc4zUH3WGJqNVvEdXzYquJ3dqGpECOZw'
-genai.configure(api_key=GEMINI_API_KEY)
 
 # 사용자 파일 경로
 USERS_FILE = os.path.join(os.path.dirname(__file__), 'users.json')
@@ -947,6 +952,9 @@ def get_categories():
 @login_required
 def ai_generate_sentences():
     """AI로 단어를 사용한 예문 생성"""
+    if not AI_AVAILABLE:
+        return jsonify({'success': False, 'error': 'AI 기능을 사용할 수 없습니다. google-generativeai 패키지를 설치해주세요.'}), 503
+    
     data = request.json
     word = data.get('word', '')
     
@@ -971,6 +979,9 @@ def ai_generate_sentences():
 @login_required
 def ai_check_sentence():
     """AI로 사용자가 만든 문장 평가"""
+    if not AI_AVAILABLE:
+        return jsonify({'success': False, 'error': 'AI 기능을 사용할 수 없습니다. google-generativeai 패키지를 설치해주세요.'}), 503
+    
     data = request.json
     word = data.get('word', '')
     user_sentence = data.get('sentence', '')
