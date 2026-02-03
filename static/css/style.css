@@ -50,6 +50,23 @@ header h1 {
     padding: 5px 10px;
 }
 
+/* 로그아웃 버튼 */
+.logout-btn {
+    margin-left: 15px;
+    padding: 8px 16px;
+    background: #f44336;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background: #d32f2f;
+}
+
 /* 활성 탭 스타일 */
 .active-tab {
     border: 3px solid #1565c0 !important;
