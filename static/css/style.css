@@ -38,6 +38,13 @@ header h1 {
     font-size: 28px;
 }
 
+.header-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
 .stats {
     display: flex;
     gap: 15px;
@@ -48,18 +55,18 @@ header h1 {
 .stats span {
     background: #eceff1;
     padding: 5px 10px;
+    border-radius: 3px;
 }
 
 /* 로그아웃 버튼 */
 .logout-btn {
-    margin-left: 15px;
-    padding: 8px 16px;
+    padding: 5px 10px;
     background: #f44336;
     color: white;
     text-decoration: none;
-    font-size: 14px;
-    border-radius: 5px;
-    font-weight: bold;
+    font-size: 12px;
+    border-radius: 3px;
+    font-weight: normal;
     transition: background 0.3s;
 }
 
