@@ -421,6 +421,52 @@ async function loadYbSheet() {
     }
 }
 
+async function loadNumbersSheet() {
+    try {
+        const response = await fetch('/api/load-numbers-sheet', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ session_id: sessionId })
+        });
+        
+        const data = await response.json();
+        currentSet = data.current_set;
+        currentIndex = 0;
+        currentMode = 'numbers';
+        
+        // 총 단어 수 업데이트
+        if (data.total_words_count !== undefined) {
+            totalWordsCount = data.total_words_count;
+            document.getElementById('totalWords').textContent = `총: ${totalWordsCount}개`;
+        }
+        
+        // 현재 묶음 인덱스 업데이트
+        if (data.current_group_index !== undefined) {
+            currentGroupIndex = data.current_group_index;
+        }
+        
+        // 활성 탭 표시
+        setActiveTab('numbersTabBtn');
+        
+        displayWord();
+        updateStats();
+        
+        let message = '🔢 숫자/날짜 탭을 로드했습니다.\n계절, 월, 날짜, 숫자를 학습합니다.\n영어 단어를 입력해주세요.';
+        if (data.message) {
+            message += '\n\n' + data.message;
+        }
+        if (data.user_progress && data.user_progress.completed_count > 0) {
+            message += `\n현재까지 ${data.user_progress.completed_count}개 학습 완료!`;
+        }
+        if (data.review_mode) {
+            message += '\n\n📚 복습 모드입니다!';
+        }
+        alert(message);
+    } catch (error) {
+        console.error('숫자 탭 로드 실패:', error);
+    }
+}
+
 async function nextNineWords() {
     try {
         const category = document.getElementById('categorySelect').value;
@@ -563,6 +609,7 @@ function setActiveTab(activeTabId) {
     document.getElementById('wordsTabBtn').classList.remove('active-tab');
     document.getElementById('edTabBtn').classList.remove('active-tab');
     document.getElementById('ybTabBtn').classList.remove('active-tab');
+    document.getElementById('numbersTabBtn').classList.remove('active-tab');
     
     // 선택된 탭에 active-tab 클래스 추가
     document.getElementById(activeTabId).classList.add('active-tab');

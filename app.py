@@ -47,6 +47,14 @@ def load_users():
                                     'review_mode': False,
                                     'review_start_group': 0,
                                     'last_study_date': None
+                                },
+                                'numbers': {
+                                    'category': '전체', 
+                                    'completed_count': 0, 
+                                    'current_group_index': 0,
+                                    'review_mode': False,
+                                    'review_start_group': 0,
+                                    'last_study_date': None
                                 }
                             }
                         }
@@ -69,6 +77,14 @@ def load_users():
                     'last_study_date': None
                 },
                 'ed': {
+                    'category': '전체', 
+                    'completed_count': 0, 
+                    'current_group_index': 0,
+                    'review_mode': False,
+                    'review_start_group': 0,
+                    'last_study_date': None
+                },
+                'numbers': {
                     'category': '전체', 
                     'completed_count': 0, 
                     'current_group_index': 0,
@@ -138,6 +154,7 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), 'static', 'data')
 WORDS_FILE = os.path.join(DATA_DIR, 'english_words.json')
 ED_WORDS_FILE = os.path.join(DATA_DIR, 'english_words_ed.json')
 YB_WORDS_FILE = os.path.join(DATA_DIR, 'english_words_yb_con.json')
+NUMBERS_DATES_FILE = os.path.join(DATA_DIR, 'numbers_dates.json')
 
 # 세션 데이터 저장소 (실제로는 데이터베이스 사용 권장)
 sessions = {}
@@ -189,6 +206,18 @@ def load_yb_words():
                 return json.load(f)
         except Exception as e:
             print(f"YB 단어 로드 오류: {e}")
+            pass
+    return []
+
+def load_numbers_dates():
+    """JSON에서 숫자/날짜 단어 로드"""
+    numbers_file = os.path.join(DATA_DIR, 'numbers_dates.json')
+    if os.path.exists(numbers_file):
+        try:
+            with open(numbers_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"숫자/날짜 단어 로드 오류: {e}")
             pass
     return []
 
@@ -525,6 +554,78 @@ def load_yb_sheet():
         'current_group_index': current_group_idx
     })
 
+@app.route('/api/load-numbers-sheet', methods=['POST'])
+@login_required
+def load_numbers_sheet():
+    """숫자/날짜 탭 로드"""
+    session_id = request.json.get('session_id')
+    username = session.get('username')
+    numbers_words = load_numbers_dates()
+    
+    if not numbers_words:
+        return jsonify({'error': 'No numbers/dates data available'}), 404
+    
+    progress = get_user_progress(username, 'numbers')
+    
+    # 단어 묶음 생성
+    word_groups = create_word_groups(numbers_words, 3)
+    current_group_idx = progress.get('current_group_index', 0)
+    review_mode = progress.get('review_mode', False)
+    
+    # 범위를 벗어났으면 처음으로 돌아가기
+    if current_group_idx >= len(word_groups):
+        current_group_idx = 0
+        progress['current_group_index'] = 0
+        save_user_progress(username, 'numbers', progress)
+    
+    if review_mode:
+        # 복습 모드 - 9개 묶음(27개 단어) 복습
+        review_start = progress.get('review_start_group', 0)
+        review_groups = word_groups[review_start:review_start + 9]
+        all_review_words = []
+        for grp in review_groups:
+            all_review_words.extend(grp['words'])
+        random.shuffle(all_review_words)
+        all_nine_words = all_review_words[:27] if len(all_review_words) >= 27 else all_review_words
+        message = f"📚 복습 모드: {review_start+1}~{review_start+9}번 묶음 (27개 단어)"
+    else:
+        # 일반 모드 - 3개 묶음(9개 단어)
+        if current_group_idx < len(word_groups):
+            current_groups = word_groups[current_group_idx:current_group_idx + 3]
+            all_nine_words = []
+            for grp in current_groups:
+                all_nine_words.extend(grp['words'])
+            message = f"📖 {current_group_idx+1}~{current_group_idx+3}번 묶음 (9개 단어)\n총 {len(word_groups)}개 묶음 중 {current_group_idx+3}번째까지 학습"
+        else:
+            all_nine_words = []
+            message = "🎉 모든 단어 학습 완료!"
+    
+    if session_id in sessions:
+        sessions[session_id]['all_nine_words'] = all_nine_words
+        sessions[session_id]['repeat_count'] = 0
+        sessions[session_id]['current_mode'] = 'numbers'
+        sessions[session_id]['correct_count'] = 0
+        sessions[session_id]['total_attempts'] = 0
+        sessions[session_id]['username'] = username
+        sessions[session_id]['review_mode'] = review_mode
+        sessions[session_id]['current_group_index'] = current_group_idx
+    
+    # 전체 9개 단어를 current_set으로 전송
+    current_set = all_nine_words
+    
+    return jsonify({
+        'current_set': current_set,
+        'repeat_count': 0,
+        'correct_count': 0,
+        'total_attempts': 0,
+        'mode': 'numbers',
+        'user_progress': progress,
+        'message': message,
+        'review_mode': review_mode,
+        'total_words_count': len(numbers_words),
+        'current_group_index': current_group_idx
+    })
+
 @app.route('/api/check-answer', methods=['POST'])
 @login_required
 def check_answer():
@@ -549,6 +650,8 @@ def check_answer():
             is_correct = (parts[0].strip() == word_data.get('word', '').lower() and 
                          parts[1].strip() == word_data.get('past_tense', '').lower())
     elif mode == 'yb':
+        is_correct = user_input == word_data['word'].lower()
+    elif mode == 'numbers':
         is_correct = user_input == word_data['word'].lower()
     
     if is_correct:
@@ -611,10 +714,10 @@ def next_word():
             save_user_progress(username, user_session['current_mode'], progress)
             return jsonify({'action': 'review_complete', 'message': '복습 완료! 다음 단어로 이동합니다.'})
         
-        # 9개 묶음(27개 단어) 완료 체크 - Words 모드에만 적용
+        # 9개 묶음(27개 단어) 완료 체크 - 모든 모드에 적용
         current_mode = user_session.get('current_mode', 'Words')
-        if current_mode == 'Words' and new_group_index > 0 and new_group_index % 9 == 0:
-            # 복습 모드 진입 (Words 모드만)
+        if new_group_index > 0 and new_group_index % 9 == 0:
+            # 복습 모드 진입
             progress['review_mode'] = True
             progress['review_start_group'] = new_group_index - 9
             progress['current_group_index'] = new_group_index
@@ -656,6 +759,8 @@ def next_nine_words():
         words = load_ed_words()
     elif mode == 'yb':
         words = load_yb_words()
+    elif mode == 'numbers':
+        words = load_numbers_dates()
     else:
         words = load_words()
     
@@ -703,6 +808,8 @@ def start_review_mode(session_id, username, mode):
         words = load_ed_words()
     elif mode == 'yb':
         words = load_yb_words()
+    elif mode == 'numbers':
+        words = load_numbers_dates()
     else:
         words = load_words()
     
@@ -726,7 +833,8 @@ def start_review_mode(session_id, username, mode):
     user_session['total_attempts'] = 0
     user_session['review_mode'] = True
     
-    current_set = all_nine_words[0:3]
+    # 복습 모드에서는 전체 27개 단어를 한 번에 전송
+    current_set = all_nine_words
     
     return jsonify({
         'current_set': current_set,
