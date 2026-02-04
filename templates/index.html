@@ -46,8 +46,10 @@
         <!-- AI 전용 영역 (기본 숨김) -->
         <div id="aiSection" style="display: none;">
             <div class="ai-card">
-                <h4 id="aiWord" style="margin: 10px 0; font-size: 18px;">단어</h4>
-                <button onclick="generateAiSentences()" class="btn-primary">🤖 AI 예문 생성</button>
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                    <span style="font-size: 16px; font-weight: bold;">단어: <span id="aiWord">-</span></span>
+                    <button onclick="generateAiSentences()" class="btn-primary">🤖 AI 예문 생성</button>
+                </div>
                 <div id="aiSentences" style="margin-top: 15px; white-space: pre-line;"></div>
                 
                 <hr style="margin: 20px 0;">
