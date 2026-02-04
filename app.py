@@ -11,7 +11,7 @@ from datetime import timedelta
 # Google Gemini API 설정 (선택적)
 try:
     import google.generativeai as genai
-    GEMINI_API_KEY = 'AIzaSyDdc4zUH3WGJqNVvEdXzYquJ3dqGpECOZw'
+    GEMINI_API_KEY = 'AIzaSyDGTZDgh2X90l3bmjb3qf0o7hGCgrT_cJU'
     genai.configure(api_key=GEMINI_API_KEY)
     AI_AVAILABLE = True
 except ImportError:
