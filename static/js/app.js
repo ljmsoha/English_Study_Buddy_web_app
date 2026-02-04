@@ -712,6 +712,20 @@ async function checkUserSentence() {
     }
 }
 
+// AI 탭에서 다음 단어로 이동
+function nextAiWord() {
+    // 현재 인덱스 증가
+    currentWordIndex = (currentWordIndex + 1) % currentWords.length;
+    
+    // 새 단어 표시
+    displayAiWord();
+    
+    // 입력창과 피드백 초기화
+    document.getElementById('userSentence').value = '';
+    document.getElementById('aiSentences').textContent = '';
+    document.getElementById('aiFeedback').textContent = '';
+}
+
 // 모달 외부 클릭 시 닫기
 window.onclick = function(event) {
     const modal = document.getElementById('hintModal');
