@@ -306,6 +306,12 @@ async function loadWordsSheet() {
         // 활성 탭 표시
         setActiveTab('wordsTabBtn');
         
+        // AI 섹션 숨김, 일반 섹션 표시
+        document.getElementById('aiSection').style.display = 'none';
+        document.getElementById('normalInputSection').style.display = 'flex';
+        document.querySelector('.button-section').style.display = 'flex';
+        document.querySelector('.result-message').style.display = 'block';
+        
         displayWord();
         updateStats();
         
@@ -356,6 +362,12 @@ async function loadEdSheet() {
         // 활성 탭 표시
         setActiveTab('edTabBtn');
         
+        // AI 섹션 숨김, 일반 섹션 표시
+        document.getElementById('aiSection').style.display = 'none';
+        document.getElementById('normalInputSection').style.display = 'flex';
+        document.querySelector('.button-section').style.display = 'flex';
+        document.querySelector('.result-message').style.display = 'block';
+        
         displayWord();
         updateStats();
         
@@ -402,6 +414,12 @@ async function loadYbSheet() {
         // 활성 탭 표시
         setActiveTab('ybTabBtn');
         
+        // AI 섹션 숨김, 일반 섹션 표시
+        document.getElementById('aiSection').style.display = 'none';
+        document.getElementById('normalInputSection').style.display = 'flex';
+        document.querySelector('.button-section').style.display = 'flex';
+        document.querySelector('.result-message').style.display = 'block';
+        
         displayWord();
         updateStats();
         
@@ -447,6 +465,12 @@ async function loadNumbersSheet() {
         
         // 활성 탭 표시
         setActiveTab('numbersTabBtn');
+        
+        // AI 섹션 숨김, 일반 섹션 표시
+        document.getElementById('aiSection').style.display = 'none';
+        document.getElementById('normalInputSection').style.display = 'flex';
+        document.querySelector('.button-section').style.display = 'flex';
+        document.querySelector('.result-message').style.display = 'block';
         
         displayWord();
         updateStats();
@@ -714,8 +738,16 @@ async function checkUserSentence() {
 
 // AI 탭에서 다음 단어로 이동
 function nextAiWord() {
+    console.log('nextAiWord 호출됨. currentIndex:', currentIndex, 'currentSet.length:', currentSet.length);
+    
+    if (!currentSet || currentSet.length === 0) {
+        alert('단어 목록이 없습니다. AI 탭을 다시 로드해주세요.');
+        return;
+    }
+    
     // 현재 인덱스 증가
-    currentWordIndex = (currentWordIndex + 1) % currentWords.length;
+    currentIndex = (currentIndex + 1) % currentSet.length;
+    console.log('새로운 currentIndex:', currentIndex);
     
     // 새 단어 표시
     displayAiWord();
