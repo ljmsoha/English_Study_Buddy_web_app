@@ -45,21 +45,19 @@
 
         <!-- AI 전용 영역 (기본 숨김) -->
         <div id="aiSection" style="display: none;">
-            <div class="ai-card">
-                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
-                    <span style="font-size: 16px; font-weight: bold;">단어: <span id="aiWord">-</span></span>
-                    <button onclick="generateAiSentences()" class="btn-primary">🤖 AI 예문 생성</button>
-                </div>
-                <div id="aiSentences" style="margin-top: 15px; white-space: pre-line;"></div>
-                
-                <hr style="margin: 20px 0;">
-                
-                <h4>이 단어로 문장 만들기:</h4>
-                <textarea id="userSentence" rows="3" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px;" placeholder="단어를 사용해서 문장을 만들어보세요..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();checkUserSentence();}"></textarea>
-                <button onclick="checkUserSentence()" class="btn-primary">✅ AI 평가 받기</button>
-                <button onclick="nextAiWord()" class="btn-primary" style="margin-left: 10px;">➡️ 다음 단어</button>
-                <div id="aiFeedback" style="margin-top: 15px; white-space: pre-line;"></div>
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 20px;">
+                <span style="font-size: 16px; font-weight: bold;">단어: <span id="aiWord">-</span></span>
+                <button onclick="generateAiSentences()" class="btn-primary">🤖 AI 예문 생성</button>
             </div>
+            <div id="aiSentences" style="margin-bottom: 20px; white-space: pre-line; padding: 15px; background: #f8f9fa; border-radius: 8px;"></div>
+            
+            <h4 style="margin-bottom: 10px;">이 단어로 문장 만들기:</h4>
+            <textarea id="userSentence" rows="3" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px; margin-bottom: 10px;" placeholder="단어를 사용해서 문장을 만들어보세요..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();checkUserSentence();}"></textarea>
+            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                <button onclick="checkUserSentence()" class="btn-primary">✅ AI 평가 받기</button>
+                <button onclick="nextAiWord()" class="btn-primary">➡️ 다음 단어</button>
+            </div>
+            <div id="aiFeedback" style="white-space: pre-line; padding: 15px; background: #f8f9fa; border-radius: 8px;"></div>
         </div>
 
         <!-- 입력 영역 -->
