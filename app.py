@@ -888,7 +888,9 @@ def api_skip_review():
     new_group_index = current_group + 9
     
     # 진행상황 업데이트
-    update_user_progress(username, mode, current_group_index=new_group_index)
+    progress['current_group_index'] = new_group_index
+    progress['review_mode'] = False
+    save_user_progress(username, mode, progress)
     
     # 새로운 9개 묶음 로드
     if mode == 'ed':
