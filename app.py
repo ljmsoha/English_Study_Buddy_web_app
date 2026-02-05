@@ -391,7 +391,7 @@ def load_words_sheet():
         'total_attempts': 0,
         'user_progress': progress,
         'message': message,
-        'review_mode': review_mode,
+        'review_mode': False,
         'total_words_count': len(words),
         'current_group_index': current_group_idx,
         'total_groups': len(word_groups)
@@ -451,7 +451,7 @@ def load_ed_sheet():
         'mode': 'ed',
         'user_progress': progress,
         'message': message,
-        'review_mode': review_mode,
+        'review_mode': False,
         'total_words_count': len(ed_words),
         'current_group_index': current_group_idx,
         'total_groups': len(word_groups)
@@ -511,7 +511,7 @@ def load_yb_sheet():
         'mode': 'yb',
         'user_progress': progress,
         'message': message,
-        'review_mode': review_mode,
+        'review_mode': False,
         'total_words_count': len(yb_words),
         'current_group_index': current_group_idx,
         'total_groups': len(word_groups)
@@ -571,7 +571,7 @@ def load_numbers_sheet():
         'mode': 'numbers',
         'user_progress': progress,
         'message': message,
-        'review_mode': review_mode,
+        'review_mode': False,
         'total_words_count': len(numbers_words),
         'current_group_index': current_group_idx,
         'total_groups': len(word_groups)
