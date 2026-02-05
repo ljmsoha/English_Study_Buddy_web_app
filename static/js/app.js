@@ -200,7 +200,21 @@ async function nextWord() {
         } else if (data.action === 'next_set') {
             currentSet = data.current_set;
             currentIndex = 0;
+            
+            // currentGroupIndex와 totalGroups 업데이트
+            if (data.current_group_index !== undefined) {
+                currentGroupIndex = data.current_group_index;
+            }
+            if (data.total_groups !== undefined) {
+                totalGroups = data.total_groups;
+            }
+            
             displayWord();
+            updateStats();
+            
+            if (data.message) {
+                console.log(data.message);
+            }
         } else if (data.action === 'repeat_incorrect') {
             // 틀린 단어만 반복
             alert(data.message);
@@ -210,7 +224,7 @@ async function nextWord() {
             updateStats();
         } else if (data.action === 'set_complete') {
             alert('10개 단어를 모두 성공적으로 완료했습니다! 다음 묶음으로 이동합니다.');
-            location.reload(); // 다음 묶음 로드
+            await nextNineWords(); // 다음 묶음 로드
         } else if (data.action === 'enter_review') {
             // 복습 모드 진입
             const enterReview = confirm(data.message + '\n\n확인: 복습 시작\n취소: 다음 단어로');

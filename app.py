@@ -682,7 +682,45 @@ def next_word():
             new_group_index = progress.get('current_group_index', 0) + 1
             progress['current_group_index'] = new_group_index
             save_user_progress(username, current_mode, progress)
-            return jsonify({'action': 'set_complete', 'repeat_count': 0})
+            
+            # 다음 묶음 데이터 로드
+            if current_mode == 'ed':
+                words = load_ed_words()
+            elif current_mode == 'yb':
+                words = load_yb_words()
+            elif current_mode == 'numbers':
+                words = load_numbers_dates()
+            else:
+                words = load_words()
+            
+            word_groups = create_word_groups(words, 10)
+            
+            # 모든 묶음을 완료했는지 확인
+            if new_group_index >= len(word_groups):
+                new_group_index = 0
+                progress['current_group_index'] = 0
+                save_user_progress(username, current_mode, progress)
+            
+            # 다음 묶음 로드
+            if new_group_index < len(word_groups):
+                current_group = word_groups[new_group_index]
+                all_nine_words = current_group['words']
+                
+                user_session['all_nine_words'] = all_nine_words
+                user_session['current_group_index'] = new_group_index
+                user_session['correct_count'] = 0
+                user_session['total_attempts'] = 0
+                user_session['incorrect_words'] = []
+                
+                return jsonify({
+                    'action': 'next_set',
+                    'current_set': all_nine_words,
+                    'current_group_index': new_group_index,
+                    'total_groups': len(word_groups),
+                    'message': f'{new_group_index + 1}번 묶음으로 이동합니다.'
+                })
+            else:
+                return jsonify({'action': 'set_complete', 'repeat_count': 0})
 
 @app.route('/api/next-nine-words', methods=['POST'])
 @login_required
