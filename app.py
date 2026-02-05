@@ -183,7 +183,7 @@ def load_words():
     return [{"word": "Apple", "meaning": "사과", "example": "I ate an apple.", "category": "기초"}]
 
 def create_word_groups(words, group_size=3):
-    """단어를 3개씩 묶음으로 만들고 번호 부여"""
+    """단어를 group_size개씩 묶음으로 만들고 번호 부여"""
     # 단어를 랜덤하게 섞기 (시드 고정으로 항상 같은 순서)
     import random
     random.seed(42)  # 고정된 시드로 항상 같은 순서로 섞임
@@ -194,7 +194,8 @@ def create_word_groups(words, group_size=3):
     for i in range(0, len(shuffled_words), group_size):
         group_number = (i // group_size) + 1
         group_words = shuffled_words[i:i + group_size]
-        if len(group_words) == group_size:  # 3개가 안되면 제외
+        # 나머지 단어도 포함 (최소 1개 이상이면 묶음에 추가)
+        if len(group_words) >= 1:
             groups.append({
                 'group_number': group_number,
                 'words': group_words
