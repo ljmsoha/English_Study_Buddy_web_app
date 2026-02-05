@@ -105,14 +105,14 @@ function displayWord() {
 
 function updateStats() {
     const totalWords = currentSet.length;
-    const currentSetNum = Math.floor(currentIndex / 3) + 1;
-    const totalSets = Math.ceil(totalWords / 3);
+    const currentSetNum = Math.floor(currentIndex / 10) + 1;
+    const totalSets = Math.ceil(totalWords / 10);
     
     // 절대 위치 계산: (현재 묶음 시작 위치) + (현재 인덱스) + 1
-    const absolutePosition = (currentGroupIndex * 3) + currentIndex + 1;
+    const absolutePosition = currentGroupIndex + currentIndex + 1;
     
-    document.getElementById('wordStats').textContent = `단어: ${absolutePosition}/${totalWordsCount}`;
-    document.getElementById('setStats').textContent = `세트: ${currentSetNum}/${totalSets}`;
+    document.getElementById('wordStats').textContent = `단어: ${currentIndex + 1}/${totalWords}`;
+    document.getElementById('setStats').textContent = `묶음: ${currentSetNum}/${totalSets}`;
 }
 
 async function checkAnswer() {
@@ -203,8 +203,16 @@ async function nextWord() {
             currentSet = data.current_set;
             currentIndex = 0;
             displayWord();
+        } else if (data.action === 'repeat_incorrect') {
+            // 틀린 단어만 반복
+            alert(data.message);
+            currentSet = data.current_set;
+            currentIndex = 0;
+            displayWord();
+            updateStats();
         } else if (data.action === 'set_complete') {
-            showSetCompleteDialog();
+            alert('10개 단어를 모두 성공적으로 완료했습니다! 다음 묶음으로 이동합니다.');
+            location.reload(); // 다음 묶음 로드
         } else if (data.action === 'enter_review') {
             // 복습 모드 진입
             const enterReview = confirm(data.message + '\n\n확인: 복습 시작\n취소: 다음 단어로');
@@ -221,7 +229,7 @@ async function nextWord() {
                 displayWord();
                 updateStats();
             } else {
-                // 다음 9개 단어로 스킵
+                // 다음 10개 단어로 스킵
                 const skipResponse = await fetch('/api/skip_review', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -287,9 +295,9 @@ function closeHintModal() {
 
 function showSetCompleteDialog() {
     const result = confirm(
-        '총 9개 단어를 완료했습니다.\n\n' +
-        '확인: 같은 9개 단어를 다시 반복\n' +
-        '취소: 새로운 9개 단어로 이동'
+        '총 10개 단어를 완료했습니다.\n\n' +
+        '확인: 같은 10개 단어를 다시 반복\n' +
+        '취소: 새로운 10개 단어로 이동'
     );
     
     if (result) {
@@ -573,7 +581,7 @@ async function repeatNineWords() {
         currentIndex = 0;
         displayWord();
     } catch (error) {
-        console.error('9개 단어 반복 실패:', error);
+        console.error('10개 단어 반복 실패:', error);
     }
 }
 

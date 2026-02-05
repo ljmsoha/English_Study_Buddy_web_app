@@ -292,41 +292,24 @@ def api_init():
     # 사용자 진행 상황 로드
     progress = get_user_progress(username, 'Words')
     
-    # 단어를 3개씩 묶음으로 생성
-    word_groups = create_word_groups(words, 3)
+    # 단어를 10개씩 묶음으로 생성
+    word_groups = create_word_groups(words, 10)
     
     # 현재 학습할 묶음 인덱스
     current_group_idx = progress.get('current_group_index', 0)
     
-    # 복습 모드 체크 (10개 묶음 = 30개 단어 완료 시)
-    review_mode = progress.get('review_mode', False)
+    # 복습 모드는 제거 (틀린 단어만 반복하는 방식으로 변경)
+    review_mode = False
     
-    if review_mode:
-        # 복습 모드: 지난 9개 묶음에서 랜덤 27문제
-        review_start = progress.get('review_start_group', 0)
-        review_groups = word_groups[review_start:review_start + 9]
-        all_review_words = []
-        for grp in review_groups:
-            all_review_words.extend(grp['words'])
-        
-        # 27개 중 랜덤으로 섞기
-        random.shuffle(all_review_words)
-        all_nine_words = all_review_words[:27] if len(all_review_words) >= 27 else all_review_words
-        
-        message = f"📚 복습 모드: {review_start+1}~{review_start+9}번 묶음 복습 중"
+    # 일반 모드: 현재 묶음 1개(10개 단어) 로드
+    if current_group_idx < len(word_groups):
+        current_group = word_groups[current_group_idx]
+        all_nine_words = current_group['words']
+        message = f"📖 {current_group_idx+1}번 묶음 학습 중"
     else:
-        # 일반 모드: 현재 묶음부터 3개 묶음(9개 단어) 로드
-        if current_group_idx < len(word_groups):
-            current_groups = word_groups[current_group_idx:current_group_idx + 3]
-            all_nine_words = []
-            for grp in current_groups:
-                all_nine_words.extend(grp['words'])
-            
-            message = f"📖 {current_group_idx+1}~{current_group_idx+3}번 묶음 학습 중"
-        else:
-            # 모든 단어 완료
-            all_nine_words = []
-            message = "🎉 모든 단어 학습 완료!"
+        # 모든 단어 완료
+        all_nine_words = []
+        message = "🎉 모든 단어 학습 완료!"
     
     sessions[session_id] = {
         'all_nine_words': all_nine_words,
@@ -337,7 +320,8 @@ def api_init():
         'current_mode': 'Words',
         'current_group_index': current_group_idx,
         'review_mode': review_mode,
-        'username': username
+        'username': username,
+        'incorrect_words': []  # 틀린 단어 추적
     }
     
     # 전체 9개 단어를 current_set으로 전송
@@ -365,10 +349,9 @@ def load_words_sheet():
     words = load_words()
     progress = get_user_progress(username, 'Words')
     
-    # 단어 묶음 생성
-    word_groups = create_word_groups(words, 3)
+    # 단어 묶음 생성 (10개씩)
+    word_groups = create_word_groups(words, 10)
     current_group_idx = progress.get('current_group_index', 0)
-    review_mode = progress.get('review_mode', False)
     
     # 범위를 벗어났으면 처음으로 돌아가기
     if current_group_idx >= len(word_groups):
@@ -376,27 +359,14 @@ def load_words_sheet():
         progress['current_group_index'] = 0
         save_user_progress(username, 'Words', progress)
     
-    if review_mode:
-        # 복습 모드
-        review_start = progress.get('review_start_group', 0)
-        review_groups = word_groups[review_start:review_start + 10]
-        all_review_words = []
-        for grp in review_groups:
-            all_review_words.extend(grp['words'])
-        random.shuffle(all_review_words)
-        all_nine_words = all_review_words[:30] if len(all_review_words) >= 30 else all_review_words
-        message = f"📚 복습 모드: {review_start+1}~{review_start+10}번 묶음"
+    # 현재 묶음 1개(10개 단어) 로드
+    if current_group_idx < len(word_groups):
+        current_group = word_groups[current_group_idx]
+        all_nine_words = current_group['words']
+        message = f"📖 {current_group_idx+1}번 묶음"
     else:
-        # 일반 모드
-        if current_group_idx < len(word_groups):
-            current_groups = word_groups[current_group_idx:current_group_idx + 3]
-            all_nine_words = []
-            for grp in current_groups:
-                all_nine_words.extend(grp['words'])
-            message = f"📖 {current_group_idx+1}~{current_group_idx+3}번 묶음"
-        else:
-            all_nine_words = []
-            message = "🎉 모든 단어 학습 완료!"
+        all_nine_words = []
+        message = "🎉 모든 단어 학습 완료!"
     
     if session_id in sessions:
         sessions[session_id]['all_nine_words'] = all_nine_words
@@ -405,8 +375,9 @@ def load_words_sheet():
         sessions[session_id]['correct_count'] = 0
         sessions[session_id]['total_attempts'] = 0
         sessions[session_id]['username'] = username
-        sessions[session_id]['review_mode'] = review_mode
+        sessions[session_id]['review_mode'] = False
         sessions[session_id]['current_group_index'] = current_group_idx
+        sessions[session_id]['incorrect_words'] = []
     
     # 전체 9개 단어를 current_set으로 전송
     current_set = all_nine_words
@@ -436,10 +407,9 @@ def load_ed_sheet():
     
     progress = get_user_progress(username, 'ed')
     
-    # 단어 묶음 생성
-    word_groups = create_word_groups(ed_words, 3)
+    # 단어 묶음 생성 (10개씩)
+    word_groups = create_word_groups(ed_words, 10)
     current_group_idx = progress.get('current_group_index', 0)
-    review_mode = progress.get('review_mode', False)
     
     # 범위를 벗어났으면 처음으로 돌아가기
     if current_group_idx >= len(word_groups):
@@ -447,27 +417,14 @@ def load_ed_sheet():
         progress['current_group_index'] = 0
         save_user_progress(username, 'ed', progress)
     
-    if review_mode:
-        # 복습 모드
-        review_start = progress.get('review_start_group', 0)
-        review_groups = word_groups[review_start:review_start + 10]
-        all_review_words = []
-        for grp in review_groups:
-            all_review_words.extend(grp['words'])
-        random.shuffle(all_review_words)
-        all_nine_words = all_review_words[:30] if len(all_review_words) >= 30 else all_review_words
-        message = f"📚 복습 모드: {review_start+1}~{review_start+10}번 묶음"
+    # 현재 묶음 1개(10개 단어) 로드
+    if current_group_idx < len(word_groups):
+        current_group = word_groups[current_group_idx]
+        all_nine_words = current_group['words']
+        message = f"📖 {current_group_idx+1}번 묶음"
     else:
-        # 일반 모드
-        if current_group_idx < len(word_groups):
-            current_groups = word_groups[current_group_idx:current_group_idx + 3]
-            all_nine_words = []
-            for grp in current_groups:
-                all_nine_words.extend(grp['words'])
-            message = f"📖 {current_group_idx+1}~{current_group_idx+3}번 묶음"
-        else:
-            all_nine_words = []
-            message = "🎉 모든 단어 학습 완료!"
+        all_nine_words = []
+        message = "🎉 모든 단어 학습 완료!"
     
     if session_id in sessions:
         sessions[session_id]['all_nine_words'] = all_nine_words
@@ -476,8 +433,9 @@ def load_ed_sheet():
         sessions[session_id]['correct_count'] = 0
         sessions[session_id]['total_attempts'] = 0
         sessions[session_id]['username'] = username
-        sessions[session_id]['review_mode'] = review_mode
+        sessions[session_id]['review_mode'] = False
         sessions[session_id]['current_group_index'] = current_group_idx
+        sessions[session_id]['incorrect_words'] = []
     
     # 전체 9개 단어를 current_set으로 전송
     current_set = all_nine_words
@@ -509,9 +467,8 @@ def load_yb_sheet():
     progress = get_user_progress(username, 'yb')
     
     # 단어 묶음 생성
-    word_groups = create_word_groups(yb_words, 3)
+    word_groups = create_word_groups(yb_words, 10)
     current_group_idx = progress.get('current_group_index', 0)
-    review_mode = progress.get('review_mode', False)
     
     # 범위를 벗어났으면 처음으로 돌아가기
     if current_group_idx >= len(word_groups):
@@ -519,27 +476,14 @@ def load_yb_sheet():
         progress['current_group_index'] = 0
         save_user_progress(username, 'yb', progress)
     
-    if review_mode:
-        # 복습 모드 - 9개 묶음(27개 단어) 복습
-        review_start = progress.get('review_start_group', 0)
-        review_groups = word_groups[review_start:review_start + 9]
-        all_review_words = []
-        for grp in review_groups:
-            all_review_words.extend(grp['words'])
-        random.shuffle(all_review_words)
-        all_nine_words = all_review_words[:27] if len(all_review_words) >= 27 else all_review_words
-        message = f"📚 복습 모드: {review_start+1}~{review_start+9}번 묶음 (27개 단어)"
+    # 현재 묶음 1개(10개 단어) 로드
+    if current_group_idx < len(word_groups):
+        current_group = word_groups[current_group_idx]
+        all_nine_words = current_group['words']
+        message = f"📖 {current_group_idx+1}번 묶음 (10개 단어)\n총 {len(word_groups)}개 묶음 중 {current_group_idx+1}번째 학습"
     else:
-        # 일반 모드 - 3개 묶음(9개 단어)
-        if current_group_idx < len(word_groups):
-            current_groups = word_groups[current_group_idx:current_group_idx + 3]
-            all_nine_words = []
-            for grp in current_groups:
-                all_nine_words.extend(grp['words'])
-            message = f"📖 {current_group_idx+1}~{current_group_idx+3}번 묶음 (9개 단어)\n총 {len(word_groups)}개 묶음 중 {current_group_idx+3}번째까지 학습"
-        else:
-            all_nine_words = []
-            message = "🎉 모든 단어 학습 완료!"
+        all_nine_words = []
+        message = "🎉 모든 단어 학습 완료!"
     
     if session_id in sessions:
         sessions[session_id]['all_nine_words'] = all_nine_words
@@ -548,8 +492,9 @@ def load_yb_sheet():
         sessions[session_id]['correct_count'] = 0
         sessions[session_id]['total_attempts'] = 0
         sessions[session_id]['username'] = username
-        sessions[session_id]['review_mode'] = review_mode
+        sessions[session_id]['review_mode'] = False
         sessions[session_id]['current_group_index'] = current_group_idx
+        sessions[session_id]['incorrect_words'] = []
     
     # 전체 9개 단어를 current_set으로 전송
     current_set = all_nine_words
@@ -580,10 +525,9 @@ def load_numbers_sheet():
     
     progress = get_user_progress(username, 'numbers')
     
-    # 단어 묶음 생성
-    word_groups = create_word_groups(numbers_words, 3)
+    # 단어 묶음 생성 (10개씩)
+    word_groups = create_word_groups(numbers_words, 10)
     current_group_idx = progress.get('current_group_index', 0)
-    review_mode = progress.get('review_mode', False)
     
     # 범위를 벗어났으면 처음으로 돌아가기
     if current_group_idx >= len(word_groups):
@@ -591,27 +535,14 @@ def load_numbers_sheet():
         progress['current_group_index'] = 0
         save_user_progress(username, 'numbers', progress)
     
-    if review_mode:
-        # 복습 모드 - 9개 묶음(27개 단어) 복습
-        review_start = progress.get('review_start_group', 0)
-        review_groups = word_groups[review_start:review_start + 9]
-        all_review_words = []
-        for grp in review_groups:
-            all_review_words.extend(grp['words'])
-        random.shuffle(all_review_words)
-        all_nine_words = all_review_words[:27] if len(all_review_words) >= 27 else all_review_words
-        message = f"📚 복습 모드: {review_start+1}~{review_start+9}번 묶음 (27개 단어)"
+    # 현재 묶음 1개(10개 단어) 로드
+    if current_group_idx < len(word_groups):
+        current_group = word_groups[current_group_idx]
+        all_nine_words = current_group['words']
+        message = f"📖 {current_group_idx+1}번 묶음 (10개 단어)\n총 {len(word_groups)}개 묶음 중 {current_group_idx+1}번째 학습"
     else:
-        # 일반 모드 - 3개 묶음(9개 단어)
-        if current_group_idx < len(word_groups):
-            current_groups = word_groups[current_group_idx:current_group_idx + 3]
-            all_nine_words = []
-            for grp in current_groups:
-                all_nine_words.extend(grp['words'])
-            message = f"📖 {current_group_idx+1}~{current_group_idx+3}번 묶음 (9개 단어)\n총 {len(word_groups)}개 묶음 중 {current_group_idx+3}번째까지 학습"
-        else:
-            all_nine_words = []
-            message = "🎉 모든 단어 학습 완료!"
+        all_nine_words = []
+        message = "🎉 모든 단어 학습 완료!"
     
     if session_id in sessions:
         sessions[session_id]['all_nine_words'] = all_nine_words
@@ -620,8 +551,9 @@ def load_numbers_sheet():
         sessions[session_id]['correct_count'] = 0
         sessions[session_id]['total_attempts'] = 0
         sessions[session_id]['username'] = username
-        sessions[session_id]['review_mode'] = review_mode
+        sessions[session_id]['review_mode'] = False
         sessions[session_id]['current_group_index'] = current_group_idx
+        sessions[session_id]['incorrect_words'] = []
     
     # 전체 9개 단어를 current_set으로 전송
     current_set = all_nine_words
@@ -669,6 +601,14 @@ def check_answer():
     
     if is_correct:
         user_session['correct_count'] += 1
+    else:
+        # 틀린 단어 기록 (중복 방지)
+        if 'incorrect_words' not in user_session:
+            user_session['incorrect_words'] = []
+        # word_data가 이미 incorrect_words에 없으면 추가
+        already_exists = any(w.get('word') == word_data.get('word') for w in user_session['incorrect_words'])
+        if not already_exists:
+            user_session['incorrect_words'].append(word_data)
     user_session['total_attempts'] += 1
     
     # 사용자 진행 상황 저장
@@ -712,37 +652,30 @@ def next_word():
     if current_index < total_words - 1:
         return jsonify({'action': 'next_word', 'index': current_index + 1})
     else:
-        # 모든 단어 완료 - 9개 묶음 완료
+        # 모든 단어 완료 - 10개 묶음 완료
         username = user_session.get('username')
-        progress = get_user_progress(username, user_session['current_mode'])
-        new_group_index = progress.get('current_group_index', 0) + 3
-        
-        print(f"DEBUG: Completing set. new_group_index={new_group_index}, mode={user_session['current_mode']}")
-        
-        # 복습 모드인 경우
-        if user_session.get('review_mode', False):
-            # 복습 완료
-            progress['review_mode'] = False
-            progress['current_group_index'] = new_group_index
-            save_user_progress(username, user_session['current_mode'], progress)
-            return jsonify({'action': 'review_complete', 'message': '복습 완료! 다음 단어로 이동합니다.'})
-        
-        # 9개 묶음(27개 단어) 완료 체크 - 모든 모드에 적용
         current_mode = user_session.get('current_mode', 'Words')
-        if new_group_index > 0 and new_group_index % 9 == 0:
-            # 복습 모드 진입
-            progress['review_mode'] = True
-            progress['review_start_group'] = new_group_index - 9
-            progress['current_group_index'] = new_group_index
-            save_user_progress(username, current_mode, progress)
+        
+        # 틀린 단어가 있는지 확인
+        incorrect_words = user_session.get('incorrect_words', [])
+        
+        if incorrect_words:
+            # 틀린 단어만 반복
+            user_session['all_nine_words'] = incorrect_words
+            user_session['incorrect_words'] = []  # 초기화
+            user_session['correct_count'] = 0
+            user_session['total_attempts'] = 0
             return jsonify({
-                'action': 'enter_review',
-                'message': f'🎉 {new_group_index}개 묶음 완료! 복습을 시작할까요?'
+                'action': 'repeat_incorrect',
+                'current_set': incorrect_words,
+                'message': f'틀린 {len(incorrect_words)}개 단어를 다시 학습합니다.'
             })
         else:
-            # 일반 진행 - 다시 할거냐고 물어보기
+            # 틀린 단어가 없으면 다음 묶음으로
+            progress = get_user_progress(username, current_mode)
+            new_group_index = progress.get('current_group_index', 0) + 1
             progress['current_group_index'] = new_group_index
-            save_user_progress(username, user_session['current_mode'], progress)
+            save_user_progress(username, current_mode, progress)
             return jsonify({'action': 'set_complete', 'repeat_count': 0})
 
 @app.route('/api/next-nine-words', methods=['POST'])
@@ -762,11 +695,6 @@ def next_nine_words():
     user_session['current_mode'] = mode
     progress = get_user_progress(username, mode)
     
-    # 복습 모드 시작
-    if progress.get('review_mode', False):
-        return start_review_mode(session_id, username, mode)
-    
-    # 일반 모드: 다음 3개 묶음 로드
     # 모드에 따라 다른 파일 로드
     if mode == 'ed':
         words = load_ed_words()
@@ -777,7 +705,8 @@ def next_nine_words():
     else:
         words = load_words()
     
-    word_groups = create_word_groups(words, 3)
+    # 10개씩 묶음
+    word_groups = create_word_groups(words, 10)
     current_group_idx = progress.get('current_group_index', 0)
     
     # 모든 단어를 학습했으면 처음으로 돌아가기
@@ -787,18 +716,17 @@ def next_nine_words():
         save_user_progress(username, mode, progress)
     
     if current_group_idx < len(word_groups):
-        current_groups = word_groups[current_group_idx:current_group_idx + 3]
-        all_nine_words = []
-        for grp in current_groups:
-            all_nine_words.extend(grp['words'])
+        current_group = word_groups[current_group_idx]
+        all_nine_words = current_group['words']
         
         user_session['all_nine_words'] = all_nine_words
         user_session['repeat_count'] = 0
         user_session['correct_count'] = 0
         user_session['total_attempts'] = 0
         user_session['current_group_index'] = current_group_idx
+        user_session['incorrect_words'] = []
         
-        # 전체 9개 단어를 current_set으로 전송
+        # 전체 10개 단어를 current_set으로 전송
         current_set = all_nine_words
         
         completion_message = ""
@@ -808,7 +736,7 @@ def next_nine_words():
         return jsonify({
             'current_set': current_set,
             'repeat_count': 0,
-            'message': f"{current_group_idx+1}~{current_group_idx+3}번 묶음{completion_message}",
+            'message': f"{current_group_idx+1}번 묶음{completion_message}",
             'current_group_index': current_group_idx
         })
     else:
@@ -935,7 +863,7 @@ def api_skip_review():
 @app.route('/api/repeat-nine-words', methods=['POST'])
 @login_required
 def repeat_nine_words():
-    """같은 9개 단어 반복"""
+    """같은 10개 단어 반복"""
     data = request.json
     session_id = data.get('session_id')
     
@@ -946,8 +874,10 @@ def repeat_nine_words():
     session['repeat_count'] = 0
     session['correct_count'] = 0
     session['total_attempts'] = 0
+    session['incorrect_words'] = []
     
-    current_set = session['all_nine_words'][0:3]
+    # 전체 10개 단어 반환
+    current_set = session['all_nine_words']
     
     return jsonify({
         'current_set': current_set,
