@@ -209,9 +209,29 @@ async function nextWord() {
             // 복습 모드 진입
             const enterReview = confirm(data.message + '\n\n확인: 복습 시작\n취소: 다음 단어로');
             if (enterReview) {
-                await nextNineWords(); // 복습 모드 시작
+                // 복습 시작 API 호출
+                const reviewResponse = await fetch('/api/start_review', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ session_id: sessionId, mode: currentMode })
+                });
+                const reviewData = await reviewResponse.json();
+                currentSet = reviewData.current_set;
+                currentIndex = 0;
+                displayWord();
+                updateStats();
             } else {
-                await nextNineWords(); // 다음 묶음으로
+                // 다음 9개 단어로 스킵
+                const skipResponse = await fetch('/api/skip_review', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ session_id: sessionId, mode: currentMode })
+                });
+                const skipData = await skipResponse.json();
+                currentSet = skipData.current_set;
+                currentIndex = 0;
+                displayWord();
+                updateStats();
             }
         } else if (data.action === 'review_complete') {
             alert(data.message);

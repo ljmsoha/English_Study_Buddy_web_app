@@ -853,6 +853,80 @@ def start_review_mode(session_id, username, mode):
         'message': f"📚 복습 모드: {review_start+1}~{review_start+9}번 묶음 27문제"
     })
 
+@app.route('/api/start_review', methods=['POST'])
+@login_required
+def api_start_review():
+    """복습 모드 시작 API"""
+    data = request.json
+    session_id = data.get('session_id')
+    mode = data.get('mode', 'Words')
+    username = session.get('username')
+    
+    if not username:
+        return jsonify({'error': 'Not logged in'}), 401
+    
+    return start_review_mode(session_id, username, mode)
+
+@app.route('/api/skip_review', methods=['POST'])
+@login_required
+def api_skip_review():
+    """복습 건너뛰고 다음 9개 묶음으로"""
+    data = request.json
+    session_id = data.get('session_id')
+    mode = data.get('mode', 'Words')
+    username = session.get('username')
+    
+    if not username:
+        return jsonify({'error': 'Not logged in'}), 401
+    
+    # 현재 그룹 인덱스를 9 증가시켜 복습 영역을 건너뜀
+    progress = get_user_progress(username, mode)
+    current_group = progress.get('current_group_index', 0)
+    new_group_index = current_group + 9
+    
+    # 진행상황 업데이트
+    update_user_progress(username, mode, current_group_index=new_group_index)
+    
+    # 새로운 9개 묶음 로드
+    if mode == 'ed':
+        words = load_ed_words()
+    elif mode == 'yb':
+        words = load_yb_words()
+    elif mode == 'numbers':
+        words = load_numbers_dates()
+    else:
+        words = load_words()
+    
+    word_groups = create_word_groups(words, 3)
+    
+    if new_group_index >= len(word_groups):
+        return jsonify({
+            'action': 'all_complete',
+            'message': '🎉 모든 단어를 완료했습니다!'
+        })
+    
+    # 새로운 9개 묶음
+    nine_groups = word_groups[new_group_index:new_group_index + 9]
+    all_nine_words = []
+    for grp in nine_groups:
+        all_nine_words.extend(grp['words'])
+    
+    random.shuffle(all_nine_words)
+    
+    user_session = sessions[session_id]
+    user_session['all_nine_words'] = all_nine_words
+    user_session['repeat_count'] = 0
+    user_session['correct_count'] = 0
+    user_session['total_attempts'] = 0
+    user_session['review_mode'] = False
+    
+    return jsonify({
+        'current_set': all_nine_words,
+        'repeat_count': 0,
+        'review_mode': False,
+        'message': f'새로운 단어로 이동했습니다! ({new_group_index+1}번째 묶음)'
+    })
+
 @app.route('/api/repeat-nine-words', methods=['POST'])
 @login_required
 def repeat_nine_words():
