@@ -404,6 +404,11 @@ async function loadEdSheet() {
             currentGroupIndex = data.current_group_index;
         }
         
+        // 전체 묶음 개수 업데이트
+        if (data.total_groups !== undefined) {
+            totalGroups = data.total_groups;
+        }
+        
         // 활성 탭 표시
         setActiveTab('edTabBtn');
         
@@ -456,6 +461,11 @@ async function loadYbSheet() {
             currentGroupIndex = data.current_group_index;
         }
         
+        // 전체 묶음 개수 업데이트
+        if (data.total_groups !== undefined) {
+            totalGroups = data.total_groups;
+        }
+        
         // 활성 탭 표시
         setActiveTab('ybTabBtn');
         
@@ -506,6 +516,11 @@ async function loadNumbersSheet() {
         // 현재 묶음 인덱스 업데이트
         if (data.current_group_index !== undefined) {
             currentGroupIndex = data.current_group_index;
+        }
+        
+        // 전체 묶음 개수 업데이트
+        if (data.total_groups !== undefined) {
+            totalGroups = data.total_groups;
         }
         
         // 활성 탭 표시
