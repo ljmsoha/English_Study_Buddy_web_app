@@ -7,11 +7,14 @@ from pathlib import Path
 from gtts import gTTS
 import io
 from datetime import timedelta
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Google Gemini API 설정 (선택적)
 try:
     import google.generativeai as genai
-    GEMINI_API_KEY = 'AIzaSyDGTZDgh2X90l3bmjb3qf0o7hGCgrT_cJU'
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
     genai.configure(api_key=GEMINI_API_KEY)
     AI_AVAILABLE = True
 except ImportError:
