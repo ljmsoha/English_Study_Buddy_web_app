@@ -338,7 +338,8 @@ def api_init():
         'message': message,
         'review_mode': review_mode,
         'current_group_index': current_group_idx,
-        'total_words_count': len(words)
+        'total_words_count': len(words),
+        'total_groups': len(word_groups)
     })
 
 @app.route('/api/load-words-sheet', methods=['POST'])
@@ -392,7 +393,8 @@ def load_words_sheet():
         'message': message,
         'review_mode': review_mode,
         'total_words_count': len(words),
-        'current_group_index': current_group_idx
+        'current_group_index': current_group_idx,
+        'total_groups': len(word_groups)
     })
 
 @app.route('/api/load-ed-sheet', methods=['POST'])
@@ -451,7 +453,8 @@ def load_ed_sheet():
         'message': message,
         'review_mode': review_mode,
         'total_words_count': len(ed_words),
-        'current_group_index': current_group_idx
+        'current_group_index': current_group_idx,
+        'total_groups': len(word_groups)
     })
 
 @app.route('/api/load-yb-sheet', methods=['POST'])
@@ -510,7 +513,8 @@ def load_yb_sheet():
         'message': message,
         'review_mode': review_mode,
         'total_words_count': len(yb_words),
-        'current_group_index': current_group_idx
+        'current_group_index': current_group_idx,
+        'total_groups': len(word_groups)
     })
 
 @app.route('/api/load-numbers-sheet', methods=['POST'])
@@ -569,7 +573,8 @@ def load_numbers_sheet():
         'message': message,
         'review_mode': review_mode,
         'total_words_count': len(numbers_words),
-        'current_group_index': current_group_idx
+        'current_group_index': current_group_idx,
+        'total_groups': len(word_groups)
     })
 
 @app.route('/api/check-answer', methods=['POST'])
@@ -738,7 +743,8 @@ def next_nine_words():
             'current_set': current_set,
             'repeat_count': 0,
             'message': f"{current_group_idx+1}번 묶음{completion_message}",
-            'current_group_index': current_group_idx
+            'current_group_index': current_group_idx,
+            'total_groups': len(word_groups)
         })
     else:
         return jsonify({'error': '단어 로드 실패'}), 404

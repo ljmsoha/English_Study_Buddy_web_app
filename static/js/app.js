@@ -6,6 +6,7 @@ let currentMode = 'Words';
 let allWords = [];
 let totalWordsCount = 0;
 let currentGroupIndex = 0;
+let totalGroups = 0;
 
 // 초기화
 document.addEventListener('DOMContentLoaded', async () => {
@@ -29,6 +30,7 @@ async function initApp() {
         allWords = data.categories;
         totalWordsCount = data.total_words_count || 0;
         currentGroupIndex = data.current_group_index || 0;
+        totalGroups = data.total_groups || 0;
         document.getElementById('totalWords').textContent = `총: ${totalWordsCount}개`;
         
         // 카테고리 채우기
@@ -105,14 +107,10 @@ function displayWord() {
 
 function updateStats() {
     const totalWords = currentSet.length;
-    const currentSetNum = Math.floor(currentIndex / 10) + 1;
-    const totalSets = Math.ceil(totalWords / 10);
-    
-    // 절대 위치 계산: (현재 묶음 시작 위치) + (현재 인덱스) + 1
-    const absolutePosition = currentGroupIndex + currentIndex + 1;
+    const currentSetNum = currentGroupIndex + 1;
     
     document.getElementById('wordStats').textContent = `단어: ${currentIndex + 1}/${totalWords}`;
-    document.getElementById('setStats').textContent = `묶음: ${currentSetNum}/${totalSets}`;
+    document.getElementById('setStats').textContent = `묶음: ${currentSetNum}/${totalGroups}`;
 }
 
 async function checkAnswer() {
@@ -329,6 +327,11 @@ async function loadWordsSheet() {
         // 현재 묶음 인덱스 업데이트
         if (data.current_group_index !== undefined) {
             currentGroupIndex = data.current_group_index;
+        }
+        
+        // 전체 묶음 개수 업데이트
+        if (data.total_groups !== undefined) {
+            totalGroups = data.total_groups;
         }
         
         // 활성 탭 표시
@@ -548,6 +551,11 @@ async function nextNineWords() {
             console.log(`nextNineWords: currentGroupIndex updated to ${currentGroupIndex}`);
         } else {
             console.warn('nextNineWords: current_group_index not in response!');
+        }
+        
+        // totalGroups 업데이트
+        if (data.total_groups !== undefined) {
+            totalGroups = data.total_groups;
         }
         
         console.log(`Before display - currentGroupIndex: ${currentGroupIndex}, currentIndex: ${currentIndex}`);
