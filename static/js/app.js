@@ -320,6 +320,7 @@ function showSetCompleteDialog() {
 }
 
 async function loadWordsSheet() {
+    console.log('loadWordsSheet 호출됨');
     try {
         const response = await fetch('/api/load-words-sheet', {
             method: 'POST',
@@ -373,10 +374,12 @@ async function loadWordsSheet() {
         alert(message);
     } catch (error) {
         console.error('Words 탭 로드 실패:', error);
+        alert('❌ Words 탭 로드 실패: ' + error.message);
     }
 }
 
 async function loadEdSheet() {
+    console.log('loadEdSheet 호출됨');
     try {
         const response = await fetch('/api/load-ed-sheet', {
             method: 'POST',
@@ -434,10 +437,12 @@ async function loadEdSheet() {
         alert(message);
     } catch (error) {
         console.error('ed 탭 로드 실패:', error);
+        alert('❌ ed 탭 로드 실패: ' + error.message);
     }
 }
 
 async function loadYbSheet() {
+    console.log('loadYbSheet 호출됨');
     try {
         const response = await fetch('/api/load-yb-sheet', {
             method: 'POST',
@@ -491,10 +496,12 @@ async function loadYbSheet() {
         alert(message);
     } catch (error) {
         console.error('yb 탭 로드 실패:', error);
+        alert('❌ yb 탭 로드 실패: ' + error.message);
     }
 }
 
 async function loadNumbersSheet() {
+    console.log('loadNumbersSheet 호출됨');
     try {
         const response = await fetch('/api/load-numbers-sheet', {
             method: 'POST',
@@ -548,6 +555,7 @@ async function loadNumbersSheet() {
         alert(message);
     } catch (error) {
         console.error('숫자 탭 로드 실패:', error);
+        alert('❌ 숫자 탭 로드 실패: ' + error.message);
     }
 }
 
