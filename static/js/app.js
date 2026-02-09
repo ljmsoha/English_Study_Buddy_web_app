@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await initApp();
     document.getElementById('answerInput').focus();
     document.addEventListener('keydown', (e) => {
-        if (e.key === '`') {
+        if (e.key === ' ' || e.code === 'Space') {
             e.preventDefault();
             playAudio();
         }
