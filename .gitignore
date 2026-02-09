@@ -9,7 +9,7 @@ venv/
 ENV/
 
 # 민감한 데이터
-users.json
+# users.json
 
 # IDE
 .vscode/

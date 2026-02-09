@@ -1,0 +1,181 @@
+{
+  "admin": {
+    "password": "password123",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      }
+    }
+  },
+  "aa": {
+    "password": "pp",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      }
+    }
+  },
+  "ljm": {
+    "password": "ljm",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "current_group_index": 0,
+        "review_mode": false,
+        "review_start_group": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "current_group_index": 0,
+        "review_mode": false,
+        "review_start_group": 0,
+        "last_study_date": null
+      },
+      "yb": {
+        "category": "전체",
+        "completed_count": 0,
+        "current_group_index": 0,
+        "review_mode": false,
+        "review_start_group": 0,
+        "last_study_date": null
+      },
+      "numbers": {
+        "category": "전체",
+        "completed_count": 0,
+        "current_group_index": 0,
+        "review_mode": false,
+        "review_start_group": 0,
+        "last_study_date": null
+      }
+    }
+  },
+  "kyd": {
+    "password": "kyd",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      }
+    }
+  },
+  "ayd": {
+    "password": "ayd",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      }
+    }
+  },
+  "rkm": {
+    "password": "rkm",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      }
+    }
+  },
+  "kdh": {
+    "password": "kdh",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      }
+    }
+  },
+  "hey": {
+    "password": "hey",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "last_study_date": null
+      }
+    }
+  },
+  "kys": {
+    "password": "kys",
+    "progress": {
+      "Words": {
+        "category": "전체",
+        "completed_count": 0,
+        "current_group_index": 0,
+        "review_mode": false,
+        "review_start_group": 0,
+        "last_study_date": null
+      },
+      "ed": {
+        "category": "전체",
+        "completed_count": 0,
+        "current_group_index": 0,
+        "review_mode": false,
+        "review_start_group": 0,
+        "last_study_date": null
+      },
+      "yb": {
+        "category": "전체",
+        "completed_count": 0,
+        "current_group_index": 0,
+        "review_mode": false,
+        "review_start_group": 0,
+        "last_study_date": null
+      },
+      "numbers": {
+        "category": "전체",
+        "completed_count": 0,
+        "current_group_index": 0,
+        "review_mode": false,
+        "review_start_group": 0,
+        "last_study_date": null
+      }
+    }
+  }
+}
